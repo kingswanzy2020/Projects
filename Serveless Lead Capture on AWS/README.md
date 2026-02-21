@@ -16,7 +16,7 @@
 
 | Homepage (S3 + CloudFront) | Secure Custom Domain |
 |---|---|
-| ![Homepage](<Screenshots/Screenshot from 2025-11-09 21-00-28.png>) |![HTTPS](<Screenshots/Screenshot from 2025-11-12 10-16-21.png>)
+| ![Homepage](<Images/Screenshot from 2025-11-09 21-00-28.png>) |![HTTPS](<Images/Screenshot from 2025-11-12 10-16-21.png>)
 
 ---
 
@@ -34,7 +34,7 @@ Zero servers. Zero polling. Pure event-driven cloud architecture.
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](<Screenshots/Screenshot from 2025-11-09 09-36-55.png>)
+![Architecture Diagram](<Images/Screenshot from 2025-11-09 09-36-55.png>)
 
 ### How It Flows
 
@@ -81,11 +81,11 @@ User
 
 ---
 
-## 📸 Screenshots
+## 📸 Image
 
 ### Download Form — Customer Side
 
-![Download Form](<Screenshots/Screenshot from 2025-11-12 22-37-29.png>)
+![Download Form](<Images/Screenshot from 2025-11-12 22-37-29.png>)
 *User enters name and email, clicks "Download Ebook". The AJAX call fires to API Gateway.*
 
 ---
@@ -94,7 +94,7 @@ User
 
 | Initial Test | With Full Metadata (DynamoDB Phase) |
 |---|---|
-| ![Email v1](Screenshots/Screenshot03.jpeg) |![Email v2](Screenshots/Screenshot04.jpeg)
+| ![Email v1](Images/Screenshot03.jpeg) |![Email v2](Images/Screenshot04.jpeg)
 
 *Business owner receives instant email via SES including: Full Name, Email, unique UUID, and ISO 8601 timestamp.*
 
@@ -102,7 +102,7 @@ User
 
 ### Lambda Function — AWS Console
 
-![Lambda Console](<Screenshots/Screenshot from 2025-11-12 11-34-17.png>)
+![Lambda Console](<Images/Screenshot from 2025-11-12 11-34-17.png>)
 
 *`epicreads_contactus` — the core Lambda function. Triggered by API Gateway. Integrates SES and DynamoDB via the AWS SDK v3 (ES Module syntax).*
 
@@ -110,7 +110,7 @@ User
 
 ### API Gateway — POST Method
 
-![API Gateway](<Screenshots/Screenshot from 2025-11-12 12-15-48.png>)
+![API Gateway](<Images/Screenshot from 2025-11-12 12-15-48.png>)
 
 *REST API: `EpicReads_api` → `/epicreads_resource` → `POST` method → Lambda integration. CORS enabled for cross-origin form submissions from the S3/CloudFront hosted frontend.*
 
@@ -131,7 +131,7 @@ User
 
 ## 💻 Cloudwatch(Monitoring)
 CloudWatch monitors the Lambda function and API Gateway
-![Cloudwatch Monitoring](<Screenshots/Screenshot from 2025-11-12 12-46-04.png>)
+![Cloudwatch Monitoring](<Images/Screenshot from 2025-11-12 12-46-04.png>)
 
 
 
@@ -244,5 +244,4 @@ This project is open source. The frontend template is developed by **TemplateMo*
 ---
 
 > *"The best infrastructure is the infrastructure you never have to manage."*
-
 
