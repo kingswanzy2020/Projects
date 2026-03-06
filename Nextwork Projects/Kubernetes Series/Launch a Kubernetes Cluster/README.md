@@ -18,12 +18,11 @@
 ## Introducing Today's Project!
 
 In this project, I will deploy my very own Kubernetes cluster using Amazon EKS , and monitor the cluster creation via CloudFormation. I will also be using some be using some interesting tools like eksctl and IAM access entries.
+<img width="2552" height="1386" alt="image" src="https://github.com/user-attachments/assets/07f4a750-ef3d-47b0-a604-ec29facfc69d" />
+
 
 ### What is Amazon EKS?
 
-### One thing I didn't expect
-
-### This project took me...
 
 ---
 
