@@ -17,6 +17,9 @@
 
 In this project, I will deploy my containerized RAG API to Kubernetes. I'm doing this project to learn how a kubernetes tool such as Minikube is used in local development of containerized applications. Kubernetes will help me manage my containerized RAG API by restarting the container if it crashes, network the containers and keep my application running during updates.
 
+<img width="2410" height="922" alt="image" src="https://github.com/user-attachments/assets/9b442057-eb22-4f11-b566-7f952e516ad9" />
+
+
 ### Key services and concepts
 
 Tools I used were AI model (Tinyllama), Kubernetes, Minikube, kubectl, Docker, FastAPI,  RAG (Retrieval-Augmented Generation)Key concepts I learnt include Kubernetes self-healing, Deployments, using Minikube to provision a kubernetes cluster.
