@@ -17,6 +17,9 @@
 
 In this project, I'm going to build an AI code reviewer system with Gemini. I'm doing this project because many pull resquests present as bottlenecks, especially when waiting for merges or reviews - adding an AI model at this step can significant reduce the errors and speed up pull requests.
 
+<img width="7920" height="1963" alt="image" src="https://github.com/user-attachments/assets/7a63d3d3-8cdc-4c9f-81ce-c6595f645bc0" />
+
+
 ### Key tools and concepts
 
 The key tools I used include GitHub Actions, Python and Gemini API. Key concepts I learnt include how to build a Python script that calls the Gemini API to analyze code diffs,creating a GitHub Actions workflow triggered on every pull request,  posted automated review comments using github-script and auto-labeled PRs by AI review severity. 
