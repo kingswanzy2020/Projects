@@ -6,13 +6,13 @@
 ![Serverless](https://img.shields.io/badge/Architecture-Serverless-green?style=flat-square)
 ![HTTPS](https://img.shields.io/badge/Security-HTTPS%20Enforced-blue?style=flat-square)
 ![Lambda](https://img.shields.io/badge/Compute-AWS%20Lambda-orange?style=flat-square&logo=aws-lambda)
-![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed%20%26%20Decommissioned-blue?style=flat-square)
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Production Deployment
 
-**Custom Domain:** `kahmedt.com` — served globally via CloudFront with SSL enforced.
+Ran in production at the custom domain **`kahmedt.com`** — served globally via CloudFront with SSL enforced. The project is complete and the infrastructure has since been decommissioned; the screenshots below document the live system.
 
 | Homepage (S3 + CloudFront) | Secure Custom Domain |
 |---|---|
@@ -36,7 +36,7 @@ Zero servers. Zero polling. Pure event-driven cloud architecture.
 
 A small business wanted to capture e-book leads without paying for — or patching, scaling, and securing — an always-on web server for what amounts to 10–15 form submissions a day. Traditional hosting means idle cost, maintenance burden, and a single point of failure for a workload that is bursty and tiny.
 
-**The result:** a globally distributed platform with **near-$0 idle cost** (pay-per-invocation Lambda + on-demand DynamoDB), **HTTPS enforced end-to-end**, **instant lead notification** via SES, and **zero servers to patch** — live in production at [kahmedt.com](https://kahmedt.com).
+**The result:** a globally distributed platform with **near-$0 idle cost** (pay-per-invocation Lambda + on-demand DynamoDB), **HTTPS enforced end-to-end**, **instant lead notification** via SES, and **zero servers to patch** — deployed to production at `kahmedt.com` (since decommissioned after the project wrapped up).
 
 ---
 

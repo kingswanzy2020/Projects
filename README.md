@@ -10,7 +10,6 @@
 
 [![Email](https://img.shields.io/badge/Email-kingsleyswanzy%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kingsleyswanzy@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-kingswanzy2020-181717?style=for-the-badge&logo=github)](https://github.com/kingswanzy2020)
-[![Live Project](https://img.shields.io/badge/Live-kahmedt.com-39D353?style=for-the-badge&logo=amazonaws&logoColor=white)](https://kahmedt.com)
 
 </div>
 
@@ -79,8 +78,8 @@ LLM-assisted triage that turns thousands of raw log lines into a root-cause summ
 </td>
 <td width="50%">
 
-### 📚 [Serverless Lead Capture — live at kahmedt.com](aws/serverless-lead-capture)
-Production e-book lead-capture platform: CloudFront + S3 frontend, API Gateway → Lambda → DynamoDB + SES backend. $0 idle cost, HTTPS everywhere, scales automatically.
+### 📚 [Serverless Lead Capture on AWS](aws/serverless-lead-capture)
+E-book lead-capture platform that ran in production at a custom domain: CloudFront + S3 frontend, API Gateway → Lambda → DynamoDB + SES backend. $0 idle cost, HTTPS everywhere.
 
 `Lambda` `API Gateway` `DynamoDB` `SES` `CloudFront`
 
@@ -130,7 +129,7 @@ Production e-book lead-capture platform: CloudFront + S3 frontend, API Gateway �
 
 | Project | What it proves |
 |---|---|
-| [Serverless Lead Capture (live)](aws/serverless-lead-capture) | Production event-driven serverless architecture |
+| [Serverless Lead Capture](aws/serverless-lead-capture) | Event-driven serverless architecture, ran in production at a custom domain |
 | [Three-Tier Web Architecture](aws/three-tier-web-architecture) | CloudFront + Lambda/API Gateway + data tier |
 | [Cross-Account App Deployment](aws/cross-account-ecr-deployment) | Multi-account ECR image sharing & IAM trust |
 | [Docker App on Elastic Beanstalk](aws/docker-elastic-beanstalk) | Containerized deployment on managed AWS |
