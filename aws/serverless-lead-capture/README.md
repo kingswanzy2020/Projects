@@ -32,6 +32,14 @@ Zero servers. Zero polling. Pure event-driven cloud architecture.
 
 ---
 
+## 🎯 The Problem
+
+A small business wanted to capture e-book leads without paying for — or patching, scaling, and securing — an always-on web server for what amounts to 10–15 form submissions a day. Traditional hosting means idle cost, maintenance burden, and a single point of failure for a workload that is bursty and tiny.
+
+**The result:** a globally distributed platform with **near-$0 idle cost** (pay-per-invocation Lambda + on-demand DynamoDB), **HTTPS enforced end-to-end**, **instant lead notification** via SES, and **zero servers to patch** — live in production at [kahmedt.com](https://kahmedt.com).
+
+---
+
 ## 🏗️ Architecture
 
 ![Architecture Diagram](<Images/Screenshot from 2025-11-09 09-36-55.png>)
