@@ -1,76 +1,37 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
-
 # AI Security Scanner for Python
 
-**Project Link:** [View Project](http://learn.nextwork.org/projects/ai-security-audit)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Security](https://img.shields.io/badge/Focus-AppSec-critical?style=flat-square)
 
-**Author:** Ahmed Tetteh  
-**Email:** kingsleyswanzy@gmail.com
+> A CLI vulnerability scanner that sends Python source to the Gemini API with a structured security prompt and returns **color-coded, severity-rated findings with secure code fixes** — catching SQL injection, hardcoded secrets, and weak crypto before they ship.
 
----
+## 🎯 The Problem
 
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/ai-security-audit_sec4e5f6)
+Vulnerabilities are cheapest to fix before they merge, but manual security review doesn't scale and traditional SAST tools need per-rule configuration. Developers need a fast pre-push safety net that not only flags an issue but explains the impact and shows the fix.
 
----
+## 🔧 What I Built
 
-## Introducing Today's Project!
+- **A Gemini-backed scanner (`scanner.py`)** with the API key kept in a `.env` file — never in code (practicing what the scanner preaches).
+- **A structured security prompt** requiring four fields per finding: vulnerability type, why it's vulnerable, impact, and a secure code fix — so output is actionable, not vague.
+- **Detection verified against real vulnerability classes**: SQL injection, hardcoded credentials, and weak MD5 hashing — the same classes professional SAST tools target.
+- **Severity triage UX** — findings rated and color-coded in the terminal via `colorama` (CRITICAL in red), so the most dangerous issue is the first thing you see.
 
-In this project, I'm going to build an AI security scanner for Python. This will help me learn how development teams catch vulnerabilities in their application before it reaches production. I'm interested in this because it saves a lot of effort on the part of Developers when using manual tools in detecting these vulnerabilities.
+## 📊 Results
 
-### Key tools and concepts
+| Metric | Outcome |
+|---|---|
+| Vulnerability classes detected | SQL injection · hardcoded secrets · weak cryptography — all confirmed in test code |
+| Finding quality | Every finding includes impact analysis **and** a secure rewrite |
+| Triage speed | Severity colors surface critical issues at a glance |
+| Detection timing | Pre-production — runs on any Python file before push |
 
-Tools I used were Gemini, Gemini API key, Security vulnerabilities and Cursor. Key concepts I learnt include: How to use Gemini API to analyze code for security vulnerabilities, Adding colored terminal output with colorama for severity ratings, Common security vulnerabilities: SQL injection, hardcoded secrets, and weak cryptography. The most important skill was how to implement AI in testing for vulnerability severities before pushing the application to production.
+Code lives at [kingswanzy2020/security-scanner](https://github.com/kingswanzy2020/security-scanner).
 
-### Challenges and wins
+## 🧰 Skills Demonstrated
 
-This project took me approximately 2 hours.The most challenging part was learning how implementing severity ratings to my responses. It was most rewarding to implement AI in the vulnerability process, eliminating a lot of manual steps, and reducing detection time.
-
-### Why I did this project
-
-I did this project today because applications are shipped everyday, hence, its only right to have a safety net that checks for vulnerabilities in the code. This project met my goals by englightning me on the ways of software development process.
-
----
-
-## Connecting to Gemini API
-
-In this step, I'm setting up the Gemini API connection. This involves retrieveing the API key from Google and saving it in a ".env file". I need to do this so I can test my connection to Gemini.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/ai-security-audit_sec2c3d4)
-
-I verified the connection by running my test script using "python scanner.py". Gemini responded with "Hello, security scanner!" which confirmed that my prompts have been authenticated and processed by Google's servers.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/ai-security-audit_sec4e5f6)
-
-My scanner.py file works by identifying vulnerabilities in test code. When I ran it, Gemini identified the hardcoded credentials and informed me of the risks of exposure. This shows that the Gemini API can be used to analyze to application code for vulnerabilities before pushing to production.
+`LLM API integration` · `Prompt design for structured output` · `AppSec vulnerability classes` · `Python` · `Secrets hygiene (.env)` · `CLI UX`
 
 ---
 
-## Building the Vulnerability Scanner
-
-In this step, I'm building a vulnerability scanner that detects SQL injection, hardcoded secrets, and weak cryptography - the same vulnerabilities that professional tools look for.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/ai-security-audit_sec7h8i9)
-
-The vulnerabilities Gemini detected were SQL injection,  Hardcoded credentials and Weak MD5 hashing(cryptography). The security prompt I crafted asked for the Vulnerability type, why its vulnerable, its impact and a secure code fix . This structured output helps me quickly get a sense of all the vulnerability type within my application and how to fix them.
-
----
-
-## Adding Severity Ratings
-
-In this step, I'm adding severity ratings which helps me eaily prioritze the severity of the vulnerabilities to fix them promptly. I'm also installing colorama to provide me with a colored terminal output for my severity ratings.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/ai-security-audit_sec0k1l2)
-
-I updated the security prompt to include color coded texts in the terminal. The add_colors_to_output function works by taking in the text response and color codes them based on the severity ratings. When I see CRITICAL in red, it tells me this is a severe vulnerabilty that must be fixed quickly.
-
----
-
-## Scanning Real Python Files
-
----
-
-## Wrap-up
-
----
-
----
+<sub>Built by **Ahmed Tetteh** as part of a [NextWork](http://learn.nextwork.org/projects/ai-security-audit) track — [certificate](legendary-ai-security-audit.pdf). ~2 hours.</sub>

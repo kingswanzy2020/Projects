@@ -1,85 +1,35 @@
-# Host a Website on Amazon S3
+# Static Website Hosting on Amazon S3
 
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-host-a-website-on-s3_5d4474f9)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Static Site](https://img.shields.io/badge/Hosting-static%20website-2C3E50?style=flat-square)
 
----
+> A live website served straight from an S3 bucket — no web server to run — with the access model (ACLs vs. bucket policies) configured deliberately, including a policy that even blocks the bucket owner from deleting the site's index file.
 
-## Introducing Today's Project!
+## 🎯 The Problem
 
-In this project, I will demonstrate... I'm doing this project to learn  how to host static websites using S3 buckets
+Running a whole server to host static HTML is wasted money and maintenance. S3 serves static sites natively — but its layered access model (Block Public Access, ACLs, bucket policies) confuses most first-timers into either a 403 wall or an accidentally world-writable bucket. This project works through that model properly.
 
-### Tools and concepts
+## 🔧 What I Built
 
-Services I used were Amazon S3. Key concepts I learnt include how to host static website in S3 buckets(upload), ACLs(their control over individual objects in the bucket), Bucket policies(how to use them to provide access over the entire bucket or an object), and bucket endpoint URLs
+- **An S3 bucket in `ap-northeast-2` (Seoul)** — region chosen for proximity/latency — with `index.html` and the site's asset folder uploaded.
+- **Static website hosting enabled**, producing a public bucket-endpoint URL.
+- **The 403 debugging path** — the endpoint initially returned `403 Forbidden` because objects default to private; resolved by disabling Block Public Access and granting object-level public read via ACLs — understanding each switch rather than flipping everything blindly.
+- **A guardrail bucket policy** — a JSON policy denying deletion of `index.html`, tested by trying to delete it myself and getting refused. Deny applies even to the bucket owner.
+- **The ACL vs. bucket-policy distinction** in practice: ACLs for per-object grants, bucket policies for whole-bucket JSON-defined rules.
 
-### Project reflection
+## 📊 Results
 
-This project took me approximately 1 hr 30 mins. The most challenging part was understanding the key difference between ACLs and bucket policies. It was most rewarding to see the website live through the bucket endpoint URL accessed via the internet.
+| Metric | Outcome |
+|---|---|
+| Web servers managed | **Zero** — S3 serves the site directly |
+| Site availability | Live on the public bucket endpoint |
+| Accidental-deletion protection | Bucket policy blocks deleting the index file — verified against my own admin access |
+| Time to live site | **~1.5 hours** including access-model debugging |
 
----
+## 🧰 Skills Demonstrated
 
-## How I Set Up an S3 Bucket
-
-About 1 min
-
-The Region I picked for my S3 bucket was Seoul,because its the region that is closest to me
-
-S3 bucket names are globally unique! This means no other bucket can have same name, globally, within the AWS ecosystem.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-host-a-website-on-s3_ba6d42ad)
-
----
-
-## Upload Website Files to S3
-
-### index.html and image assets
-
-I uploaded two files to my S3 bucket - they were the index.html file(this determines the structure of my website) and a folder containing a bunch of assets(this folder contains a bunch of images and styles beautify the website)
-
-Both files are necessary for this project as the index.html shows the structure of the webpage, while the folder of assets contains the contents needed to supply fill up the structure of the webpage
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-host-a-website-on-s3_a265af88)
+`Amazon S3` · `Static website hosting` · `Bucket policies (JSON)` · `ACLs` · `Block Public Access` · `Access debugging`
 
 ---
 
-## Static Website Hosting on S3
-
-Website hosting means storing all your website contents on a web server, so that it is accessible via the internet or to the public.
-
-To enable website hosting with my S3 bucket, I must enable the website hosting feature of my S3 bucket and indicate the HTML index file it must display.
-
-An ACL is a set of rules or policies that allows or denies a user access to a resource. 
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-host-a-website-on-s3_c22c54c0)
-
----
-
-## Bucket Endpoints
-
-Once static website is enabled, S3 produces a bucket endpoint URL, which is the link that makes your HTML page accessible to the public via the internet
-
-When I first visited the bucket endpoint URL, I saw a 403 Forbidden error message.The reason for this error was it was because the objects in S3 bucket were still private, that is, not accessible to the public.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-host-a-website-on-s3_22ce4daf)
-
----
-
-## Success!
-
-To resolve this 403 Forbidden error,I disabled the Block public access, enabled ACLs to grant access to my objects, and made all my objects public in the actions drop down list. 
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-host-a-website-on-s3_5d4474f9)
-
----
-
-## Bucket Policies
-
-An alternative to ACLs are bucket policies, which are simply JSON files which define permissions over who can access the bucket, and what actions they can perform (read, write and delete) .. The benefit of using bucket policies is they provide security control over the entire bucket(in a broad sense), while ACLs are useful for providing gradular control over individual objects in the bucket.
-
-My bucket policy denied all ability to delete the html file.I tested this by trying to delete the index.html file myself,and saw an error message(failed to delete object). Meaning the rule is working and applies even to me.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-host-a-website-on-s3_sm2sm2sm)
-
----
-
----
+<sub>Built by **Ahmed Tetteh** as part of a [NextWork](http://learn.nextwork.org/projects/aws-host-a-website-on-s3) track — [certificate](legendary-aws-host-a-website-on-s3.pdf). Site files in [`Website files/`](<Website files>).</sub>

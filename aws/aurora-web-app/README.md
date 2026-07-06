@@ -1,72 +1,39 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
+# Connect a Web App to Amazon Aurora
 
-# Connect a Web App with Aurora
+![Aurora](https://img.shields.io/badge/Amazon%20Aurora-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL%20CLI-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-databases-webapp)
+> The full LAMP-on-AWS connection: an Apache/PHP app on EC2 writing user data to the [Aurora cluster](../aurora-database-ec2), with every write independently verified through SQL queries in the MySQL CLI.
 
-**Author:** Ahmed Tetteh  
-**Email:** kingsleyswanzy@gmail.com
+*Part 2 of 2 — the cluster was provisioned in [aurora-database-ec2](../aurora-database-ec2).*
 
----
+## 🎯 The Problem
 
-## Connect a Web App to Amazon Aurora
+A web app without persistence forgets everything; a database without a connected app stores nothing. The unglamorous-but-essential skill is the wiring in between: SSH'ing into compute with correct key permissions, installing the right driver stack, externalizing connection credentials, and *proving* data lands where it should.
 
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-webapp_1709b26b)
+## 🔧 What I Built
 
----
+- **Hardened SSH access** — key file locked to owner-read-only (the permission fix `ssh` refuses to work without) before connecting to the instance.
+- **The serving stack on EC2**: Apache (web server), PHP, `php-mysqli` (the DB driver), and `mariadb105` (MySQL-compatible client tooling).
+- **Externalized connection config** — database credentials in a separate `dbinfo.inc` include file rather than hardcoded in page code.
+- **A PHP app writing to Aurora** — form input persisted to the MySQL database and reflected back on the page in near-real time.
+- **Independent verification** — logged into the database with the MySQL CLI and confirmed the tables, fields, and inserted rows directly with SQL, not just trusting the app's own display.
 
-## Introducing Today's Project!
+## 📊 Results
 
-### What is Amazon Aurora?
+| Metric | Outcome |
+|---|---|
+| End-to-end data flow | Browser form → PHP → Aurora → verified via SQL — working |
+| Credentials in page source | **None** — isolated in an include file |
+| Verification | Double-checked at the database layer with the MySQL CLI |
+| Total time | **~1.5 hours** including setup |
 
-Amazon Aurora is a type of relational database that stores highly related data in rows and colums (tabular format), and why it is useful because it provides higher perfomance for more demanding workloads than the standard DB engines.
+## 🧰 Skills Demonstrated
 
-### How I used Amazon Aurora in this project
-
-In today's project, I used Amazon Aurora to create a MYSQL database and store all my user data for my web server. I built and connected my web application to the MYSQL database. Lastly, I verified all everything was working by installing the MYSQL CLI and running SQL queries to confirm the updates via the CLI.
-
-### One thing I didn't expect in this project was...
-
-One thing I didn't expect in this project was how quickly data is updated in near-real time on the database, and th e different tools required to communicate with the database - making it easy for us to verify everything.
-
-### This project took me...
-
-It took me approximately 1hr 30 mins, including setup and backgroup studies.
-
----
-
-## Creating a Web App
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-webapp_b7999168)
-
-To connect to my EC2 instance, I used the key pair I initially created, changed the permissions to read-only for the owner, with no read, write or excutable permissions for group or others. I also retrieved the public IPv4 address of the instance and applied it in the ssh command "ssh -i NextWorkAuroraApp.pem ec2-user@ YOUR_EC2_ADDRESS"
-
-To help me create my web app, I first installed the Apache web server(the web server that serves content to users), PHP (the progamming language to help me write beautiful web pages), then php-mysqli (a PHP library that establishes a connection to my database), and finally, mariadb105 (installs MariaDB, a version of the MySQL database management system).
+`LAMP stack` · `Amazon Aurora/MySQL` · `PHP + mysqli` · `SSH & Linux permissions` · `SQL verification` · `Config externalization`
 
 ---
 
-## Connecting my Web App to Aurora
-
-I set up my EC2 instance's connection details to my database by creating a file called "dbiinfo.inc". This file stores the connection details my EC2 instance will need to establish a connection to the Aurora database.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-webapp_1709b25b)
-
----
-
-## My Web App Upgrade
-
-Next, I upgraded my web app by writing a sample PHP web file that simply takes in the details of the connection to my Aurora DB, and displays any changes directly from the website.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-webapp_2709b25b)
-
----
-
-## Testing my Web App
-
-To make sure my web app was working correctly, I logged into my databse using the Mysql CLI. Then proceeded to verify my tables and the different fields within my table.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-webapp_1409z22b)
-
----
-
----
+<sub>Built by **Ahmed Tetteh** as part of a [NextWork](http://learn.nextwork.org/projects/aws-databases-webapp) track.</sub>

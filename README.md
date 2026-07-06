@@ -16,19 +16,11 @@
 
 ---
 
-## 👋 About
+## 📖 About This Repo
 
-DevOps engineer focused on **shipping software safely and repeatably**: GitOps-driven Kubernetes delivery, CI/CD pipelines with enforced quality gates, infrastructure as code on AWS, and monitoring that catches failures before users do. This repository is my hands-on portfolio — every project was built, broken, and fixed by me, with architecture diagrams, screenshots, and (where possible) the real pipeline and infrastructure code.
+My hands-on DevOps portfolio — every project here was built, broken, and fixed by me, with architecture diagrams, measured results, screenshots, and (where possible) the real pipeline and infrastructure code. Who I am, certifications, and my full tech stack live on my [profile page](https://github.com/kingswanzy2020).
 
-## 🛠️ Toolbox
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,jenkins,githubactions,prometheus,grafana,ansible,python,bash,git,linux,maven,nginx,mysql&perline=8" alt="tools"/>
-
-</div>
-
-| Domain | Tools I've used in the projects below |
+| Domain | Tools used in the projects below |
 |---|---|
 | **CI/CD** | Jenkins, SonarQube, GitHub Actions, AWS CodePipeline/CodeBuild/CodeDeploy/CodeArtifact |
 | **Containers & Orchestration** | Docker, Kubernetes, Helm, Kustomize |
@@ -169,31 +161,9 @@ Production e-book lead-capture platform: CloudFront + S3 frontend, API Gateway �
 
 </details>
 
-## 🗃️ Other Repositories
+## 🗃️ Where the Code Lives
 
-Standalone repos that hold the **live code** behind several of the projects above, plus ongoing work:
-
-| Category | Repo | Description |
-|---|---|---|
-| **SRE / Kubernetes** | [autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre) | Autonomous incident response inside a Kubernetes cluster |
-| **Kubernetes / Helm** | [fittrack](https://github.com/kingswanzy2020/fittrack) | Helm charts + Jenkins + Docker for a fitness app |
-| **GitOps** | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) | The Git source-of-truth repo driving the ArgoCD pipeline |
-| **IaC** | [terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops) | Enterprise Terraform workflow (plan-on-PR) |
-| **CI/CD** | [cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app) | Application code for the Jenkins pipeline |
-| **CI/CD** | [nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project) | Java web app behind the 7-day AWS pipeline |
-| **AI / Security** | [security-scanner](https://github.com/kingswanzy2020/security-scanner) | AI-powered vulnerability scanner |
-| **AI / RAG** | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) | RAG API with its CI/CD pipeline |
-| **Platform** | [petclinic-platform](https://github.com/kingswanzy2020/petclinic-platform) | Infrastructure code for an 8-service microservices platform |
-| **Sandbox** | [Lab](https://github.com/kingswanzy2020/Lab) | Experiments and learning scratchpad |
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=kingswanzy2020&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kingswanzy2020&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top languages" height="165"/>
-
-</div>
+Several projects above are backed by standalone repos holding the live application, pipeline, and infrastructure code — they're indexed in the **[Repository Map on my profile](https://github.com/kingswanzy2020#%EF%B8%8F-repository-map)**, and each project README links directly to its code repo.
 
 ---
 

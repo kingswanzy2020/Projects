@@ -1,102 +1,37 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
+# Provisioning S3 with Terraform — IaC Fundamentals
 
-# Create S3 Buckets with Terraform
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![AWS CLI](https://img.shields.io/badge/AWS%20CLI-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-devops-terraform1)
+> The complete Terraform lifecycle — `init` → `plan` → `apply` — used to declare, review, provision, and evolve a locked-down S3 bucket and its objects entirely from code.
 
-**Author:** Ahmed Tetteh  
-**Email:** kingsleyswanzy@gmail.com
+## 🎯 The Problem
 
----
+Console-clicked resources can't be reviewed, versioned, or reproduced — and nobody remembers six months later why a bucket is configured the way it is. Infrastructure as code turns every resource into a readable, diffable text file.
 
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-devops-terraform1_9i0j1k2l)
+## 🔧 What I Built
 
----
+- **A declarative `main.tf`** with three blocks: the AWS provider/region, the S3 bucket resource, and a public-access block locking the bucket down by default.
+- **The full Terraform lifecycle**, understanding *why* the order matters: `init` (download provider plugins, create state backend and lock file) → `plan` (review the execution diff before anything is created) → `apply` (execute exactly what the plan showed).
+- **Configuration evolution** — extended the config from the official Terraform registry docs to enforce **bucket-owner object ownership** regardless of who uploads, then added an `aws_s3_object` resource to upload files; re-ran `plan`/`apply` and verified the changes in the console.
+- **CLI authentication** — configured AWS access keys for Terraform's provider to act against the account.
 
-## Introducing Today's Project!
+## 📊 Results
 
-In this project, I will demonstrate the powerful effect of using an automation tool like Terraform. The goal is to install and configure Terraform. Then use Terraform to create an S3 bucket and upload files to the S3 bucket.
+| Metric | Outcome |
+|---|---|
+| Resources provisioned by hand | **Zero** — bucket, access policy, ownership rules, and objects all from code |
+| Change review | Every modification previewed with `terraform plan` before touching AWS |
+| Reproducibility | The entire setup recreates from `main.tf` in one apply |
+| Security default | Public access blocked at creation, not patched afterwards |
 
-### Tools and concepts
+This project is the fundamentals layer under the [Enterprise Terraform GitOps Pipeline](../enterprise-terraform-gitops), which scales the same lifecycle to a modular multi-service AWS stack with CI/CD.
 
-Services I used were Terraform, Amazon S3, and AWS CLI.  Key concepts I learnt include infrastructure as code, setting up Terraform,  creating and managing an S3 bucket using Terraform, uploading files to S3 with Terraform and configuring my access keys in the terminal.
+## 🧰 Skills Demonstrated
 
-### Project reflection
-
-This project took me approximately 1hr 30mins.  The most challenging part was leaning how to use the Terraform document to get what you want. It was most rewarding to see all the changes I made via code easily deployed within my AWS environment with Terraform.
-
-I chose to do this project today becuase Terraform is one of the essential IaC tool to use withing the Cloud developer space.
-
----
-
-## Introducing Terraform
-
-Terraform is simply a tool to help developers build and manage their infrastructure using code.
-
-Terraform is one of the most popular tools used for infrastructure as code (IaC), which is the practice of provisioning cloud resources such as servers, networks and strorage in plain text files instead of clicking on a web console.
-
-The main.tf serves as the central place or blueprint for me to define my infrastructure using Terraform's language. Terraform then uses configuration files like main.tf to define and manage my infrastructure. 
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-devops-terraform1_9i0j1k2l)
+`Terraform` · `HCL` · `Provider configuration` · `State fundamentals` · `S3 policies & ownership controls` · `AWS CLI`
 
 ---
 
-## Configuration files
-
-The configuration is structured in multiple blocks of code. The advantage of doing this is that your code becomes more legible, and easier to modify or tweak, without it affecting other parts.
-
-### My main.tf configuration has three blocks
-
-The first block indicates the Cloud Provider Terraform should work with, and in which region. The second block tells the AWS resource to provision (an S3 bucket). The third block controls who can access my S3 bucket. In this case, it's preventing all public access.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-devops-terraform1_ljvh9876)
-
----
-
-## Customizing my S3 Bucket
-
-For my project extension, I visited the official Terraform documentation to learn how to provision S3 buckets in AWS using the Terraform syntax. The documentation shows all the various ways we can provision or manage cloud resources from any of the Cloud Providers (AWS, GCP or Microsoft Azure).
-
-I chose to customise my bucket by adding a block of code that intstructs Terraform to change the object ownership to the Bucket owner, regardless of who has access to the bucket and uploads an object to it. When I launch my bucket, I can verify my customization by checking the object owner properties
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-devops-terraform1_ffe757cd3)
-
----
-
-## Terraform commands
-
-I ran 'terraform init' to set up my Terrafrom project by establishing a connection to the cloud provider of my choice in the main.tf file. This downloaded all the connection plugins to AWS, set up a backend to keep record of my infrastructure and commands, prepares some modules(reusable pieces of code) and finally created a lock file - for versioning purposes.
-
-Next, I ran 'terraform plan' to create an execution plan  detailing the changes Terraform will make to my infrastructure based on the configurations in my main.tf file. These plans tell what Terraform will create, manage or destroy. So, this command is essential to reviewing your infrastructure before anything is created.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-devops-terraform1_3g4h5i6j)
-
----
-
-## AWS CLI and Access Keys
-
----
-
-## Lanching the S3 Bucket
-
-I ran 'terraform apply' to apply the changes I have made to the main.tf file. Running 'terraform apply' will affect my AWS account by either creaating or destroying resources in my account bsed on the configurations set up in the main.tf file. In my case, the file simply creates an S3 bucket.
-
-The sequence of running terraform init, plan, and apply is crucial because you will run into an error when first trying to apply without running terraform init. Terraform firts needs to download all the necessary plugins to establish a connection to AWS and create a state file to track the state of your infrastructure. Utilizing the terrafrom plan is optional, but recommended, as it enables you to review your configuration in detail before accepting any resources to be created.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-devops-terraform1_1q2w3e4r)
-
----
-
-## Uploading an S3 Object
-
-I created a new resource block to upload an image into my S3 bucket.
-
-We need to run terraform apply again because we have made changes to the configuration file. This ensures that the appropriate changes are correctly executed and made to my infrastructure.
-
-To validate that I've updated my configuration successfully, I checked for the object in the S3 web console and downloaded the image to compare with my local one.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-devops-terraform1_9o0p1a2s)
-
----
-
----
+<sub>Built by **Ahmed Tetteh** as part of a [NextWork](http://learn.nextwork.org/projects/aws-devops-terraform1) track — [certificate](legendary-aws-devops-terraform1.pdf). ~1.5 hours.</sub>

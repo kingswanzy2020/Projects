@@ -1,72 +1,35 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
+# Amazon Aurora Cluster with EC2
 
-# Aurora Database with EC2
+![Aurora](https://img.shields.io/badge/Amazon%20Aurora-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-databases-aurora)
+> A MySQL-compatible Aurora cluster provisioned alongside the EC2 web host it serves — primary writer, read replicas, and key-pair-secured compute, set up in ~30 minutes.
 
-**Author:** Ahmed Tetteh  
-**Email:** kingsleyswanzy@gmail.com
+*Part 1 of 2 — the app connection happens in [aurora-web-app](../aurora-web-app).*
 
----
+## 🎯 The Problem
 
-## Connect a Web App to Amazon Aurora
+Self-managing a relational database on a VM means owning patching, replication, failover, and backups yourself. Aurora shifts that to AWS while keeping MySQL compatibility — but a database is useless in isolation: it has to be provisioned *together with* the compute that talks to it, with networking and authentication done right.
 
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-aurora_44443546)
+## 🔧 What I Built
 
----
+- **An Aurora MySQL cluster** — a primary instance for writes plus read replicas that both spread `SELECT` load and act as standby copies, which is why Aurora is built around clusters rather than single nodes.
+- **The EC2 web host mid-flight** — Aurora setup deliberately paused to create the connecting EC2 instance first (the cluster's connectivity settings want a target), with a **new SSH key pair** for authenticated access and attention to public IP, storage, and security-group configuration.
+- **Cluster + compute wired together** so the instance can reach the database endpoint.
 
-## Introducing Today's Project!
+## 📊 Results
 
-### What is Amazon Aurora?
+| Metric | Outcome |
+|---|---|
+| Provisioning time | **~30 minutes** for a replicated, managed MySQL cluster |
+| Read scaling & durability | Read replicas double as load-spreaders and standbys |
+| Database servers patched by hand | **Zero** — engine management is Aurora's job |
 
-Amazon Aurora is a type of relational database that stores highly related data in rows and colums (tabular format), and why it is useful because it provides higher perfomance for more demanding workloads than the standard DB engines.
+## 🧰 Skills Demonstrated
 
-### How I used Amazon Aurora in this project
-
-In today's project, I used Amazon Aurora to create a MYSQL database and store all my user data for my web server.
-
-### One thing I didn't expect in this project was...
-
-One thing I didn't expect in this project was for the MYSQL dababase to have many configurable options to tweak the DB to your liking, and for it to easily connect to a computing resource, making your job as a developer easier- no need to login to your EC2 instance and install a plugin or third-party tool before you can connect to it.
-
-### This project took me...
-
-It took me approximately 30 mins to complete this project.
+`Amazon Aurora` · `RDS cluster topology (writer/replicas)` · `EC2` · `SSH key pairs` · `Security groups`
 
 ---
 
-## In the first part of my project...
-
-### Creating an Aurora Cluster
-
-A relational database is a database that organizes data in a tabular form, which are simply collections of rows and columns. They are called relational because the rows and columns relate to one-another.
-
-Aurora is a good choice when we need something large-scale, with peak performance and uptime. 
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-aurora_44443546)
-
----
-
-## Halfway through I stopped!
-
-I stopped creating my Aurora database because I needed an EC2 instance which will serve my web app to connect to the database.
-
-### Features of my EC2 instance
-
-I created a new key pair for my EC2 instance because it provides me with a way to securely authenticate and access my EC2 instance. It simply allows you to login to you virtual computer and run your processes or commands on there.
-
-When I created my EC2 instance, I took particular note of the Public IPv4 address, the storage volume, and the security configurations, including SSH access.
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-aurora_91b9fd1g)
-
----
-
-## Then I could finish setting up my database
-
-![Image](http://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/aws-databases-aurora_1fddb0b5)
-
-Aurora Database uses clusters because a cluster consists of many nodes or virtual resources working together to distribute the workload, anbaling your data to always be available. The Aurora DB consists of a primary DB for write requests and multiple read replicas for read requests such as SELECT and aslo to serve as back-ups.
-
----
-
----
+<sub>Built by **Ahmed Tetteh** as part of a [NextWork](http://learn.nextwork.org/projects/aws-databases-aurora) track. Continued in [Connect a Web App with Aurora →](../aurora-web-app)</sub>
