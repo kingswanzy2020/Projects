@@ -14,6 +14,10 @@ Manual release coordination — someone builds locally, copies artifacts to a se
 
 ## 🏗️ The Pipeline
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*A commit pushed to main webhooks from GitHub into CodePipeline, which orchestrates every stage: CodeBuild compiles and tests using private dependencies from CodeArtifact (no public registries), drops a versioned artifact in S3, and CodeDeploy automates the rollout to the EC2 web server running the live Java app — with CloudFormation able to provision the whole stack from one template.*
+
 ![Pipeline Illustration](<Overview/CI_CD pipeline Illustration.png>)
 
 ```mermaid

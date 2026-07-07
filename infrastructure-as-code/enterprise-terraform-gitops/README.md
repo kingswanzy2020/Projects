@@ -15,6 +15,10 @@ This pipeline treats infrastructure exactly like application code: modular, vers
 
 ## 🏗️ Architecture
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*An engineer opens a PR — never the console — and GitHub Actions posts the `terraform plan` diff for review. Merging to main runs `terraform apply`, which assumes an AWS role via GitHub OIDC (short-lived token, zero stored keys) to provision the five-module stack — VPC, hardened EC2, RDS, S3, IAM — with state kept in an S3 backend locked by DynamoDB.*
+
 ```mermaid
 flowchart LR
     Dev([Engineer]) -->|opens PR| GH[GitHub]

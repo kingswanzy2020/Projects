@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1048 323" width="1048" height="323" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="Kubernetes CI/CD with Helm &amp; Monitoring animated architecture diagram">
+<style>
+  .helmmon-ant { stroke-dasharray:7 6; animation:helmmon-flow 1.05s linear infinite; }
+  @keyframes helmmon-flow { to { stroke-dashoffset:-13; } }
+  .helmmon-glow { animation:helmmon-breathe 3.2s ease-in-out infinite; }
+  @keyframes helmmon-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="helmmon-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#484f58"/></marker>
+<marker id="helmmon-arr-7aa2ff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2ff"/></marker>
+</defs>
+<rect x="1" y="1" width="1046" height="321" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">Kubernetes CI/CD with Helm &amp; Monitoring</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="942.0" y="16" width="82" height="20" rx="10" fill="none" stroke="#7aa2ff" stroke-opacity=".6" class="helmmon-glow"/><text x="983.0" y="29.5" font-size="9.5" font-weight="600" fill="#7aa2ff" text-anchor="middle" letter-spacing=".5">Kubernetes</text></g>
+<path id="helmmon-p0" d="M174.0,92.0 C205.0,92.0 205.0,92.0 236.0,92.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="helmmon-ant" marker-end="url(#helmmon-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1513;1"><mpath href="#helmmon-p0"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1473;0.1513;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1513;1"><mpath href="#helmmon-p0"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1473;0.1513;1"/></circle>
+<path id="helmmon-p1" d="M386.0,92.0 C417.0,92.0 417.0,92.0 448.0,92.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="helmmon-ant" marker-end="url(#helmmon-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1513;0.3026;1"><mpath href="#helmmon-p1"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1513;0.1553;0.2986;0.3026;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1513;0.3026;1"><mpath href="#helmmon-p1"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1513;0.1553;0.2986;0.3026;1"/></circle>
+<path id="helmmon-p2" d="M598.0,92.0 C629.0,92.0 629.0,92.0 660.0,92.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="helmmon-ant" marker-end="url(#helmmon-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3026;0.4539;1"><mpath href="#helmmon-p2"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3026;0.3066;0.4499;0.4539;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3026;0.4539;1"><mpath href="#helmmon-p2"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3026;0.3066;0.4499;0.4539;1"/></circle>
+<path id="helmmon-p3" d="M523.0,120.0 C539.0,152.2 539.0,152.2 523.0,184.4" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="helmmon-ant" marker-end="url(#helmmon-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4539;0.6053;1"><mpath href="#helmmon-p3"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4539;0.4579;0.6013;0.6053;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4539;0.6053;1"><mpath href="#helmmon-p3"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.4539;0.4579;0.6013;0.6053;1"/></circle>
+<path id="helmmon-p4" d="M660.0,92.0 C629.0,92.0 629.0,212.4 598.0,212.4" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#helmmon-arr-484f58)"/>
+<path id="helmmon-p5" d="M386.0,212.4 C417.0,212.4 417.0,212.4 448.0,212.4" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#helmmon-arr-484f58)"/>
+<path id="helmmon-p6" d="M598.0,212.4 C629.0,212.4 629.0,212.4 660.0,212.4" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="helmmon-ant" marker-end="url(#helmmon-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6053;0.7566;1"><mpath href="#helmmon-p6"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6053;0.6093;0.7526;0.7566;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6053;0.7566;1"><mpath href="#helmmon-p6"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6053;0.6093;0.7526;0.7566;1"/></circle>
+<path id="helmmon-p7" d="M810.0,212.4 C841.0,212.4 841.0,182.3 872.0,182.3" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="helmmon-ant" marker-end="url(#helmmon-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7566;0.9079;1"><mpath href="#helmmon-p7"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7566;0.7606;0.9039;0.9079;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7566;0.9079;1"><mpath href="#helmmon-p7"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7566;0.7606;0.9039;0.9079;1"/></circle>
+<path id="helmmon-p8" d="M810.0,212.4 C841.0,212.4 841.0,259.7 872.0,259.7" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="helmmon-ant" marker-end="url(#helmmon-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7566;0.9079;1"><mpath href="#helmmon-p8"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7566;0.7606;0.9039;0.9079;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7566;0.9079;1"><mpath href="#helmmon-p8"/></animateMotion><animate attributeName="opacity" dur="7.60s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7566;0.7606;0.9039;0.9079;1"/></circle>
+<g>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="99.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 Developer</text>
+<text x="99.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">git push</text>
+</g>
+<g>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="311.0" y="96.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐙 GitHub</text>
+</g>
+<g>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="523.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🤵 Jenkins</text>
+<text x="523.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">checkout · build ·</text>
+<text x="523.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">push · rollout</text>
+</g>
+<g>
+<rect x="660.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="660.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="735.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📦 Docker Hub</text>
+<text x="735.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">:buildNo + :latest</text>
+</g>
+<g>
+<rect x="236.0" y="184.4" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="236.0" y="184.4" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="311.0" y="205.4" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⎈ Helm Chart</text>
+<text x="311.0" y="219.4" font-size="8.6" fill="#8b949e" text-anchor="middle">versioned, reversible</text>
+<text x="311.0" y="230.9" font-size="8.6" fill="#8b949e" text-anchor="middle">releases</text>
+</g>
+<g>
+<rect x="448.0" y="184.4" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="448.0" y="184.4" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="523.0" y="205.4" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🏃 FitTrack (Flask)</text>
+<text x="523.0" y="219.4" font-size="8.6" fill="#8b949e" text-anchor="middle">/metrics endpoint ·</text>
+<text x="523.0" y="230.9" font-size="8.6" fill="#8b949e" text-anchor="middle">ServiceMonitor</text>
+</g>
+<g>
+<rect x="660.0" y="184.4" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="660.0" y="184.4" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="735.0" y="205.4" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔥 Prometheus</text>
+<text x="735.0" y="219.4" font-size="8.6" fill="#8b949e" text-anchor="middle">scrapes metrics ·</text>
+<text x="735.0" y="230.9" font-size="8.6" fill="#8b949e" text-anchor="middle">PrometheusRule</text>
+</g>
+<g>
+<rect x="872.0" y="154.3" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="872.0" y="154.3" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="947.0" y="175.3" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📊 Grafana</text>
+<text x="947.0" y="189.3" font-size="8.6" fill="#8b949e" text-anchor="middle">dashboards</text>
+</g>
+<g>
+<rect x="872.0" y="231.7" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="872.0" y="231.7" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="helmmon-glow"/>
+<text x="947.0" y="252.7" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🚨 Alert</text>
+<text x="947.0" y="266.7" font-size="8.6" fill="#8b949e" text-anchor="middle">5xx &gt; 5% for 2m —</text>
+<text x="947.0" y="278.2" font-size="8.6" fill="#8b949e" text-anchor="middle">before users complain</text>
+</g>
+<text x="205" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">push</text>
+<text x="629" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">docker push</text>
+<text x="535" y="145" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">kubectl set image + rollout</text>
+<text x="629" y="145" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">image pull</text>
+<text x="417" y="205" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">install / rollback</text>
+<text x="629" y="205" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">scrape</text>
+<text x="841" y="229" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">fires</text>
+</svg>

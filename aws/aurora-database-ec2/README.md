@@ -12,6 +12,12 @@
 
 Self-managing a relational database on a VM means owning patching, replication, failover, and backups yourself. Aurora shifts that to AWS while keeping MySQL compatibility — but a database is useless in isolation: it has to be provisioned *together with* the compute that talks to it, with networking and authentication done right.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*The engineer connects over SSH (key pair with owner-only permissions) to a public EC2 web host with a configured security group. Writes go to the Aurora MySQL-compatible writer instance, and replication fans the data out to read replicas that spread SELECT load and stand by for failover.*
+
 ## 🔧 What I Built
 
 - **An Aurora MySQL cluster** — a primary instance for writes plus read replicas that both spread `SELECT` load and act as standby copies, which is why Aurora is built around clusters rather than single nodes.

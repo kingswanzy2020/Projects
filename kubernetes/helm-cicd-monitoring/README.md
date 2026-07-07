@@ -19,6 +19,10 @@ This project solves both: Helm makes releases versioned and reversible; Promethe
 
 ## 🏗️ Architecture
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*A `git push` triggers Jenkins to build the Docker image, push it to Docker Hub, and roll it out to Kubernetes as a versioned Helm release. Inside the cluster, Prometheus scrapes the FitTrack app's `/metrics` endpoint and — via Grafana dashboards and a PrometheusRule — fires an alert when the 5xx rate exceeds 5% for two minutes, before users complain.*
+
 ![Architecture](architecture.png)
 
 ```mermaid

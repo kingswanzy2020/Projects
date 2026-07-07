@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1048 156" width="1048" height="156" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="Provisioning S3 with Terraform animated architecture diagram">
+<style>
+  .tfs3-ant { stroke-dasharray:7 6; animation:tfs3-flow 1.05s linear infinite; }
+  @keyframes tfs3-flow { to { stroke-dashoffset:-13; } }
+  .tfs3-glow { animation:tfs3-breathe 3.2s ease-in-out infinite; }
+  @keyframes tfs3-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="tfs3-arr-b083f0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b083f0"/></marker>
+</defs>
+<rect x="1" y="1" width="1046" height="154" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">Provisioning S3 with Terraform</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="865.2" y="16" width="159" height="20" rx="10" fill="none" stroke="#b083f0" stroke-opacity=".6" class="tfs3-glow"/><text x="944.6" y="29.5" font-size="9.5" font-weight="600" fill="#b083f0" text-anchor="middle" letter-spacing=".5">Infrastructure as Code</text></g>
+<path id="tfs3-p0" d="M174.0,92.0 C205.0,92.0 205.0,92.0 236.0,92.0" fill="none" stroke="#b083f0" stroke-opacity=".8" stroke-width="1.6" class="tfs3-ant" marker-end="url(#tfs3-arr-b083f0)"/>
+<circle r="3.6" fill="#b083f0" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2170;1"><mpath href="#tfs3-p0"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.2130;0.2170;1"/></circle>
+<circle r="7" fill="none" stroke="#b083f0" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2170;1"><mpath href="#tfs3-p0"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.2130;0.2170;1"/></circle>
+<path id="tfs3-p1" d="M386.0,92.0 C417.0,92.0 417.0,92.0 448.0,92.0" fill="none" stroke="#b083f0" stroke-opacity=".8" stroke-width="1.6" class="tfs3-ant" marker-end="url(#tfs3-arr-b083f0)"/>
+<circle r="3.6" fill="#b083f0" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2170;0.4340;1"><mpath href="#tfs3-p1"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2170;0.2210;0.4300;0.4340;1"/></circle>
+<circle r="7" fill="none" stroke="#b083f0" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2170;0.4340;1"><mpath href="#tfs3-p1"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2170;0.2210;0.4300;0.4340;1"/></circle>
+<path id="tfs3-p2" d="M598.0,92.0 C629.0,92.0 629.0,92.0 660.0,92.0" fill="none" stroke="#b083f0" stroke-opacity=".8" stroke-width="1.6" class="tfs3-ant" marker-end="url(#tfs3-arr-b083f0)"/>
+<circle r="3.6" fill="#b083f0" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4340;0.6509;1"><mpath href="#tfs3-p2"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4340;0.4380;0.6469;0.6509;1"/></circle>
+<circle r="7" fill="none" stroke="#b083f0" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4340;0.6509;1"><mpath href="#tfs3-p2"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.4340;0.4380;0.6469;0.6509;1"/></circle>
+<path id="tfs3-p3" d="M810.0,92.0 C841.0,92.0 841.0,92.0 872.0,92.0" fill="none" stroke="#b083f0" stroke-opacity=".8" stroke-width="1.6" class="tfs3-ant" marker-end="url(#tfs3-arr-b083f0)"/>
+<circle r="3.6" fill="#b083f0" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6509;0.8679;1"><mpath href="#tfs3-p3"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6509;0.6549;0.8639;0.8679;1"/></circle>
+<circle r="7" fill="none" stroke="#b083f0" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6509;0.8679;1"><mpath href="#tfs3-p3"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6509;0.6549;0.8639;0.8679;1"/></circle>
+<g>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#b083f0" stroke-opacity=".55"/>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#b083f0" class="tfs3-glow"/>
+<text x="99.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📄 main.tf</text>
+<text x="99.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">provider · bucket ·</text>
+<text x="99.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">public-access block</text>
+</g>
+<g>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#b083f0" stroke-opacity=".55"/>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#b083f0" class="tfs3-glow"/>
+<text x="311.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⬇️ terraform init</text>
+<text x="311.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">provider plugins ·</text>
+<text x="311.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">state backend</text>
+</g>
+<g>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#b083f0" stroke-opacity=".55"/>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#b083f0" class="tfs3-glow"/>
+<text x="523.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📝 terraform plan</text>
+<text x="523.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">review the exact</text>
+<text x="523.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">diff before creating</text>
+</g>
+<g>
+<rect x="660.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#b083f0" stroke-opacity=".55"/>
+<rect x="660.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#b083f0" class="tfs3-glow"/>
+<text x="735.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🚀 terraform apply</text>
+<text x="735.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">executes exactly</text>
+<text x="735.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">what plan showed</text>
+</g>
+<g>
+<rect x="872.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#b083f0" stroke-opacity=".55"/>
+<rect x="872.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#b083f0" class="tfs3-glow"/>
+<text x="947.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🪣 S3 Bucket</text>
+<text x="947.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">locked down · owner-</text>
+<text x="947.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">enforced · + objects</text>
+</g>
+<text x="629" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">approved</text>
+<text x="841" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">provision</text>
+</svg>

@@ -12,6 +12,12 @@
 
 "Works on my machine" is where deployments go to die. The API from part 1 depended on my laptop's specific Python version and installed packages — moving it anywhere meant reinstalling and hoping. Containerization freezes the entire runtime — interpreter, dependencies, code — into one immutable, portable artifact.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*The app and its Dockerfile are baked into an immutable image with `docker build` (frozen runtime), published to Docker Hub, and pulled onto any machine. The round trip is verified by hitting `/query` inside the container and getting the same grounded answers — identical behavior everywhere.*
+
 ## 🔧 What I Built
 
 - **A Dockerfile for the API**: `FROM python:3.11` base → `COPY` application code → `RUN` dependency install → `CMD` launching Uvicorn bound to `0.0.0.0:8000` so the API is reachable from outside the container.

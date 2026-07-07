@@ -15,6 +15,10 @@ A bare LLM confidently hallucinates about anything outside its training data —
 
 ## 🏗️ How It Works
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*A question POSTed to `/query` hits the FastAPI/Uvicorn server, which runs a semantic search against the ChromaDB vector store and feeds the retrieved context plus the question to Ollama — returning a grounded answer instead of a hallucination. `/add` embeds new knowledge into the store at runtime.*
+
 ```mermaid
 flowchart LR
     Q([POST /query]) --> API[FastAPI + Uvicorn]

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 836 257" width="836" height="257" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="Three-Tier Web Architecture on AWS animated architecture diagram">
+<style>
+  .3tier-ant { stroke-dasharray:7 6; animation:3tier-flow 1.05s linear infinite; }
+  @keyframes 3tier-flow { to { stroke-dashoffset:-13; } }
+  .3tier-glow { animation:3tier-breathe 3.2s ease-in-out infinite; }
+  @keyframes 3tier-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="3tier-arr-ffa657" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffa657"/></marker>
+</defs>
+<rect x="1" y="1" width="834" height="255" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">Three-Tier Web Architecture on AWS</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="774.8" y="16" width="37" height="20" rx="10" fill="none" stroke="#ffa657" stroke-opacity=".6" class="3tier-glow"/><text x="793.4" y="29.5" font-size="9.5" font-weight="600" fill="#ffa657" text-anchor="middle" letter-spacing=".5">AWS</text></g>
+<path id="3tier-p0" d="M174.0,142.6 C205.0,142.6 205.0,92.0 236.0,92.0" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="3tier-ant" marker-end="url(#3tier-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1783;1"><mpath href="#3tier-p0"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1743;0.1783;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1783;1"><mpath href="#3tier-p0"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1743;0.1783;1"/></circle>
+<path id="3tier-p1" d="M386.0,92.0 C417.0,92.0 417.0,92.0 448.0,92.0" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="3tier-ant" marker-end="url(#3tier-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1783;0.3566;1"><mpath href="#3tier-p1"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1783;0.1823;0.3526;0.3566;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1783;0.3566;1"><mpath href="#3tier-p1"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1783;0.1823;0.3526;0.3566;1"/></circle>
+<path id="3tier-p2" d="M174.0,142.6 C205.0,142.6 205.0,193.2 236.0,193.2" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="3tier-ant" marker-end="url(#3tier-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3566;0.5349;1"><mpath href="#3tier-p2"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3566;0.3606;0.5309;0.5349;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3566;0.5349;1"><mpath href="#3tier-p2"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3566;0.3606;0.5309;0.5349;1"/></circle>
+<path id="3tier-p3" d="M386.0,193.2 C417.0,193.2 417.0,193.2 448.0,193.2" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="3tier-ant" marker-end="url(#3tier-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5349;0.7132;1"><mpath href="#3tier-p3"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5349;0.5389;0.7092;0.7132;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5349;0.7132;1"><mpath href="#3tier-p3"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.5349;0.5389;0.7092;0.7132;1"/></circle>
+<path id="3tier-p4" d="M598.0,193.2 C629.0,193.2 629.0,193.2 660.0,193.2" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="3tier-ant" marker-end="url(#3tier-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7132;0.8915;1"><mpath href="#3tier-p4"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7132;0.7172;0.8875;0.8915;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7132;0.8915;1"><mpath href="#3tier-p4"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7132;0.7172;0.8875;0.8915;1"/></circle>
+<g>
+<rect x="24.0" y="114.6" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="24.0" y="114.6" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="3tier-glow"/>
+<text x="99.0" y="146.6" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 User</text>
+</g>
+<g>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="3tier-glow"/>
+<text x="311.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🌍 CloudFront</text>
+<text x="311.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">Tier 1 · presentation</text>
+<text x="311.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">edge caching</text>
+</g>
+<g>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="3tier-glow"/>
+<text x="523.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🪣 S3</text>
+<text x="523.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">index.html ·</text>
+<text x="523.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">CSS · JS</text>
+</g>
+<g>
+<rect x="236.0" y="165.2" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="236.0" y="165.2" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="3tier-glow"/>
+<text x="311.0" y="186.2" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🚪 API Gateway</text>
+<text x="311.0" y="200.2" font-size="8.6" fill="#8b949e" text-anchor="middle">Tier 2 · logic</text>
+<text x="311.0" y="211.7" font-size="8.6" fill="#8b949e" text-anchor="middle">REST API</text>
+</g>
+<g>
+<rect x="448.0" y="165.2" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="448.0" y="165.2" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="3tier-glow"/>
+<text x="523.0" y="186.2" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚡ Lambda</text>
+<text x="523.0" y="200.2" font-size="8.6" fill="#8b949e" text-anchor="middle">userData lookup</text>
+</g>
+<g>
+<rect x="660.0" y="165.2" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="660.0" y="165.2" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="3tier-glow"/>
+<text x="735.0" y="186.2" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🗄️ DynamoDB</text>
+<text x="735.0" y="200.2" font-size="8.6" fill="#8b949e" text-anchor="middle">Tier 3 · data</text>
+<text x="735.0" y="211.7" font-size="8.6" fill="#8b949e" text-anchor="middle">userId partition key</text>
+</g>
+<text x="205" y="110" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">page load</text>
+<text x="205" y="161" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">API request</text>
+<text x="629" y="186" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">query</text>
+</svg>

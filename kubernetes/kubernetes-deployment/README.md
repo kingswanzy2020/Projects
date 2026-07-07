@@ -10,6 +10,12 @@
 
 An app that only runs on one machine isn't deployable at scale. Getting a backend into Kubernetes requires solving the full supply chain: build a reproducible image, store it in a registry the cluster trusts, and hand it to the orchestrator — plus the Linux permission model that trips up most first-time Docker users on EC2.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*The Flask backend (a Hacker News API proxy) is containerized with Docker on an EC2 build host, pushed to a private Amazon ECR registry with versioned tags, and deployed to an Amazon EKS cluster — provisioned by eksctl through CloudFormation — which pulls only that trusted image.*
+
 ## 🔧 What I Built
 
 - **Cluster provisioning with `eksctl`** — repeating the EKS setup from [part 1](../launch-kubernetes-cluster), this time in ~90 minutes end-to-end including the app deployment.

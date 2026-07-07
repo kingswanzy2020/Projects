@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 836 257" width="836" height="257" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="Grafana Dashboards Built Through MCP animated architecture diagram">
+<style>
+  .grafmcp-ant { stroke-dasharray:7 6; animation:grafmcp-flow 1.05s linear infinite; }
+  @keyframes grafmcp-flow { to { stroke-dashoffset:-13; } }
+  .grafmcp-glow { animation:grafmcp-breathe 3.2s ease-in-out infinite; }
+  @keyframes grafmcp-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="grafmcp-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#484f58"/></marker>
+<marker id="grafmcp-arr-f0883e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f0883e"/></marker>
+</defs>
+<rect x="1" y="1" width="834" height="255" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">Grafana Dashboards Built Through MCP</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="710.8" y="16" width="101" height="20" rx="10" fill="none" stroke="#f0883e" stroke-opacity=".6" class="grafmcp-glow"/><text x="761.4" y="29.5" font-size="9.5" font-weight="600" fill="#f0883e" text-anchor="middle" letter-spacing=".5">Observability</text></g>
+<path id="grafmcp-p0" d="M174.0,92.0 C205.0,92.0 205.0,92.0 236.0,92.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="grafmcp-ant" marker-end="url(#grafmcp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="4.15s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2771;1"><mpath href="#grafmcp-p0"/></animateMotion><animate attributeName="opacity" dur="4.15s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.2731;0.2771;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="4.15s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2771;1"><mpath href="#grafmcp-p0"/></animateMotion><animate attributeName="opacity" dur="4.15s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.2731;0.2771;1"/></circle>
+<path id="grafmcp-p1" d="M386.0,92.0 C417.0,92.0 417.0,92.0 448.0,92.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="grafmcp-ant" marker-end="url(#grafmcp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="4.15s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2771;0.5542;1"><mpath href="#grafmcp-p1"/></animateMotion><animate attributeName="opacity" dur="4.15s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2771;0.2811;0.5502;0.5542;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="4.15s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2771;0.5542;1"><mpath href="#grafmcp-p1"/></animateMotion><animate attributeName="opacity" dur="4.15s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2771;0.2811;0.5502;0.5542;1"/></circle>
+<path id="grafmcp-p2" d="M598.0,92.0 C629.0,92.0 629.0,92.0 660.0,92.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="grafmcp-ant" marker-end="url(#grafmcp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="4.15s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5542;0.8313;1"><mpath href="#grafmcp-p2"/></animateMotion><animate attributeName="opacity" dur="4.15s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5542;0.5582;0.8273;0.8313;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="4.15s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5542;0.8313;1"><mpath href="#grafmcp-p2"/></animateMotion><animate attributeName="opacity" dur="4.15s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.5542;0.5582;0.8273;0.8313;1"/></circle>
+<path id="grafmcp-p3" d="M660.0,193.2 C629.0,193.2 629.0,92.0 598.0,92.0" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#grafmcp-arr-484f58)"/>
+<path id="grafmcp-p4" d="M735.0,120.0 C749.0,142.6 749.0,142.6 735.0,165.2" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#grafmcp-arr-484f58)"/>
+<g>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="grafmcp-glow"/>
+<text x="99.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">💬 Natural Language</text>
+<text x="99.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">“build me a revenue</text>
+<text x="99.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">dashboard” · Cursor</text>
+</g>
+<g>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="grafmcp-glow"/>
+<text x="311.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔌 Grafana MCP Server</text>
+<text x="311.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">stdio · service-</text>
+<text x="311.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">account token</text>
+</g>
+<g>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="grafmcp-glow"/>
+<text x="523.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📊 Grafana API</text>
+<text x="523.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">6-panel dashboard:</text>
+<text x="523.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">KPIs · bars · trend</text>
+</g>
+<g>
+<rect x="660.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="660.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="grafmcp-glow"/>
+<text x="735.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐘 PostgreSQL</text>
+<text x="735.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">live e-commerce</text>
+<text x="735.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">demo data</text>
+</g>
+<g>
+<rect x="660.0" y="165.2" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="660.0" y="165.2" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="grafmcp-glow"/>
+<text x="735.0" y="186.2" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚡ Materialized Tables</text>
+<text x="735.0" y="200.2" font-size="8.6" fill="#8b949e" text-anchor="middle">pre-aggregated —</text>
+<text x="735.0" y="211.7" font-size="8.6" fill="#8b949e" text-anchor="middle">instant panels</text>
+</g>
+<text x="205" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">prompt</text>
+<text x="417" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">API calls</text>
+<text x="629" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">SQL per refresh</text>
+<text x="629" y="136" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">fast reads</text>
+<text x="746" y="136" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">aggregation</text>
+</svg>

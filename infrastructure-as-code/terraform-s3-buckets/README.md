@@ -10,6 +10,12 @@
 
 Console-clicked resources can't be reviewed, versioned, or reproduced — and nobody remembers six months later why a bucket is configured the way it is. Infrastructure as code turns every resource into a readable, diffable text file.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*`main.tf` declares the provider, the bucket, and its public-access block. `terraform init` pulls provider plugins and sets up the state backend, `terraform plan` shows the exact diff for review before anything is created, and an approved `terraform apply` executes exactly what the plan showed — yielding a locked-down, owner-enforced S3 bucket with its objects.*
+
 ## 🔧 What I Built
 
 - **A declarative `main.tf`** with three blocks: the AWS provider/region, the S3 bucket resource, and a public-access block locking the bucket down by default.

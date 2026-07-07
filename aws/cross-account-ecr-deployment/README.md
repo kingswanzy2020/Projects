@@ -11,6 +11,12 @@
 
 Real organizations run many AWS accounts (per team, per environment), and teams constantly need to consume each other's container images. The naive fixes are both wrong: sharing credentials destroys the security boundary, and making registries public leaks internal software. The right answer is scoped, auditable cross-account resource policies — which is exactly what this project practices, including the 403s you hit when you get them wrong.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*Two AWS accounts each build and push images to their own private ECR repository, then grant the other account pull access through repository policies. Each account's Elastic Beanstalk environment (via `Dockerrun.aws.json` and an instance role with ECR pull rights) deploys the *other* account's image through a cross-account pull.*
+
 ## 🔧 What I Built
 
 - **A custom Nginx-based image** (Dockerfile + custom `index.html`) pushed to a **private ECR repository**, authenticated via `aws ecr get-login-password` piped into `docker login`.

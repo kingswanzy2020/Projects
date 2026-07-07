@@ -16,6 +16,10 @@ This pipeline makes quality **non-negotiable**: every commit is automatically bu
 
 ## 🏗️ Architecture
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*A `git push` webhooks straight into Jenkins (no polling), whose declarative Jenkinsfile runs the Maven build, JUnit tests, and SonarQube static analysis. Only a passing quality-gate verdict lets the Docker image be built and pushed to Docker Hub; a failure aborts the pipeline so bad code never reaches the registry — and Slack is notified either way.*
+
 ![Architecture](architecture.jpeg)
 
 ```mermaid

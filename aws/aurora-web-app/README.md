@@ -13,6 +13,12 @@
 
 A web app without persistence forgets everything; a database without a connected app stores nothing. The unglamorous-but-essential skill is the wiring in between: SSH'ing into compute with correct key permissions, installing the right driver stack, externalizing connection credentials, and *proving* data lands where it should.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*A form submission POSTs to Apache + PHP on EC2, which INSERTs into the Aurora MySQL cluster endpoint through the `php-mysqli` driver using credentials externalized in `dbinfo.inc`. The page reflects the data back in near-real time, and the MySQL CLI provides an independent SELECT audit of the stored rows.*
+
 ## 🔧 What I Built
 
 - **Hardened SSH access** — key file locked to owner-read-only (the permission fix `ssh` refuses to work without) before connecting to the instance.

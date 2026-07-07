@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1048 271" width="1048" height="271" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="AI-Powered Log Analysis &amp; Incident Response animated architecture diagram">
+<style>
+  .ailog-ant { stroke-dasharray:7 6; animation:ailog-flow 1.05s linear infinite; }
+  @keyframes ailog-flow { to { stroke-dashoffset:-13; } }
+  .ailog-glow { animation:ailog-breathe 3.2s ease-in-out infinite; }
+  @keyframes ailog-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="ailog-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#484f58"/></marker>
+<marker id="ailog-arr-bc8cff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc8cff"/></marker>
+</defs>
+<rect x="1" y="1" width="1046" height="269" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">AI-Powered Log Analysis &amp; Incident Response</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="948.4" y="16" width="76" height="20" rx="10" fill="none" stroke="#bc8cff" stroke-opacity=".6" class="ailog-glow"/><text x="986.2" y="29.5" font-size="9.5" font-weight="600" fill="#bc8cff" text-anchor="middle" letter-spacing=".5">AI DevOps</text></g>
+<path id="ailog-p0" d="M174.0,92.0 C205.0,92.0 205.0,92.0 236.0,92.0" fill="none" stroke="#bc8cff" stroke-opacity=".8" stroke-width="1.6" class="ailog-ant" marker-end="url(#ailog-arr-bc8cff)"/>
+<circle r="3.6" fill="#bc8cff" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1783;1"><mpath href="#ailog-p0"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1743;0.1783;1"/></circle>
+<circle r="7" fill="none" stroke="#bc8cff" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1783;1"><mpath href="#ailog-p0"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1743;0.1783;1"/></circle>
+<path id="ailog-p1" d="M386.0,92.0 C417.0,92.0 417.0,92.0 448.0,92.0" fill="none" stroke="#bc8cff" stroke-opacity=".8" stroke-width="1.6" class="ailog-ant" marker-end="url(#ailog-arr-bc8cff)"/>
+<circle r="3.6" fill="#bc8cff" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1783;0.3566;1"><mpath href="#ailog-p1"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1783;0.1823;0.3526;0.3566;1"/></circle>
+<circle r="7" fill="none" stroke="#bc8cff" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1783;0.3566;1"><mpath href="#ailog-p1"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1783;0.1823;0.3526;0.3566;1"/></circle>
+<path id="ailog-p2" d="M523.0,120.0 C523.0,149.5 523.0,149.5 523.0,179.0" fill="none" stroke="#bc8cff" stroke-opacity=".8" stroke-width="1.6" class="ailog-ant" marker-end="url(#ailog-arr-bc8cff)"/>
+<circle r="3.6" fill="#bc8cff" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3566;0.5349;1"><mpath href="#ailog-p2"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3566;0.3606;0.5309;0.5349;1"/></circle>
+<circle r="7" fill="none" stroke="#bc8cff" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3566;0.5349;1"><mpath href="#ailog-p2"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3566;0.3606;0.5309;0.5349;1"/></circle>
+<path id="ailog-p3" d="M598.0,92.0 C629.0,106.0 629.0,221.0 660.0,207.0" fill="none" stroke="#bc8cff" stroke-opacity=".8" stroke-width="1.6" class="ailog-ant" marker-end="url(#ailog-arr-bc8cff)"/>
+<circle r="3.6" fill="#bc8cff" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5349;0.7132;1"><mpath href="#ailog-p3"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5349;0.5389;0.7092;0.7132;1"/></circle>
+<circle r="7" fill="none" stroke="#bc8cff" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5349;0.7132;1"><mpath href="#ailog-p3"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.5349;0.5389;0.7092;0.7132;1"/></circle>
+<path id="ailog-p4" d="M735.0,179.0 C735.0,149.5 735.0,149.5 735.0,120.0" fill="none" stroke="#bc8cff" stroke-opacity=".8" stroke-width="1.6" class="ailog-ant" marker-end="url(#ailog-arr-bc8cff)"/>
+<circle r="3.6" fill="#bc8cff" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7132;0.8915;1"><mpath href="#ailog-p4"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7132;0.7172;0.8875;0.8915;1"/></circle>
+<circle r="7" fill="none" stroke="#bc8cff" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7132;0.8915;1"><mpath href="#ailog-p4"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7132;0.7172;0.8875;0.8915;1"/></circle>
+<path id="ailog-p5" d="M598.0,92.0 C629.0,92.0 629.0,92.0 660.0,92.0" fill="none" stroke="#bc8cff" stroke-opacity=".8" stroke-width="1.6" class="ailog-ant" marker-end="url(#ailog-arr-bc8cff)"/>
+<circle r="3.6" fill="#bc8cff" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7132;0.8915;1"><mpath href="#ailog-p5"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7132;0.7172;0.8875;0.8915;1"/></circle>
+<circle r="7" fill="none" stroke="#bc8cff" stroke-width="1" opacity="0"><animateMotion dur="6.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7132;0.8915;1"><mpath href="#ailog-p5"/></animateMotion><animate attributeName="opacity" dur="6.45s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7132;0.7172;0.8875;0.8915;1"/></circle>
+<path id="ailog-p6" d="M810.0,92.0 C841.0,92.0 841.0,149.0 872.0,149.0" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#ailog-arr-484f58)"/>
+<g>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#bc8cff" stroke-opacity=".55"/>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#bc8cff" class="ailog-glow"/>
+<text x="99.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">💥 Crashy App</text>
+<text x="99.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">Kubernetes pod</text>
+<text x="99.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">generates real errors</text>
+</g>
+<g>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#bc8cff" stroke-opacity=".55"/>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#bc8cff" class="ailog-glow"/>
+<text x="311.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🪵 Fluent Bit</text>
+<text x="311.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">DaemonSet · filters</text>
+<text x="311.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">ERROR / CRITICAL</text>
+</g>
+<g>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#bc8cff" stroke-opacity=".55"/>
+<rect x="448.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#bc8cff" class="ailog-glow"/>
+<text x="523.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚙️ FastAPI</text>
+<text x="523.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">middleware · rate limit</text>
+<text x="523.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">cache → LLM → ticket</text>
+</g>
+<g>
+<rect x="448.0" y="179.0" width="150" height="56" rx="10" fill="#161b22" stroke="#bc8cff" stroke-opacity=".55"/>
+<rect x="448.0" y="179.0" width="150" height="56" rx="10" fill="none" stroke="#bc8cff" class="ailog-glow"/>
+<text x="523.0" y="200.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🗄️ Redis</text>
+<text x="523.0" y="214.0" font-size="8.6" fill="#8b949e" text-anchor="middle">diagnosis cache +</text>
+<text x="523.0" y="225.5" font-size="8.6" fill="#8b949e" text-anchor="middle">signature dedup</text>
+</g>
+<g>
+<rect x="660.0" y="179.0" width="150" height="56" rx="10" fill="#161b22" stroke="#bc8cff" stroke-opacity=".55"/>
+<rect x="660.0" y="179.0" width="150" height="56" rx="10" fill="none" stroke="#bc8cff" class="ailog-glow"/>
+<text x="735.0" y="200.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧠 Ollama LLM</text>
+<text x="735.0" y="214.0" font-size="8.6" fill="#8b949e" text-anchor="middle">qwen3:1.7b · root cause,</text>
+<text x="735.0" y="225.5" font-size="8.6" fill="#8b949e" text-anchor="middle">severity, kubectl fix</text>
+</g>
+<g>
+<rect x="660.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#bc8cff" stroke-opacity=".55"/>
+<rect x="660.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#bc8cff" class="ailog-glow"/>
+<text x="735.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🎫 GitHub Issue</text>
+<text x="735.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">auto-filed with</text>
+<text x="735.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">proposed remediation</text>
+</g>
+<g>
+<rect x="872.0" y="121.0" width="150" height="56" rx="10" fill="#161b22" stroke="#bc8cff" stroke-opacity=".55"/>
+<rect x="872.0" y="121.0" width="150" height="56" rx="10" fill="none" stroke="#bc8cff" class="ailog-glow"/>
+<text x="947.0" y="142.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔔 Slack</text>
+<text x="947.0" y="156.0" font-size="8.6" fill="#8b949e" text-anchor="middle">optional alert</text>
+</g>
+<text x="205" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">errors</text>
+<text x="417" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">HTTP</text>
+<text x="523" y="142" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">cache check</text>
+<text x="629" y="153" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">cache miss</text>
+<text x="735" y="142" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">structured diagnosis</text>
+<text x="629" y="80" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">dedup: new only</text>
+</svg>

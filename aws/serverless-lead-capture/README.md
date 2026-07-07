@@ -42,6 +42,10 @@ A small business wanted to capture e-book leads without paying for — or patchi
 
 ## 🏗️ Architecture
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*A visitor resolves `kahmedt.com` through a Route 53 alias record to CloudFront, which serves the S3 static site globally over HTTPS (ACM certificate). Clicking *Download eBook* fires an AJAX POST through API Gateway to the `epicreads_contactus` Lambda, which emails the business owner instantly via SES, stores the lead (name, email, UUID, timestamp) in DynamoDB, and logs the execution to CloudWatch.*
+
 ![Architecture Diagram](<Images/Screenshot from 2025-11-09 09-36-55.png>)
 
 ### How It Flows

@@ -20,6 +20,10 @@ This project eliminates all three by making Git the **single source of truth** a
 
 ## 🏗️ Architecture
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*Every change — developer PRs, Renovate dependency bumps, and GitHub Actions image-tag updates — merges into the GitHub repo as the single source of truth. ArgoCD auto-syncs the Kubernetes cluster to match Git and self-heals any manual drift, while Sealed Secrets are decrypted only in-cluster so credentials stay encrypted in the repo.*
+
 ![Architecture Diagram](architecture.png)
 
 ```mermaid

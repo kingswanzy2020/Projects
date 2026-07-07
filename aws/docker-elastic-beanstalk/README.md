@@ -10,6 +10,12 @@
 
 Deploying even a simple web app traditionally means provisioning a server, installing a web server, configuring networking, and repeating all of it for every update. Containers + a managed platform collapse that: the app becomes a portable image, and AWS handles the instances, load balancing, and scaling underneath.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*A custom image — nginx base plus a custom `index.html` on port 80 — is built and tested locally with `docker run`, then zipped and uploaded to Elastic Beanstalk. AWS manages the EC2 instances, health checks, and scaling behind a live public URL, going from upload to live in about ten minutes; updates ship by re-uploading.*
+
 ## 🔧 What I Built
 
 - **Docker fundamentals proven locally** — ran a stock Nginx container detached with port mapping (`docker run -d -p 80:80`), then a **custom image** from a 3-instruction Dockerfile: Nginx base → replace the default `index.html` with my own → expose port 80.

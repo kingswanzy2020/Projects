@@ -14,6 +14,10 @@ Monolithic "everything on one server" apps can't scale their tiers independently
 
 ## 🏗️ Architecture
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*Page loads flow through CloudFront's edge caching to the S3-hosted frontend (presentation tier). API requests go to the API Gateway REST API and its Lambda `userData` lookup (logic tier), which queries DynamoDB by `userId` partition key (data tier).*
+
 ![Architecture Overview](<Architectural Overview.png>)
 
 ```mermaid

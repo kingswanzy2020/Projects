@@ -9,6 +9,12 @@
 
 Running a whole server to host static HTML is wasted money and maintenance. S3 serves static sites natively — but its layered access model (Block Public Access, ACLs, bucket policies) confuses most first-timers into either a 403 wall or an accidentally world-writable bucket. This project works through that model properly.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*Visitors GET the S3 website endpoint directly — no web server — which serves `index.html` and its assets made public through object ACLs. Block Public Access is tuned deliberately (the 403 path was debugged along the way), and a guardrail bucket policy denies deleting `index.html`, even for the bucket owner.*
+
 ## 🔧 What I Built
 
 - **An S3 bucket in `ap-northeast-2` (Seoul)** — region chosen for proximity/latency — with `index.html` and the site's asset folder uploaded.

@@ -14,6 +14,10 @@ A bare Docker container is fragile in production: if it crashes, someone has to 
 
 ## 🏗️ How It Works
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*Client requests enter through a NodePort Service that routes by label selector to the `rag-api` pod. A Deployment's reconciliation loop holds the desired state of one replica, so when the pod crashes or is deleted, a new pod with the same label is created automatically and the Service re-routes to it.*
+
 ```mermaid
 flowchart LR
     C([client curl]) --> NP[NodePort Service<br/>stable endpoint + label selector]

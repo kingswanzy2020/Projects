@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 751 271" width="751" height="271" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="Cross-Account Deployment with Amazon ECR animated architecture diagram">
+<style>
+  .xecr-ant { stroke-dasharray:7 6; animation:xecr-flow 1.05s linear infinite; }
+  @keyframes xecr-flow { to { stroke-dashoffset:-13; } }
+  .xecr-glow { animation:xecr-breathe 3.2s ease-in-out infinite; }
+  @keyframes xecr-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="xecr-arr-ffa657" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffa657"/></marker>
+</defs>
+<rect x="1" y="1" width="749" height="269" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">Cross-Account Deployment with Amazon ECR</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="689.8" y="16" width="37" height="20" rx="10" fill="none" stroke="#ffa657" stroke-opacity=".6" class="xecr-glow"/><text x="708.4" y="29.5" font-size="9.5" font-weight="600" fill="#ffa657" text-anchor="middle" letter-spacing=".5">AWS</text></g>
+<path id="xecr-p0" d="M174.0,92.0 C205.0,92.0 205.0,92.0 236.0,92.0" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="xecr-ant" marker-end="url(#xecr-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="3.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.3833;1"><mpath href="#xecr-p0"/></animateMotion><animate attributeName="opacity" dur="3.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.3793;0.3833;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="3.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.3833;1"><mpath href="#xecr-p0"/></animateMotion><animate attributeName="opacity" dur="3.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.3793;0.3833;1"/></circle>
+<path id="xecr-p1" d="M174.0,207.0 C205.0,207.0 205.0,207.0 236.0,207.0" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="xecr-ant" marker-end="url(#xecr-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="3.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.3833;1"><mpath href="#xecr-p1"/></animateMotion><animate attributeName="opacity" dur="3.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.3793;0.3833;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="3.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.3833;1"><mpath href="#xecr-p1"/></animateMotion><animate attributeName="opacity" dur="3.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.3793;0.3833;1"/></circle>
+<path id="xecr-p2" d="M386.0,92.0 C446.0,92.0 515.2,207.0 575.2,207.0" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="xecr-ant" marker-end="url(#xecr-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="3.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3833;0.7667;1"><mpath href="#xecr-p2"/></animateMotion><animate attributeName="opacity" dur="3.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3833;0.3873;0.7627;0.7667;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="3.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3833;0.7667;1"><mpath href="#xecr-p2"/></animateMotion><animate attributeName="opacity" dur="3.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3833;0.3873;0.7627;0.7667;1"/></circle>
+<path id="xecr-p3" d="M386.0,207.0 C446.0,207.0 515.2,92.0 575.2,92.0" fill="none" stroke="#ffa657" stroke-opacity=".8" stroke-width="1.6" class="xecr-ant" marker-end="url(#xecr-arr-ffa657)"/>
+<circle r="3.6" fill="#ffa657" opacity="0"><animateMotion dur="3.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3833;0.7667;1"><mpath href="#xecr-p3"/></animateMotion><animate attributeName="opacity" dur="3.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3833;0.3873;0.7627;0.7667;1"/></circle>
+<circle r="7" fill="none" stroke="#ffa657" stroke-width="1" opacity="0"><animateMotion dur="3.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3833;0.7667;1"><mpath href="#xecr-p3"/></animateMotion><animate attributeName="opacity" dur="3.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3833;0.3873;0.7627;0.7667;1"/></circle>
+<g>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="xecr-glow"/>
+<text x="99.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 Account A · Dev</text>
+<text x="99.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">docker build + push</text>
+<text x="99.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">IAM user, no root</text>
+</g>
+<g>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="236.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="xecr-glow"/>
+<text x="311.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📦 ECR A (private)</text>
+<text x="311.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">repo policy grants</text>
+<text x="311.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">Account B pull</text>
+</g>
+<g>
+<rect x="575.2" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="575.2" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="xecr-glow"/>
+<text x="650.2" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🌱 Beanstalk A</text>
+<text x="650.2" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">Dockerrun.aws.json</text>
+<text x="650.2" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">runs B&#x27;s image</text>
+</g>
+<g>
+<rect x="24.0" y="179.0" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="24.0" y="179.0" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="xecr-glow"/>
+<text x="99.0" y="200.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👥 Account B · Buddy</text>
+<text x="99.0" y="214.0" font-size="8.6" fill="#8b949e" text-anchor="middle">docker build + push</text>
+</g>
+<g>
+<rect x="236.0" y="179.0" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="236.0" y="179.0" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="xecr-glow"/>
+<text x="311.0" y="200.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📦 ECR B (private)</text>
+<text x="311.0" y="214.0" font-size="8.6" fill="#8b949e" text-anchor="middle">repo policy grants</text>
+<text x="311.0" y="225.5" font-size="8.6" fill="#8b949e" text-anchor="middle">Account A pull</text>
+</g>
+<g>
+<rect x="575.2" y="179.0" width="150" height="56" rx="10" fill="#161b22" stroke="#ffa657" stroke-opacity=".55"/>
+<rect x="575.2" y="179.0" width="150" height="56" rx="10" fill="none" stroke="#ffa657" class="xecr-glow"/>
+<text x="650.2" y="200.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🌱 Beanstalk B</text>
+<text x="650.2" y="214.0" font-size="8.6" fill="#8b949e" text-anchor="middle">instance role also</text>
+<text x="650.2" y="225.5" font-size="8.6" fill="#8b949e" text-anchor="middle">needs ECR pull</text>
+</g>
+<text x="205" y="85" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">push</text>
+<text x="205" y="200" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">push</text>
+<text x="481" y="142" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">cross-account pull</text>
+<text x="481" y="142" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">cross-account pull</text>
+</svg>

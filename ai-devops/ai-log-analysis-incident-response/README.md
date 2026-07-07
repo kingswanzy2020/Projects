@@ -17,6 +17,10 @@ This system automates the triage step **and** engineers around the failure modes
 
 ## 🏗️ Architecture
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*The crashy app's ERROR/CRITICAL logs are filtered by a Fluent Bit DaemonSet and shipped to the FastAPI middleware, which checks Redis for a cached diagnosis before sending a rate-limited request to the local Ollama LLM for root cause, severity, and a kubectl fix. Only new error signatures become GitHub Issues with proposed remediation, with an optional Slack alert.*
+
 ![Architecture](architecture.png)
 
 ```mermaid

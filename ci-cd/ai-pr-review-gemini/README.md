@@ -12,6 +12,10 @@ Human code review is the biggest bottleneck in most teams' delivery flow — PRs
 
 ## 🏗️ How It Works
 
+![Animated architecture diagram](architecture-animated.svg)
+
+*Opening or updating a pull request triggers GitHub Actions to extract the PR diff and hand it to `ai_review.py`, which sends prompt + diff to Gemini 2.5. The security findings are posted back as a review comment on the PR, and the parsed `SEVERITY_SUMMARY` auto-applies a Critical, Warning, or Good label.*
+
 ```mermaid
 flowchart LR
     PR([PR opened/updated]) --> GA[GitHub Actions]

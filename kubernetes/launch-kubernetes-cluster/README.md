@@ -10,6 +10,12 @@
 
 Bootstrapping Kubernetes by hand means assembling a control plane, networking, and worker nodes yourself — days of work and a large operational risk surface. Managed EKS reduces that to minutes, but you still need to get provisioning, networking, and the IAM↔Kubernetes permission boundary right.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*One declarative `eksctl create` command drives CloudFormation stacks that provision the EKS control plane, VPC, and worker node group. IAM access entries map into Kubernetes RBAC, and the node group self-heals: delete a worker and a replacement is launched automatically to restore the desired count.*
+
 ## 🔧 What I Built
 
 - **An EKS cluster via `eksctl`** — one declarative command specifying cluster name, region, Kubernetes version, and node group; eksctl drives **CloudFormation stacks** that provision the control plane, VPC networking, and the node group (worker EC2 instances).

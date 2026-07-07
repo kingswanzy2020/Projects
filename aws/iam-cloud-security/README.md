@@ -10,6 +10,12 @@
 
 The most common cloud security failure isn't an exotic exploit — it's an over-permissioned user stopping, deleting, or modifying a production resource by accident. Access needs to be scoped to what each role actually requires, and *tested* before anyone relies on it.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*A developer in an IAM user group assumes a JSON policy that grants full control over development-tagged EC2 instances, read-only access to everything else, and an explicit deny on re-tagging. Actions against the development instance succeed while stopping the production instance is denied — validated in the Policy Simulator, where explicit deny beats allow.*
+
 ## 🔧 What I Built
 
 - **Environment tagging strategy** — EC2 instances tagged `Environment: production` / `Environment: development`, making the environment boundary machine-enforceable rather than tribal knowledge.

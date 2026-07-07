@@ -10,6 +10,12 @@
 
 Code that's only tested on the developer's laptop breaks in everyone else's hands. Without CI, a bad push sits unnoticed until a teammate pulls it or a user hits it — and without a build step, "it works here" never becomes a shippable package.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*Every push or PR to main triggers GitHub Actions to check out the code, set up Python, install dependencies, and run the 6-test pytest suite in an isolated virtualenv. A bad push (an intentional bug) is caught and blocked before merge; a green run builds the package and uploads a pip-installable `.whl`/`.tar.gz` CI artifact.*
+
 ## 🔧 What I Built
 
 - **A tested Python module** — typed functions with a 6-test pytest suite, run in an isolated virtualenv.

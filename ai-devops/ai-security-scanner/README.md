@@ -10,6 +10,12 @@
 
 Vulnerabilities are cheapest to fix before they merge, but manual security review doesn't scale and traditional SAST tools need per-rule configuration. Developers need a fast pre-push safety net that not only flags an issue but explains the impact and shows the fix.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*The `scanner.py` CLI reads the Python source under review and sends it with a structured security prompt to the Gemini API — the key loaded from `.env`, never hardcoded. Findings for SQL injection, hardcoded secrets, and weak crypto come back severity-rated and color-coded, each with a suggested secure fix.*
+
 ## 🔧 What I Built
 
 - **A Gemini-backed scanner (`scanner.py`)** with the API key kept in a `.env` file — never in code (practicing what the scanner preaches).

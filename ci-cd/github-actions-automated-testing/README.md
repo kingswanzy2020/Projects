@@ -11,6 +11,12 @@
 
 Traditional unit tests can't protect an AI application: the code can be perfectly correct while the *answers* silently degrade because someone edited the knowledge base. Worse, LLM output is non-deterministic — I proved this by removing the keyword "orchestration" from the knowledge base and still seeing it in generated answers, making naive response-checking tests unreliable.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*A path-filtered `ci.yml` triggers when `docs/`, `app.py`, or `embed.py` change: `embed_docs.py` re-embeds every document in the knowledge base, then semantic tests run in mock-LLM mode for deterministic retrieval checks. A pass marks the build green with retrieval quality verified; a fail blocks the regression so a degraded knowledge base never reaches production.*
+
 ## 🔧 What I Built
 
 - **A FastAPI RAG service** (retrieve → augment → generate via Ollama) with a `/query` endpoint, verified locally before any automation.

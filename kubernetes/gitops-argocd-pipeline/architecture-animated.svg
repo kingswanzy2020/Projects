@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 963 340" width="963" height="340" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="GitOps Deployment Pipeline with ArgoCD animated architecture diagram">
+<style>
+  .argocd-ant { stroke-dasharray:7 6; animation:argocd-flow 1.05s linear infinite; }
+  @keyframes argocd-flow { to { stroke-dashoffset:-13; } }
+  .argocd-glow { animation:argocd-breathe 3.2s ease-in-out infinite; }
+  @keyframes argocd-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="argocd-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#484f58"/></marker>
+<marker id="argocd-arr-7aa2ff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2ff"/></marker>
+<marker id="argocd-arr-f0883e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f0883e"/></marker>
+</defs>
+<rect x="1" y="1" width="961" height="338" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">GitOps Deployment Pipeline with ArgoCD</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="857.0" y="16" width="82" height="20" rx="10" fill="none" stroke="#7aa2ff" stroke-opacity=".6" class="argocd-glow"/><text x="898.0" y="29.5" font-size="9.5" font-weight="600" fill="#7aa2ff" text-anchor="middle" letter-spacing=".5">Kubernetes</text></g>
+<path id="argocd-p0" d="M174.0,92.0 C231.5,92.0 231.5,184.4 289.0,184.4" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="argocd-ant" marker-end="url(#argocd-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2170;1"><mpath href="#argocd-p0"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.2130;0.2170;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2170;1"><mpath href="#argocd-p0"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.2130;0.2170;1"/></circle>
+<path id="argocd-p1" d="M174.0,184.4 C231.5,184.4 231.5,184.4 289.0,184.4" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="argocd-ant" marker-end="url(#argocd-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2170;1"><mpath href="#argocd-p1"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.2130;0.2170;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2170;1"><mpath href="#argocd-p1"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.2130;0.2170;1"/></circle>
+<path id="argocd-p2" d="M174.0,276.8 C231.5,276.8 231.5,184.4 289.0,184.4" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="argocd-ant" marker-end="url(#argocd-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2170;1"><mpath href="#argocd-p2"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.2130;0.2170;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2170;1"><mpath href="#argocd-p2"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.2130;0.2170;1"/></circle>
+<path id="argocd-p3" d="M439.0,184.4 C496.5,184.4 496.5,184.4 554.0,184.4" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="argocd-ant" marker-end="url(#argocd-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2170;0.4340;1"><mpath href="#argocd-p3"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2170;0.2210;0.4300;0.4340;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2170;0.4340;1"><mpath href="#argocd-p3"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2170;0.2210;0.4300;0.4340;1"/></circle>
+<path id="argocd-p4" d="M704.0,184.4 C745.6,184.4 745.6,184.4 787.2,184.4" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="argocd-ant" marker-end="url(#argocd-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4340;0.6509;1"><mpath href="#argocd-p4"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4340;0.4380;0.6469;0.6509;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4340;0.6509;1"><mpath href="#argocd-p4"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.4340;0.4380;0.6469;0.6509;1"/></circle>
+<path id="argocd-p5" d="M787.2,184.4 C745.6,154.4 745.6,154.4 704.0,184.4" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="argocd-ant" marker-end="url(#argocd-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6509;0.8679;1"><mpath href="#argocd-p5"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6509;0.6549;0.8639;0.8679;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="5.30s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6509;0.8679;1"><mpath href="#argocd-p5"/></animateMotion><animate attributeName="opacity" dur="5.30s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6509;0.6549;0.8639;0.8679;1"/></circle>
+<path id="argocd-p6" d="M704.0,276.8 C745.6,276.8 745.6,184.4 787.2,184.4" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#argocd-arr-484f58)"/>
+<g>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24.0" y="64.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="argocd-glow"/>
+<text x="99.0" y="85.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 Developer</text>
+<text x="99.0" y="99.0" font-size="8.6" fill="#8b949e" text-anchor="middle">every change</text>
+<text x="99.0" y="110.5" font-size="8.6" fill="#8b949e" text-anchor="middle">is a PR</text>
+</g>
+<g>
+<rect x="24.0" y="156.4" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24.0" y="156.4" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="argocd-glow"/>
+<text x="99.0" y="177.4" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🤖 Renovate Bot</text>
+<text x="99.0" y="191.4" font-size="8.6" fill="#8b949e" text-anchor="middle">dependency</text>
+<text x="99.0" y="202.9" font-size="8.6" fill="#8b949e" text-anchor="middle">update PRs</text>
+</g>
+<g>
+<rect x="24.0" y="248.8" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24.0" y="248.8" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="argocd-glow"/>
+<text x="99.0" y="269.8" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚙️ GitHub Actions</text>
+<text x="99.0" y="283.8" font-size="8.6" fill="#8b949e" text-anchor="middle">image-tag</text>
+<text x="99.0" y="295.3" font-size="8.6" fill="#8b949e" text-anchor="middle">update PRs</text>
+</g>
+<g>
+<rect x="289.0" y="156.4" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="289.0" y="156.4" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="argocd-glow"/>
+<text x="364.0" y="177.4" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐙 GitHub Repo</text>
+<text x="364.0" y="191.4" font-size="8.6" fill="#8b949e" text-anchor="middle">Kustomize base +</text>
+<text x="364.0" y="202.9" font-size="8.6" fill="#8b949e" text-anchor="middle">overlays · source of truth</text>
+</g>
+<g>
+<rect x="554.0" y="156.4" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="554.0" y="156.4" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="argocd-glow"/>
+<text x="629.0" y="177.4" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐙 ArgoCD</text>
+<text x="629.0" y="191.4" font-size="8.6" fill="#8b949e" text-anchor="middle">auto-sync +</text>
+<text x="629.0" y="202.9" font-size="8.6" fill="#8b949e" text-anchor="middle">self-heal</text>
+</g>
+<g>
+<rect x="787.2" y="156.4" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="787.2" y="156.4" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="argocd-glow"/>
+<text x="862.2" y="177.4" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">☸️ Kubernetes</text>
+<text x="862.2" y="191.4" font-size="8.6" fill="#8b949e" text-anchor="middle">cluster state ==</text>
+<text x="862.2" y="202.9" font-size="8.6" fill="#8b949e" text-anchor="middle">Git state</text>
+</g>
+<g>
+<rect x="554.0" y="248.8" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="554.0" y="248.8" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="argocd-glow"/>
+<text x="629.0" y="269.8" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔐 Sealed Secrets</text>
+<text x="629.0" y="283.8" font-size="8.6" fill="#8b949e" text-anchor="middle">encrypted in Git,</text>
+<text x="629.0" y="295.3" font-size="8.6" fill="#8b949e" text-anchor="middle">decrypted in-cluster</text>
+</g>
+<text x="232" y="131" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">PR</text>
+<text x="232" y="177" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">PR</text>
+<text x="232" y="224" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">PR</text>
+<text x="496" y="177" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">merge to main</text>
+<text x="746" y="177" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">sync</text>
+<text x="746" y="155" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">drift detected → reverted</text>
+<text x="746" y="224" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">decrypt</text>
+</svg>

@@ -11,6 +11,12 @@
 
 Building monitoring dashboards is high-friction: log into Grafana, wire the data source, hand-write SQL per panel, fiddle with visualization settings. That friction means dashboards don't get built or maintained. Separately, dashboards that query raw tables directly get slower as data grows.
 
+## 🏗️ Architecture
+
+![Animated architecture diagram](architecture-animated.svg)
+
+*A natural-language prompt in Cursor — "build me a revenue dashboard" — flows through the Grafana MCP server (stdio transport, service-account token) into Grafana API calls that assemble a 6-panel dashboard of KPIs, bars, and trends. The panels query live PostgreSQL e-commerce data, where pre-aggregated materialized tables keep every refresh instant.*
+
 ## 🔧 What I Built
 
 - **A Grafana MCP server in Cursor** (`mcp.json`: stdio transport, Grafana URL, service-account token) giving the AI agent authenticated hands on Grafana's API — dashboards created by describing them, not clicking.
