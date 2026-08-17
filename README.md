@@ -22,9 +22,9 @@ My hands-on DevOps portfolio — every project here was built, broken, and fixed
 | Domain | Tools used in the projects below |
 |---|---|
 | **CI/CD** | Jenkins, SonarQube, GitHub Actions, AWS CodePipeline/CodeBuild/CodeDeploy/CodeArtifact |
-| **Containers & Orchestration** | Docker, Kubernetes, Helm, Kustomize |
+| **Containers & Orchestration** | Docker, Kubernetes, EKS, Helm, Kustomize, eksctl |
 | **GitOps & IaC** | ArgoCD, Sealed Secrets, Terraform, CloudFormation |
-| **Cloud (AWS)** | Lambda, API Gateway, S3, CloudFront, Route 53, SES, DynamoDB, Aurora, EC2, ECR, IAM, VPC |
+| **Cloud (AWS)** | EKS, Lambda, API Gateway, S3, CloudFront, Route 53, ACM, SES, DynamoDB, Aurora, EC2, ECR, IAM, VPC |
 | **Observability** | Prometheus, Grafana, CloudWatch |
 | **AI for Ops** | LLM-assisted log analysis, AI code review, RAG APIs, MCP |
 
@@ -34,12 +34,22 @@ My hands-on DevOps portfolio — every project here was built, broken, and fixed
 <tr>
 <td width="50%">
 
+### 🚢 [Production App on Amazon EKS](kubernetes/production-app-eks)
+A three-tier app live at a real domain over HTTPS — DNS, TLS, load balancer, storage, and autoscaling all provisioned by in-cluster controllers, not console clicks.
+
+`Amazon EKS` `cert-manager` `IRSA` `Helm` `HPA`
+
+</td>
+<td width="50%">
+
 ### ⚙️ [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline)
 Every cluster change flows through a pull request — ArgoCD auto-syncs, detects drift, and self-heals in seconds. Secrets live encrypted in Git via Sealed Secrets.
 
 `ArgoCD` `Kustomize` `Sealed Secrets` `Kubernetes`
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 🏗️ [Enterprise Terraform GitOps](infrastructure-as-code/enterprise-terraform-gitops)
@@ -48,8 +58,6 @@ Infrastructure changes reviewed like code: every PR gets an automated `terraform
 `Terraform` `GitHub Actions` `AWS` `GitOps`
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### 🔁 [Jenkins + SonarQube CI/CD](ci-cd/jenkins-sonarqube-pipeline)
@@ -58,6 +66,8 @@ Every commit is automatically built, unit-tested, and gated on a SonarQube quali
 `Jenkins` `SonarQube` `Maven` `Docker`
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 📦 [Kubernetes CI/CD with Helm + Monitoring](kubernetes/helm-cicd-monitoring)
@@ -66,22 +76,12 @@ Versioned, one-command releases and rollbacks with Helm, with Prometheus/Grafana
 `Helm` `Kubernetes` `Prometheus` `Grafana`
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### 🤖 [AI Log Analysis & Incident Response](ai-devops/ai-log-analysis-incident-response)
 LLM-assisted triage that turns thousands of raw log lines into a root-cause summary — shrinking the slowest step of incident response from hours to seconds.
 
 `AI` `CloudWatch` `Incident Response`
-
-</td>
-<td width="50%">
-
-### 📚 [Serverless Lead Capture on AWS](aws/serverless-lead-capture)
-E-book lead-capture platform that ran in production at a custom domain: CloudFront + S3 frontend, API Gateway → Lambda → DynamoDB + SES backend. $0 idle cost, HTTPS everywhere.
-
-`Lambda` `API Gateway` `DynamoDB` `SES` `CloudFront`
 
 </td>
 </tr>
@@ -94,6 +94,7 @@ E-book lead-capture platform that ran in production at a custom domain: CloudFro
 
 | Project | What it proves |
 |---|---|
+| [Production App on Amazon EKS](kubernetes/production-app-eks) | Live HTTPS three-tier app: IRSA, ALB Ingress, cert-manager TLS, EBS persistence, HPA |
 | [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline) | PR-driven cluster changes, drift self-healing, encrypted secrets in Git |
 | [K8s CI/CD with Helm & Monitoring](kubernetes/helm-cicd-monitoring) | Repeatable releases + rollback, Prometheus/Grafana alerting |
 | [Launch a Kubernetes Cluster](kubernetes/launch-kubernetes-cluster) | Cluster bootstrap fundamentals |

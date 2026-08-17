@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" width="1000" height="390" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="Production application on Amazon EKS animated architecture diagram">
+<style>
+  .eks-ant { stroke-dasharray:7 6; animation:eks-flow 1.05s linear infinite; }
+  @keyframes eks-flow { to { stroke-dashoffset:-13; } }
+  .eks-glow { animation:eks-breathe 3.2s ease-in-out infinite; }
+  @keyframes eks-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="eks-arr-7aa2ff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2ff"/></marker>
+<marker id="eks-arr-f0883e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f0883e"/></marker>
+<marker id="eks-arr-56d364" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56d364"/></marker>
+</defs>
+<rect x="1" y="1" width="998" height="388" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">Production App on Amazon EKS</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="838.0" y="16" width="138" height="20" rx="10" fill="none" stroke="#7aa2ff" stroke-opacity=".6" class="eks-glow"/><text x="907.0" y="29.5" font-size="9.5" font-weight="600" fill="#7aa2ff" text-anchor="middle" letter-spacing=".5">Amazon EKS · 2 nodes</text></g>
+
+<path id="eks-p0" d="M184,217 C228,217 228,217 272,217" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2000;1"><mpath href="#eks-p0"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1960;0.2000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2000;1"><mpath href="#eks-p0"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1960;0.2000;1"/></circle>
+
+<path id="eks-p1" d="M352,140 C352,157 352,173 352,190" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2000;1"><mpath href="#eks-p1"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1960;0.2000;1"/></circle>
+
+<path id="eks-p2" d="M432,217 C476,217 476,113 520,113" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.4000;1"><mpath href="#eks-p2"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2040;0.3960;0.4000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.4000;1"><mpath href="#eks-p2"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2000;0.2040;0.3960;0.4000;1"/></circle>
+
+<path id="eks-p3" d="M432,217 C476,217 476,217 520,217" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.4000;1"><mpath href="#eks-p3"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2040;0.3960;0.4000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.4000;1"><mpath href="#eks-p3"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2000;0.2040;0.3960;0.4000;1"/></circle>
+
+<path id="eks-p4" d="M600,244 C600,261 600,277 600,294" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.6000;1"><mpath href="#eks-p4"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4040;0.5960;0.6000;1"/></circle>
+
+<path id="eks-p5" d="M768,113 C724,113 724,113 680,113" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.6000;1"><mpath href="#eks-p5"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4040;0.5960;0.6000;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.6000;1"><mpath href="#eks-p5"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.4000;0.4040;0.5960;0.6000;1"/></circle>
+
+<path id="eks-p6" d="M680,217 C724,217 724,217 768,217" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#eks-p6"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+
+<path id="eks-p7" d="M680,321 C724,321 724,321 768,321" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#eks-p7"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+
+<path id="eks-p8" d="M352,294 C352,277 352,261 352,244" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="eks-ant" marker-end="url(#eks-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8000;1;1"><mpath href="#eks-p8"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.8000;0.8040;0.9960;1;1"/></circle>
+
+<g>
+<rect x="24" y="190" width="160" height="54" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24" y="190" width="160" height="54" rx="10" fill="none" stroke="#7aa2ff" class="eks-glow"/>
+<text x="104" y="210" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🌐 Client</text>
+<text x="104" y="224" font-size="8.6" fill="#8b949e" text-anchor="middle">https://app.kahmedt.com</text>
+<text x="104" y="235.5" font-size="8.6" fill="#8b949e" text-anchor="middle">TLS everywhere</text>
+</g>
+<g>
+<rect x="272" y="86" width="160" height="54" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="272" y="86" width="160" height="54" rx="10" fill="none" stroke="#f0883e" class="eks-glow"/>
+<text x="352" y="106" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔀 Route 53</text>
+<text x="352" y="120" font-size="8.6" fill="#8b949e" text-anchor="middle">authoritative hosted zone</text>
+<text x="352" y="131.5" font-size="8.6" fill="#8b949e" text-anchor="middle">records by external-dns</text>
+</g>
+<g>
+<rect x="272" y="190" width="160" height="54" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="272" y="190" width="160" height="54" rx="10" fill="none" stroke="#f0883e" class="eks-glow"/>
+<text x="352" y="210" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚖️ AWS ALB</text>
+<text x="352" y="224" font-size="8.6" fill="#8b949e" text-anchor="middle">from Ingress via LB Controller</text>
+<text x="352" y="235.5" font-size="8.6" fill="#8b949e" text-anchor="middle">TLS terminated at the edge</text>
+</g>
+<g>
+<rect x="272" y="294" width="160" height="54" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="272" y="294" width="160" height="54" rx="10" fill="none" stroke="#f0883e" class="eks-glow"/>
+<text x="352" y="314" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔐 cert-manager</text>
+<text x="352" y="328" font-size="8.6" fill="#8b949e" text-anchor="middle">DNS-01 challenge in Route 53</text>
+<text x="352" y="339.5" font-size="8.6" fill="#8b949e" text-anchor="middle">auto-renewing certificate</text>
+</g>
+<g>
+<rect x="520" y="86" width="160" height="54" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="520" y="86" width="160" height="54" rx="10" fill="none" stroke="#7aa2ff" class="eks-glow"/>
+<text x="600" y="106" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🖥️ nginx frontend</text>
+<text x="600" y="120" font-size="8.6" fill="#8b949e" text-anchor="middle">path / · rolling updates</text>
+<text x="600" y="131.5" font-size="8.6" fill="#8b949e" text-anchor="middle">2 → 10 replicas</text>
+</g>
+<g>
+<rect x="520" y="190" width="160" height="54" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="520" y="190" width="160" height="54" rx="10" fill="none" stroke="#7aa2ff" class="eks-glow"/>
+<text x="600" y="210" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔌 httpbin API</text>
+<text x="600" y="224" font-size="8.6" fill="#8b949e" text-anchor="middle">path /api · probes on</text>
+<text x="600" y="235.5" font-size="8.6" fill="#8b949e" text-anchor="middle">liveness + readiness</text>
+</g>
+<g>
+<rect x="520" y="294" width="160" height="54" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="520" y="294" width="160" height="54" rx="10" fill="none" stroke="#7aa2ff" class="eks-glow"/>
+<text x="600" y="314" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐘 PostgreSQL</text>
+<text x="600" y="328" font-size="8.6" fill="#8b949e" text-anchor="middle">stateful data tier in the</text>
+<text x="600" y="339.5" font-size="8.6" fill="#8b949e" text-anchor="middle">RBAC-scoped app namespace</text>
+</g>
+<g>
+<rect x="768" y="86" width="160" height="54" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="768" y="86" width="160" height="54" rx="10" fill="none" stroke="#f0883e" class="eks-glow"/>
+<text x="848" y="106" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📐 HPA + metrics-server</text>
+<text x="848" y="120" font-size="8.6" fill="#8b949e" text-anchor="middle">CPU &gt; 50% of request</text>
+<text x="848" y="131.5" font-size="8.6" fill="#8b949e" text-anchor="middle">→ add replicas</text>
+</g>
+<g>
+<rect x="768" y="190" width="160" height="54" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="768" y="190" width="160" height="54" rx="10" fill="none" stroke="#56d364" class="eks-glow"/>
+<text x="848" y="210" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📊 Prometheus + Grafana</text>
+<text x="848" y="224" font-size="8.6" fill="#8b949e" text-anchor="middle">kube-prometheus-stack</text>
+<text x="848" y="235.5" font-size="8.6" fill="#8b949e" text-anchor="middle">live cluster dashboards</text>
+</g>
+<g>
+<rect x="768" y="294" width="160" height="54" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="768" y="294" width="160" height="54" rx="10" fill="none" stroke="#56d364" class="eks-glow"/>
+<text x="848" y="314" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">💾 EBS volume</text>
+<text x="848" y="328" font-size="8.6" fill="#8b949e" text-anchor="middle">EBS CSI driver · gp3</text>
+<text x="848" y="339.5" font-size="8.6" fill="#8b949e" text-anchor="middle">WaitForFirstConsumer</text>
+</g>
+
+<text x="228" y="208" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">HTTPS</text>
+<text x="352" y="168" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">ALIAS record</text>
+<text x="476" y="140" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">Ingress /</text>
+<text x="476" y="208" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">Ingress /api</text>
+<text x="600" y="272" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">queries</text>
+<text x="724" y="103" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">scale out</text>
+<text x="724" y="208" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">scrape</text>
+<text x="724" y="312" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">PVC bound</text>
+<text x="352" y="272" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">TLS cert</text>
+</svg>
