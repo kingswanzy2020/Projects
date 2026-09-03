@@ -196,12 +196,13 @@ CloudWatch monitors the Lambda function and API Gateway
 ### Steps
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/kingswanzy2020/serverless-ebook-lead-capture.git
-cd serverless-ebook-lead-capture
+# 1. Clone this portfolio repo — unlike the other projects, this one's code
+#    lives here rather than in a standalone repo
+git clone https://github.com/kingswanzy2020/Projects.git
+cd "Projects/aws/serverless-lead-capture"
 
-# 2. Upload frontend to S3
-aws s3 sync . s3://YOUR_BUCKET_NAME --exclude ".git/*" --exclude "README.md"
+# 2. Upload the frontend to S3 (the static site lives in Ebook/)
+aws s3 sync Ebook/ s3://YOUR_BUCKET_NAME
 
 # 3. Deploy Lambda function via AWS Console or CLI
 # Set environment variables: AWS_REGION, TABLE_NAME, RECEIVER_EMAIL, SENDER_EMAIL
