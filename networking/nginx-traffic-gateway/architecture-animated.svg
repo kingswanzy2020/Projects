@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 372" width="1000" height="372" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="NGINX traffic gateway animated architecture diagram">
+<style>
+  .ngx-ant { stroke-dasharray:7 6; animation:ngx-flow 1.05s linear infinite; }
+  @keyframes ngx-flow { to { stroke-dashoffset:-13; } }
+  .ngx-glow { animation:ngx-breathe 3.2s ease-in-out infinite; }
+  @keyframes ngx-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="ngx-arr-7aa2ff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2ff"/></marker>
+<marker id="ngx-arr-f0883e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f0883e"/></marker>
+<marker id="ngx-arr-56d364" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56d364"/></marker>
+<marker id="ngx-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6e7681"/></marker>
+</defs>
+<rect x="1" y="1" width="998" height="370" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">Build an NGINX Traffic Gateway</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="806" y="16" width="170" height="20" rx="10" fill="none" stroke="#009639" stroke-opacity=".6" class="ngx-glow"/><text x="891" y="29.5" font-size="9.5" font-weight="600" fill="#3fb950" text-anchor="middle" letter-spacing=".5">nginx/1.31.5 · 3 roles, 1 process</text></g>
+
+<path id="ngx-p0" d="M174,188 C198,188 198,188 222,188" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ngx-ant" marker-end="url(#ngx-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2000;1"><mpath href="#ngx-p0"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1960;0.2000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.2000;1"><mpath href="#ngx-p0"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1960;0.2000;1"/></circle>
+
+<path id="ngx-p1" d="M372,188 C396,188 396,188 420,188" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ngx-ant" marker-end="url(#ngx-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.4000;1"><mpath href="#ngx-p1"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2040;0.3960;0.4000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.4000;1"><mpath href="#ngx-p1"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2000;0.2040;0.3960;0.4000;1"/></circle>
+
+<path id="ngx-p5" d="M372,202 C398,202 398,316 420,316" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="ngx-ant" marker-end="url(#ngx-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.4000;1"><mpath href="#ngx-p5"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2040;0.3960;0.4000;1"/></circle>
+
+<path id="ngx-p2" d="M570,188 C594,188 594,188 618,188" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ngx-ant" marker-end="url(#ngx-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.6000;1"><mpath href="#ngx-p2"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4040;0.5960;0.6000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.6000;1"><mpath href="#ngx-p2"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.4000;0.4040;0.5960;0.6000;1"/></circle>
+
+<path id="ngx-p6" d="M570,316 C594,316 594,316 618,316" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="ngx-ant" marker-end="url(#ngx-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.6000;1"><mpath href="#ngx-p6"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4040;0.5960;0.6000;1"/></circle>
+
+<path id="ngx-p7" d="M297,216 C297,240 297,264 297,288" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="ngx-ant" marker-end="url(#ngx-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.6000;1"><mpath href="#ngx-p7"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4040;0.5960;0.6000;1"/></circle>
+
+<path id="ngx-p3" d="M768,181 C792,181 792,120 816,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ngx-ant" marker-end="url(#ngx-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ngx-p3"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ngx-p3"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+
+<path id="ngx-p4" d="M768,195 C792,195 792,256 816,256" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ngx-ant" marker-end="url(#ngx-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ngx-p4"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ngx-p4"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+
+<path id="ngx-p8" d="M445,160 C445,118 99,118 99,160" fill="none" stroke="#6e7681" stroke-opacity=".75" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#ngx-arr-484f58)"/>
+<circle r="3.6" fill="#8b949e" opacity="0"><animateMotion dur="5.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8000;1;1"><mpath href="#ngx-p8"/></animateMotion><animate attributeName="opacity" dur="5.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.8000;0.8040;0.9960;1;1"/></circle>
+
+<text x="198" y="180" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">GET :8080</text>
+<text x="396" y="180" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">/app/</text>
+<text x="594" y="180" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">MISS</text>
+<text x="795" y="146" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">:8081</text>
+<text x="795" y="232" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">:8082</text>
+<text x="398" y="262" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">/broken/</text>
+<text x="594" y="308" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">502</text>
+<text x="297" y="256" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">every request</text>
+<text x="272" y="114" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">HIT · upstream= empty · no backend touched</text>
+
+<g>
+<rect x="24" y="160" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24" y="160" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ngx-glow"/>
+<text x="99" y="181" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🌐 Client</text>
+<text x="99" y="195" font-size="8.6" fill="#8b949e" text-anchor="middle">curl · browser</text>
+<text x="99" y="206.5" font-size="8.6" fill="#8b949e" text-anchor="middle">no root, no containers</text>
+</g>
+<g>
+<rect x="222" y="160" width="150" height="56" rx="10" fill="#161b22" stroke="#009639" stroke-opacity=".55"/>
+<rect x="222" y="160" width="150" height="56" rx="10" fill="none" stroke="#009639" class="ngx-glow"/>
+<text x="297" y="181" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🚪 NGINX gateway</text>
+<text x="297" y="195" font-size="8.6" fill="#8b949e" text-anchor="middle">0.0.0.0:8080 · prefix-relative</text>
+<text x="297" y="206.5" font-size="8.6" fill="#8b949e" text-anchor="middle">serves / from its own root</text>
+</g>
+<g>
+<rect x="420" y="160" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="420" y="160" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="ngx-glow"/>
+<text x="495" y="181" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">💾 proxy_cache</text>
+<text x="495" y="195" font-size="8.6" fill="#8b949e" text-anchor="middle">proxy_ignore_headers</text>
+<text x="495" y="206.5" font-size="8.6" fill="#8b949e" text-anchor="middle">overrides no-store</text>
+</g>
+<g>
+<rect x="618" y="160" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="618" y="160" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ngx-glow"/>
+<text x="693" y="181" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚖️ backend_pool</text>
+<text x="693" y="195" font-size="8.6" fill="#8b949e" text-anchor="middle">round robin</text>
+<text x="693" y="206.5" font-size="8.6" fill="#8b949e" text-anchor="middle">default equal weighting</text>
+</g>
+<g>
+<rect x="816" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="816" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ngx-glow"/>
+<text x="891" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🅰️ backend-a</text>
+<text x="891" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">127.0.0.1:8081</text>
+<text x="891" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">stamps X-Backend: A</text>
+</g>
+<g>
+<rect x="816" y="228" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="816" y="228" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ngx-glow"/>
+<text x="891" y="249" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🅱️ backend-b</text>
+<text x="891" y="263" font-size="8.6" fill="#8b949e" text-anchor="middle">127.0.0.1:8082</text>
+<text x="891" y="274.5" font-size="8.6" fill="#8b949e" text-anchor="middle">stamps X-Backend: B</text>
+</g>
+<g>
+<rect x="222" y="288" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="222" y="288" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="ngx-glow"/>
+<text x="297" y="309" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📜 access.log</text>
+<text x="297" y="323" font-size="8.6" fill="#8b949e" text-anchor="middle">custom format carrying</text>
+<text x="297" y="334.5" font-size="8.6" fill="#8b949e" text-anchor="middle">upstream= and cache=</text>
+</g>
+<g>
+<rect x="420" y="288" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="420" y="288" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="ngx-glow"/>
+<text x="495" y="309" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧨 127.0.0.1:8999</text>
+<text x="495" y="323" font-size="8.6" fill="#8b949e" text-anchor="middle">no listen directive exists</text>
+<text x="495" y="334.5" font-size="8.6" fill="#8b949e" text-anchor="middle">the planned failure</text>
+</g>
+<g>
+<rect x="618" y="288" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="618" y="288" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="ngx-glow"/>
+<text x="693" y="309" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🚨 error.log</text>
+<text x="693" y="323" font-size="8.6" fill="#8b949e" text-anchor="middle">connection refused</text>
+<text x="693" y="334.5" font-size="8.6" fill="#8b949e" text-anchor="middle">where the 502 is explained</text>
+</g>
+</svg>

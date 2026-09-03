@@ -34,7 +34,13 @@ Traditional unit tests can't protect an AI application: the code can be perfectl
 | Knowledge-base coverage | **Every document** in `docs/` validated on each push |
 | Degraded content reaching production | **Blocked** at the build/test phase |
 
-Code lives at [kingswanzy2020/nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api).
+## 💻 Source Code
+
+The code behind this write-up — the application under test and the CI workflow, including the `USE_MOCK_LLM` path that lets CI exercise retrieval without running a model — lives at **[kingswanzy2020/nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/nextwork-rag-api.git
+```
 
 ## 🧰 Skills Demonstrated
 

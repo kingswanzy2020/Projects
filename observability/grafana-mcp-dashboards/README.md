@@ -33,6 +33,14 @@ Building monitoring dashboards is high-friction: log into Grafana, wire the data
 | Freshness | Data changes in PostgreSQL reflected in panels in near-real time |
 | Total time | **~1.5 hours** including MCP server setup |
 
+## 💻 Source Code
+
+The code behind this write-up — the PostgreSQL schema and seed data the dashboards query — lives at **[kingswanzy2020/mcp-data-series](https://github.com/kingswanzy2020/mcp-data-series)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/mcp-data-series.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `Grafana` · `MCP servers` · `PostgreSQL` · `SQL & materialized aggregation patterns` · `Docker` · `AI-driven tooling`

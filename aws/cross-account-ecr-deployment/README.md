@@ -34,6 +34,14 @@ Real organizations run many AWS accounts (per team, per environment), and teams 
 | Permission model understanding | Two distinct layers debugged: human IAM pull access **and** service/instance-role pull access |
 | Auditability | Every cross-account grant is an explicit, reviewable policy statement |
 
+## 💻 Source Code
+
+The code behind this write-up — the Dockerfile, the app, and the `Dockerrun.aws.json` that points Elastic Beanstalk at a pre-built ECR image — lives at **[kingswanzy2020/cross-account-ecr-app](https://github.com/kingswanzy2020/cross-account-ecr-app)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/cross-account-ecr-app.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `Amazon ECR` · `Repository policies` · `Cross-account IAM` · `Docker` · `Elastic Beanstalk` · `Dockerrun.aws.json` · `Multi-arch awareness`

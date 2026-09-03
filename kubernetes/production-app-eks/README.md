@@ -89,6 +89,14 @@ The two failures worth keeping:
 - **PostgreSQL crash-looping on a fresh EBS volume.** `initdb` refused to run because `/var/lib/postgresql/data` "exists but is not empty" — the EBS filesystem root carries a `lost+found` directory, and Postgres won't initialize into a non-empty directory. Fixed by pointing the data directory at a subdirectory of the mount point rather than the mount point itself.
 - **The ALB serving nothing while the controller logged `no certificate found for host: app.kahmedt.com` on every reconcile.** The Ingress was correct; the certificate simply hadn't been issued into the right namespace yet. It was a useful reminder that with controller-driven infrastructure, "the resource exists" and "the resource is ready" are different states — and the reconcile loop will tell you which one you're in, once per second, until you fix it.
 
+## 💻 Source Code
+
+The code behind this write-up — the eksctl cluster config, the IAM policies for the load balancer controller, cert-manager and external-dns, and the Helm chart covering all three tiers — lives at **[kingswanzy2020/production-app-eks](https://github.com/kingswanzy2020/production-app-eks)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/production-app-eks.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `Amazon EKS` · `eksctl` · `IRSA / OIDC` · `AWS Load Balancer Controller` · `Ingress & path-based routing` · `Route 53` · `cert-manager (DNS-01)` · `external-dns` · `EBS CSI driver` · `PersistentVolumeClaims` · `RBAC & namespace isolation` · `Helm chart authoring` · `Liveness/readiness probes` · `Rolling updates` · `HPA & metrics-server` · `Prometheus` · `Grafana` · `Load testing`

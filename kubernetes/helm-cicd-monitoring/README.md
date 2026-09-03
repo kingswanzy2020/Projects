@@ -51,8 +51,6 @@ flowchart LR
 - **Noise-resistant alerting** — a `PrometheusRule` fires only when >5% of requests return 5xx for 2 continuous minutes, filtering one-off blips from real incidents.
 - **Reusable Helm chart** — FitTrack packaged with templated values (replicas, image tag, resources) overridable per environment via `--set` / values files.
 
-The application code, Helm chart, and Jenkinsfile live at [kingswanzy2020/fittrack](https://github.com/kingswanzy2020/fittrack).
-
 ## 📊 Results & KPIs
 
 | Metric | Outcome |
@@ -71,6 +69,14 @@ The application code, Helm chart, and Jenkinsfile live at [kingswanzy2020/fittra
 | ![Dashboard](https://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/15afd2e5-d464-4cb6-89bc-947b6d20187f_q1bqjlia) | ![Alert](https://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/15afd2e5-d464-4cb6-89bc-947b6d20187f_4erk6j8j) |
 
 More screenshots in [`Screenshots/`](Screenshots).
+
+## 💻 Source Code
+
+The code behind this write-up — the Flask application with its custom Prometheus metrics, the Helm chart and its `ServiceMonitor`, and the `Jenkinsfile` — lives at **[kingswanzy2020/fittrack](https://github.com/kingswanzy2020/fittrack)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/fittrack.git
+```
 
 ## 🧰 Skills Demonstrated
 

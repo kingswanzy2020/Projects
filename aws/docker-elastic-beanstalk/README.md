@@ -32,6 +32,14 @@ Deploying even a simple web app traditionally means provisioning a server, insta
 | App update procedure | Re-zip + one-click deploy — no environment changes needed |
 | Portability | Same image runs identically locally and in AWS |
 
+## 💻 Source Code
+
+The code behind this write-up — the Dockerfile and the page it serves — lives at **[kingswanzy2020/eb-docker-webapp](https://github.com/kingswanzy2020/eb-docker-webapp)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/eb-docker-webapp.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `Docker` · `Dockerfile` · `Port mapping & container lifecycle` · `Nginx` · `AWS Elastic Beanstalk` · `Managed platform deployment`

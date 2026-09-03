@@ -34,6 +34,14 @@ Console-clicked resources can't be reviewed, versioned, or reproduced — and no
 
 This project is the fundamentals layer under the [Enterprise Terraform GitOps Pipeline](../enterprise-terraform-gitops), which scales the same lifecycle to a modular multi-service AWS stack with CI/CD.
 
+## 💻 Source Code
+
+The code behind this write-up — the Terraform configuration, its variables, and the committed provider lock file — lives at **[kingswanzy2020/nextwork-terraform-s3](https://github.com/kingswanzy2020/nextwork-terraform-s3)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/nextwork-terraform-s3.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `Terraform` · `HCL` · `Provider configuration` · `State fundamentals` · `S3 policies & ownership controls` · `AWS CLI`

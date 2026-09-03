@@ -43,8 +43,6 @@ flowchart LR
 - **Security hardening baked into modules** — IMDSv2 enforced (`http_tokens = required`) against credential-theft attacks, encrypted root volumes, RDS security group admitting **only** the EC2 instance's security group, dynamic AZ discovery so modules work in any region.
 - **Pre-commit hooks** — formatting, validation, and security misconfiguration checks run before code can even be committed.
 
-The Terraform code lives at [kingswanzy2020/terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops).
-
 ## 📊 Results & KPIs
 
 | Metric | Outcome |
@@ -63,6 +61,14 @@ The Terraform code lives at [kingswanzy2020/terraform-gitops](https://github.com
 | ![Pipeline](https://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/6cb68aee-7d57-4422-ba99-d99ceae892ae_tmbjhjqx) | ![Stack](https://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/6cb68aee-7d57-4422-ba99-d99ceae892ae_ce003ghl) |
 
 More screenshots in [`Screenshots/`](Screenshots).
+
+## 💻 Source Code
+
+The code behind this write-up — the module tree, the plan-on-PR and apply-on-merge workflows, and the IAM documents behind the GitHub Actions OIDC role — lives at **[kingswanzy2020/terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/terraform-gitops.git
+```
 
 ## 🧰 Skills Demonstrated
 

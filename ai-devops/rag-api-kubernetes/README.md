@@ -45,6 +45,14 @@ flowchart LR
 | Desired-state management | Replica count enforced continuously, not just at deploy time |
 | API behavior in-cluster | Identical grounded answers to the local and Docker versions |
 
+## 💻 Source Code
+
+The code behind this write-up — the Deployment and Service manifests alongside the application — lives at **[kingswanzy2020/nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/nextwork-rag-api.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `Kubernetes Deployments & Services` · `Minikube` · `kubectl` · `NodePort networking` · `Label selectors` · `Reconciliation/self-healing` · `Cluster-to-host networking debugging`

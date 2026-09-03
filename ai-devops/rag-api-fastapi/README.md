@@ -46,6 +46,14 @@ flowchart LR
 | Knowledge updates | **Runtime** via `/add` — from "edit file + re-embed + restart" to one API call |
 | API usability | Self-documenting endpoints via Swagger UI |
 
+## 💻 Source Code
+
+The code behind this write-up — the FastAPI service, the embedding scripts, and the knowledge base — lives at **[kingswanzy2020/nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/nextwork-rag-api.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `FastAPI` · `RAG architecture` · `Vector embeddings` · `ChromaDB` · `Ollama` · `Uvicorn` · `API design`

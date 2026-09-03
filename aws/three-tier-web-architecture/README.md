@@ -49,6 +49,14 @@ Each module folder contains its full step-by-step write-up and screenshots.
 | Data access security | Lambda reads DynamoDB via a scoped execution role — no embedded credentials |
 | Total build time | ~5.5 hours across the three modules |
 
+## 💻 Source Code
+
+The code behind this write-up — the static frontend, the DynamoDB Lambda handler, and the exported API Gateway definition — lives at **[kingswanzy2020/three-tier-web-architecture](https://github.com/kingswanzy2020/three-tier-web-architecture)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/three-tier-web-architecture.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `CloudFront + OAC` · `S3` · `API Gateway (REST)` · `AWS Lambda` · `DynamoDB` · `IAM execution roles` · `Serverless architecture design`

@@ -31,7 +31,13 @@ Code that's only tested on the developer's laptop breaks in everyone else's hand
 | Bug detection | **Verified** — an intentionally introduced bug failed CI before reaching main |
 | Distribution | Every green build produces an **installable package artifact** |
 
-Code lives at [kingswanzy2020/ai-cicd-github](https://github.com/kingswanzy2020/ai-cicd-github).
+## 💻 Source Code
+
+The code behind this write-up — the workflow, the AI review script, and the deliberately vulnerable sample used to prove the pipeline catches it — lives at **[kingswanzy2020/ai-cicd-github](https://github.com/kingswanzy2020/ai-cicd-github)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/ai-cicd-github.git
+```
 
 ## 🧰 Skills Demonstrated
 

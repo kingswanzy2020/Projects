@@ -65,7 +65,15 @@ flowchart LR
 |---|---|
 | ![Drift](https://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/f94cbac9-2de1-4ed1-a871-70cdb298bcf6_zyjc8q8d) | ![SealedSecret](https://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/f94cbac9-2de1-4ed1-a871-70cdb298bcf6_m4wpufu2) |
 
-More screenshots in [`Screenshots/`](Screenshots). The GitOps source-of-truth repo lives at [kingswanzy2020/gitops-demo](https://github.com/kingswanzy2020/gitops-demo).
+More screenshots in [`Screenshots/`](Screenshots).
+
+## 💻 Source Code
+
+The code behind this write-up — the Kustomize base and dev overlay ArgoCD syncs from, the `Application` manifest with `selfHeal` and `prune` enabled, and the SealedSecret — lives at **[kingswanzy2020/gitops-demo](https://github.com/kingswanzy2020/gitops-demo)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/gitops-demo.git
+```
 
 ## 🧰 Skills Demonstrated
 

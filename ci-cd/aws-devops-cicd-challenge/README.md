@@ -53,10 +53,18 @@ flowchart LR
 | Environment reproducibility | **One command** — pipeline, EC2, and networking from a single CloudFormation template |
 | Failed-release recovery | Versioned S3 artifacts + CodeDeploy rollback hooks |
 
+## 💻 Source Code
+
+The code behind this write-up — the Java web app, `buildspec.yml`, `appspec.yml`, the CodeDeploy lifecycle scripts, and the CloudFormation templates for the whole pipeline stack — lives at **[kingswanzy2020/nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/nextwork-web-project.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `AWS CodePipeline` · `CodeBuild` · `CodeDeploy` · `CodeArtifact` · `CloudFormation` · `EC2` · `S3` · `IAM` · `Java/Maven`
 
 ---
 
-<sub>Built by **Ahmed Tetteh** over 7 days (~5 hrs/day) as part of the [NextWork](http://learn.nextwork.org/projects/aws-devops-cicd) DevOps challenge — [certificate](<Overview/legendary-aws-devops-cicd.pdf>). App code: [nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project).</sub>
+<sub>Built by **Ahmed Tetteh** over 7 days (~5 hrs/day) as part of the [NextWork](http://learn.nextwork.org/projects/aws-devops-cicd) DevOps challenge — [certificate](<Overview/legendary-aws-devops-cicd.pdf>).</sub>

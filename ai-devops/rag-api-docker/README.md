@@ -34,6 +34,14 @@
 | Runtime consistency | All dependencies pinned inside the image — no drift between machines |
 | Round-trip verified | Push → pull → run → query answered ✔ |
 
+## 💻 Source Code
+
+The code behind this write-up — the Dockerfile, the Compose file, and the Ollama binding fix that containers need — lives at **[kingswanzy2020/nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/nextwork-rag-api.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `Docker` · `Dockerfile authoring` · `Image layers & tagging` · `Docker Hub registries` · `Container networking`

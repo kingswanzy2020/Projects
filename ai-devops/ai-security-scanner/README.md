@@ -32,7 +32,13 @@ Vulnerabilities are cheapest to fix before they merge, but manual security revie
 | Triage speed | Severity colors surface critical issues at a glance |
 | Detection timing | Pre-production — runs on any Python file before push |
 
-Code lives at [kingswanzy2020/security-scanner](https://github.com/kingswanzy2020/security-scanner).
+## 💻 Source Code
+
+The code behind this write-up — the scanner itself and the vulnerable samples it is run against — lives at **[kingswanzy2020/security-scanner](https://github.com/kingswanzy2020/security-scanner)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/security-scanner.git
+```
 
 ## 🧰 Skills Demonstrated
 

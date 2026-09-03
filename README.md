@@ -26,6 +26,7 @@ My hands-on DevOps portfolio — every project here was built, broken, and fixed
 | **GitOps & IaC** | ArgoCD, Sealed Secrets, Terraform, CloudFormation |
 | **Cloud (AWS)** | EKS, Lambda, API Gateway, S3, CloudFront, Route 53, ACM, SES, DynamoDB, Aurora, EC2, ECR, IAM, VPC |
 | **Observability** | Prometheus, Grafana, CloudWatch |
+| **Networking & Traffic** | NGINX (reverse proxy, upstream pools, proxy cache), ALB/Ingress, load balancing |
 | **AI for Ops** | LLM-assisted log analysis, AI code review, RAG APIs, MCP |
 
 ## 🚀 Featured Projects
@@ -161,9 +162,40 @@ LLM-assisted triage that turns thousands of raw log lines into a root-cause summ
 
 </details>
 
+<details open>
+<summary><b>🌐 Networking & Traffic Management</b></summary>
+
+| Project | What it proves |
+|---|---|
+| [NGINX Traffic Gateway](networking/nginx-traffic-gateway) | Reverse proxy, round-robin balancing, HTTP caching, and 502 diagnosis from the logs |
+
+</details>
+
 ## 🗃️ Where the Code Lives
 
-Several projects above are backed by standalone repos holding the live application, pipeline, and infrastructure code — they're indexed in the **[Repository Map on my profile](https://github.com/kingswanzy2020#%EF%B8%8F-repository-map)**, and each project README links directly to its code repo.
+Write-ups live here; the code they describe lives in standalone repos. Every project below links to its source repo from its own README, and every source repo links back here — so you can always get from the explanation to the implementation and back.
+
+| Write-up | Source code |
+|---|---|
+| [Production App on Amazon EKS](kubernetes/production-app-eks) | [production-app-eks](https://github.com/kingswanzy2020/production-app-eks) |
+| [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline) | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) |
+| [K8s CI/CD with Helm & Monitoring](kubernetes/helm-cicd-monitoring) | [fittrack](https://github.com/kingswanzy2020/fittrack) |
+| [Jenkins + SonarQube Pipeline](ci-cd/jenkins-sonarqube-pipeline) | [cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app) |
+| [7-Day AWS CI/CD Challenge](ci-cd/aws-devops-cicd-challenge) | [nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project) |
+| [Automated Testing with GitHub Actions](ci-cd/github-actions-automated-testing) | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) |
+| [First GitHub Actions AI Workflow](ci-cd/github-actions-ai-workflow) | [ai-cicd-github](https://github.com/kingswanzy2020/ai-cicd-github) |
+| [Enterprise Terraform GitOps](infrastructure-as-code/enterprise-terraform-gitops) | [terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops) |
+| [S3 Buckets with Terraform](infrastructure-as-code/terraform-s3-buckets) | [nextwork-terraform-s3](https://github.com/kingswanzy2020/nextwork-terraform-s3) |
+| [Three-Tier Web Architecture](aws/three-tier-web-architecture) | [three-tier-web-architecture](https://github.com/kingswanzy2020/three-tier-web-architecture) |
+| [Cross-Account App Deployment](aws/cross-account-ecr-deployment) | [cross-account-ecr-app](https://github.com/kingswanzy2020/cross-account-ecr-app) |
+| [Docker App on Elastic Beanstalk](aws/docker-elastic-beanstalk) | [eb-docker-webapp](https://github.com/kingswanzy2020/eb-docker-webapp) |
+| [AI Log Analysis & Incident Response](ai-devops/ai-log-analysis-incident-response) | [autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre) |
+| [AI Security Scanner for Python](ai-devops/ai-security-scanner) | [security-scanner](https://github.com/kingswanzy2020/security-scanner) |
+| [RAG API](ai-devops/rag-api-fastapi) → [Docker](ai-devops/rag-api-docker) → [Kubernetes](ai-devops/rag-api-kubernetes) | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) |
+| [Grafana Dashboards via MCP](observability/grafana-mcp-dashboards) | [mcp-data-series](https://github.com/kingswanzy2020/mcp-data-series) |
+| [NGINX Traffic Gateway](networking/nginx-traffic-gateway) | [nginx-http-lab](https://github.com/kingswanzy2020/nginx-http-lab) |
+
+The same index, with more context on each repo, lives in the **[Repository Map on my profile](https://github.com/kingswanzy2020#%EF%B8%8F-repository-map)**.
 
 ---
 

@@ -49,8 +49,6 @@ Detailed diagrams: [summary view](architecture-summary.png) · [full component v
 - **Least-privilege GitHub token** — read/write scoped to the single issues repo.
 - **Optional Slack alerting** — activates only when the webhook env var is present, so the integration degrades gracefully.
 
-Related repo: [kingswanzy2020/autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre).
-
 ## 📊 Results & KPIs
 
 | Metric | Outcome |
@@ -69,6 +67,14 @@ Related repo: [kingswanzy2020/autonomous-sre](https://github.com/kingswanzy2020/
 | ![Pipeline](https://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/4e7446a3-e3d2-4d8e-b420-e5e19a81011c_svbvwixt) | ![Issue](https://learn.nextwork.org/thoughtful_white_zany_vampire/uploads/4e7446a3-e3d2-4d8e-b420-e5e19a81011c_mygwznjn) |
 
 More screenshots in [`Screenshots/`](Screenshots).
+
+## 💻 Source Code
+
+The code behind this write-up — the FastAPI service, its token-bucket rate limiter and Redis dedupe, the crash-looping test workload, and the Fluent Bit values — lives at **[kingswanzy2020/autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/autonomous-sre.git
+```
 
 ## 🧰 Skills Demonstrated
 

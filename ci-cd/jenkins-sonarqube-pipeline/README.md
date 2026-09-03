@@ -66,6 +66,14 @@ flowchart LR
 
 More screenshots in [`Screenshots/`](Screenshots).
 
+## 💻 Source Code
+
+The code behind this write-up — the Java/Maven application and the `Jenkinsfile` whose quality gate runs with `abortPipeline: true` — lives at **[kingswanzy2020/cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app)**.
+
+```bash
+git clone https://github.com/kingswanzy2020/cicd-pipeline-app.git
+```
+
 ## 🧰 Skills Demonstrated
 
 `Jenkins` · `Declarative Pipelines` · `SonarQube` · `Quality Gates` · `Maven` · `JUnit` · `Docker` · `GitHub Webhooks` · `Slack integration` · `Linux tuning`
