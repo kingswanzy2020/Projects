@@ -98,6 +98,7 @@ LLM-assisted triage that turns thousands of raw log lines into a root-cause summ
 | [Production App on Amazon EKS](kubernetes/production-app-eks) | Live HTTPS three-tier app: IRSA, ALB Ingress, cert-manager TLS, EBS persistence, HPA |
 | [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline) | PR-driven cluster changes, drift self-healing, encrypted secrets in Git |
 | [K8s CI/CD with Helm & Monitoring](kubernetes/helm-cicd-monitoring) | Repeatable releases + rollback, Prometheus/Grafana alerting |
+| [DevOps Pipeline: Jenkins → ArgoCD](kubernetes/devops-pipeline) | Two-repo GitOps handoff: Jenkins commits image tags, ArgoCD deploys them, and CI never touches the cluster |
 | [Launch a Kubernetes Cluster](kubernetes/launch-kubernetes-cluster) | Cluster bootstrap fundamentals |
 | [Set Up Kubernetes Deployment](kubernetes/kubernetes-deployment) | Deployments, services, scaling basics |
 
@@ -180,6 +181,7 @@ Write-ups live here; the code they describe lives in standalone repos. Every pro
 | [Production App on Amazon EKS](kubernetes/production-app-eks) | [production-app-eks](https://github.com/kingswanzy2020/production-app-eks) |
 | [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline) | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) |
 | [K8s CI/CD with Helm & Monitoring](kubernetes/helm-cicd-monitoring) | [fittrack](https://github.com/kingswanzy2020/fittrack) |
+| [DevOps Pipeline: Jenkins → ArgoCD](kubernetes/devops-pipeline) | [devops-pipeline-app](https://github.com/kingswanzy2020/devops-pipeline-app) · [devops-pipeline-manifests](https://github.com/kingswanzy2020/devops-pipeline-manifests) |
 | [Jenkins + SonarQube Pipeline](ci-cd/jenkins-sonarqube-pipeline) | [cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app) |
 | [7-Day AWS CI/CD Challenge](ci-cd/aws-devops-cicd-challenge) | [nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project) |
 | [Automated Testing with GitHub Actions](ci-cd/github-actions-automated-testing) | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) |

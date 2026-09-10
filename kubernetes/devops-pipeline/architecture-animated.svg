@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 362" width="1000" height="362" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="DevOps Pipeline: Jenkins CI to ArgoCD GitOps animated architecture diagram">
+<style>
+  .dvp-ant { stroke-dasharray:7 6; animation:dvp-flow 1.05s linear infinite; }
+  @keyframes dvp-flow { to { stroke-dashoffset:-13; } }
+  .dvp-glow { animation:dvp-breathe 3.2s ease-in-out infinite; }
+  @keyframes dvp-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="dvp-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#484f58"/></marker>
+<marker id="dvp-arr-7aa2ff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2ff"/></marker>
+<marker id="dvp-arr-f0883e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f0883e"/></marker>
+<marker id="dvp-arr-56d364" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56d364"/></marker>
+</defs>
+<rect x="1" y="1" width="998" height="360" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">DevOps Pipeline: Jenkins CI → ArgoCD GitOps</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="864" y="16" width="112" height="20" rx="10" fill="none" stroke="#7aa2ff" stroke-opacity=".6" class="dvp-glow"/><text x="920.0" y="29.5" font-size="9.5" font-weight="600" fill="#7aa2ff" text-anchor="middle" letter-spacing=".5">Jenkins → ArgoCD</text></g>
+<path id="dvp-p0" d="M174.0,98.0 C199.0,98.0 199.0,98.0 224.0,98.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="dvp-ant" marker-end="url(#dvp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1250;1"><mpath href="#dvp-p0"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1210;0.1250;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1250;1"><mpath href="#dvp-p0"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1210;0.1250;1"/></circle>
+<path id="dvp-p1" d="M374.0,98.0 C399.0,98.0 399.0,98.0 424.0,98.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="dvp-ant" marker-end="url(#dvp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1250;0.2500;1"><mpath href="#dvp-p1"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1250;0.1290;0.2460;0.2500;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1250;0.2500;1"><mpath href="#dvp-p1"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1250;0.1290;0.2460;0.2500;1"/></circle>
+<path id="dvp-p2" d="M574.0,98.0 C599.0,98.0 599.0,98.0 624.0,98.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="dvp-ant" marker-end="url(#dvp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2500;0.3750;1"><mpath href="#dvp-p2"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2500;0.2540;0.3710;0.3750;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2500;0.3750;1"><mpath href="#dvp-p2"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2500;0.2540;0.3710;0.3750;1"/></circle>
+<path id="dvp-p3" d="M499.0,126.0 C499.0,151.0 499.0,151.0 499.0,176.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="dvp-ant" marker-end="url(#dvp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3750;0.5000;1"><mpath href="#dvp-p3"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3750;0.3790;0.4960;0.5000;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3750;0.5000;1"><mpath href="#dvp-p3"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3750;0.3790;0.4960;0.5000;1"/></circle>
+<path id="dvp-p4" d="M574.0,204.0 C599.0,204.0 599.0,204.0 624.0,204.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="dvp-ant" marker-end="url(#dvp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5000;0.6250;1"><mpath href="#dvp-p4"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5000;0.5040;0.6210;0.6250;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5000;0.6250;1"><mpath href="#dvp-p4"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.5000;0.5040;0.6210;0.6250;1"/></circle>
+<path id="dvp-p5" d="M774.0,204.0 C799.0,204.0 799.0,204.0 824.0,204.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="dvp-ant" marker-end="url(#dvp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6250;0.7500;1"><mpath href="#dvp-p5"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6250;0.6290;0.7460;0.7500;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6250;0.7500;1"><mpath href="#dvp-p5"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6250;0.6290;0.7460;0.7500;1"/></circle>
+<path id="dvp-p7" d="M899.0,232.0 C899.0,257.0 899.0,257.0 899.0,282.0" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="dvp-ant" marker-end="url(#dvp-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7500;0.8750;1"><mpath href="#dvp-p7"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7500;0.7540;0.8710;0.8750;1"/></circle>
+<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="7.20s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7500;0.8750;1"><mpath href="#dvp-p7"/></animateMotion><animate attributeName="opacity" dur="7.20s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7500;0.7540;0.8710;0.8750;1"/></circle>
+<path id="dvp-p6" d="M774.0,98.0 C860.0,98.0 899.0,130.0 899.0,176.0" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#dvp-arr-484f58)"/>
+<path id="dvp-p8" d="M174.0,310.0 C499.0,310.0 499.0,310.0 824.0,310.0" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#dvp-arr-484f58)"/>
+<g>
+<rect x="24.0" y="70.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24.0" y="70.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dvp-glow"/>
+<text x="99.0" y="91.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 Developer</text>
+<text x="99.0" y="105.0" font-size="8.6" fill="#8b949e" text-anchor="middle">git push to</text>
+<text x="99.0" y="116.5" font-size="8.6" fill="#8b949e" text-anchor="middle">the app repo</text>
+</g>
+<g>
+<rect x="224.0" y="70.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="224.0" y="70.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dvp-glow"/>
+<text x="299.0" y="91.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📦 App Repo</text>
+<text x="299.0" y="105.0" font-size="8.6" fill="#8b949e" text-anchor="middle">Flask API · Dockerfile</text>
+<text x="299.0" y="116.5" font-size="8.6" fill="#8b949e" text-anchor="middle">Jenkinsfile · Terraform</text>
+</g>
+<g>
+<rect x="424.0" y="70.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="424.0" y="70.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dvp-glow"/>
+<text x="499.0" y="91.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🛠️ Jenkins</text>
+<text x="499.0" y="105.0" font-size="8.6" fill="#8b949e" text-anchor="middle">build · tag :BUILD_NUMBER</text>
+<text x="499.0" y="116.5" font-size="8.6" fill="#8b949e" text-anchor="middle">push · bump manifest</text>
+</g>
+<g>
+<rect x="624.0" y="70.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="624.0" y="70.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dvp-glow"/>
+<text x="699.0" y="91.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐳 Docker Hub</text>
+<text x="699.0" y="105.0" font-size="8.6" fill="#8b949e" text-anchor="middle">devops-pipeline-app</text>
+<text x="699.0" y="116.5" font-size="8.6" fill="#8b949e" text-anchor="middle">:N and :latest</text>
+</g>
+<g>
+<rect x="424.0" y="176.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="424.0" y="176.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="dvp-glow"/>
+<text x="499.0" y="197.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📄 Manifests Repo</text>
+<text x="499.0" y="211.0" font-size="8.6" fill="#8b949e" text-anchor="middle">k8s/deployment.yaml</text>
+<text x="499.0" y="222.5" font-size="8.6" fill="#8b949e" text-anchor="middle">source of truth</text>
+</g>
+<g>
+<rect x="624.0" y="176.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="624.0" y="176.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="dvp-glow"/>
+<text x="699.0" y="197.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐙 ArgoCD</text>
+<text x="699.0" y="211.0" font-size="8.6" fill="#8b949e" text-anchor="middle">auto-sync</text>
+<text x="699.0" y="222.5" font-size="8.6" fill="#8b949e" text-anchor="middle">Git → cluster</text>
+</g>
+<g>
+<rect x="824.0" y="176.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="824.0" y="176.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dvp-glow"/>
+<text x="899.0" y="197.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">☸️ production ns</text>
+<text x="899.0" y="211.0" font-size="8.6" fill="#8b949e" text-anchor="middle">devops-app × 2</text>
+<text x="899.0" y="222.5" font-size="8.6" fill="#8b949e" text-anchor="middle">rolling update</text>
+</g>
+<g>
+<rect x="24.0" y="282.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="24.0" y="282.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="dvp-glow"/>
+<text x="99.0" y="303.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🏗️ Terraform</text>
+<text x="99.0" y="317.0" font-size="8.6" fill="#8b949e" text-anchor="middle">namespaces +</text>
+<text x="99.0" y="328.5" font-size="8.6" fill="#8b949e" text-anchor="middle">Postgres baseline</text>
+</g>
+<g>
+<rect x="824.0" y="282.0" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="824.0" y="282.0" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="dvp-glow"/>
+<text x="899.0" y="303.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐘 PostgreSQL</text>
+<text x="899.0" y="317.0" font-size="8.6" fill="#8b949e" text-anchor="middle">database ns</text>
+<text x="899.0" y="328.5" font-size="8.6" fill="#8b949e" text-anchor="middle">ClusterIP :5432</text>
+</g>
+<text x="199" y="89" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">git push</text>
+<text x="399" y="89" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">trigger</text>
+<text x="599" y="89" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">push :N</text>
+<text x="507" y="155" font-size="9" fill="#a8b3bf" text-anchor="start" paint-order="stroke" stroke="#0d1117" stroke-width="3">commit image tag</text>
+<text x="599" y="196" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">watch</text>
+<text x="799" y="196" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">sync</text>
+<text x="832" y="89" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">pull :N</text>
+<text x="907" y="261" font-size="9" fill="#a8b3bf" text-anchor="start" paint-order="stroke" stroke="#0d1117" stroke-width="3">SQL</text>
+<text x="499" y="302" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">terraform apply · one-time setup</text>
+</svg>
