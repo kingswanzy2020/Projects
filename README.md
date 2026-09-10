@@ -25,7 +25,7 @@ My hands-on DevOps portfolio — every project here was built, broken, and fixed
 | **Containers & Orchestration** | Docker, Kubernetes, EKS, Helm, Kustomize, eksctl |
 | **GitOps & IaC** | ArgoCD, Sealed Secrets, Terraform, CloudFormation |
 | **Cloud (AWS)** | EKS, Lambda, API Gateway, S3, CloudFront, Route 53, ACM, SES, DynamoDB, Aurora, EC2, ECR, IAM, VPC |
-| **Observability** | Prometheus, Grafana, CloudWatch |
+| **Observability** | Prometheus, Grafana, CloudWatch, DuckDB (DORA delivery metrics) |
 | **Networking & Traffic** | NGINX (reverse proxy, upstream pools, proxy cache), ALB/Ingress, load balancing |
 | **AI for Ops** | LLM-assisted log analysis, AI code review, RAG APIs, MCP |
 
@@ -160,6 +160,7 @@ LLM-assisted triage that turns thousands of raw log lines into a root-cause summ
 | Project | What it proves |
 |---|---|
 | [Grafana Dashboards via MCP](observability/grafana-mcp-dashboards) | AI-driven dashboard-as-conversation workflow |
+| [DORA Delivery Scoreboard](observability/delivery-scoreboard) | Five DORA metrics as DuckDB SQL, with the AI-derived one withheld until its labels pass an 18/20 accuracy gate |
 
 </details>
 
@@ -195,6 +196,7 @@ Write-ups live here; the code they describe lives in standalone repos. Every pro
 | [AI Security Scanner for Python](ai-devops/ai-security-scanner) | [security-scanner](https://github.com/kingswanzy2020/security-scanner) |
 | [RAG API](ai-devops/rag-api-fastapi) → [Docker](ai-devops/rag-api-docker) → [Kubernetes](ai-devops/rag-api-kubernetes) | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) |
 | [Grafana Dashboards via MCP](observability/grafana-mcp-dashboards) | [mcp-data-series](https://github.com/kingswanzy2020/mcp-data-series) |
+| [DORA Delivery Scoreboard](observability/delivery-scoreboard) | [delivery-scoreboard](https://github.com/kingswanzy2020/delivery-scoreboard) |
 | [NGINX Traffic Gateway](networking/nginx-traffic-gateway) | [nginx-http-lab](https://github.com/kingswanzy2020/nginx-http-lab) |
 
 The same index, with more context on each repo, lives in the **[Repository Map on my profile](https://github.com/kingswanzy2020#%EF%B8%8F-repository-map)**.

@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 396" width="1000" height="396" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="DORA delivery scoreboard animated architecture diagram">
+<style>
+  .dsb-ant { stroke-dasharray:7 6; animation:dsb-flow 1.05s linear infinite; }
+  @keyframes dsb-flow { to { stroke-dashoffset:-13; } }
+  .dsb-glow { animation:dsb-breathe 3.2s ease-in-out infinite; }
+  @keyframes dsb-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="dsb-arr-7aa2ff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2ff"/></marker>
+<marker id="dsb-arr-f0883e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f0883e"/></marker>
+<marker id="dsb-arr-56d364" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56d364"/></marker>
+<marker id="dsb-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6e7681"/></marker>
+</defs>
+<rect x="1" y="1" width="998" height="394" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">DORA Delivery Scoreboard with DuckDB</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="786" y="16" width="190" height="20" rx="10" fill="none" stroke="#56d364" stroke-opacity=".6" class="dsb-glow"/><text x="881" y="29.5" font-size="9.5" font-weight="600" fill="#3fb950" text-anchor="middle" letter-spacing=".5">5 slots · 1 AI-gated · 0 estimated</text></g>
+
+<path id="dsb-p0" d="M174,120 C198,120 198,120 222,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1600;1"><mpath href="#dsb-p0"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1560;0.1600;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1600;1"><mpath href="#dsb-p0"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1560;0.1600;1"/></circle>
+
+<path id="dsb-p1" d="M99,148 C99,196 99,236 99,284" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1600;1"><mpath href="#dsb-p1"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1560;0.1600;1"/></circle>
+
+<path id="dsb-p2" d="M372,120 C396,120 396,120 420,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1600;0.3200;1"><mpath href="#dsb-p2"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1600;0.1640;0.3160;0.3200;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1600;0.3200;1"><mpath href="#dsb-p2"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1600;0.1640;0.3160;0.3200;1"/></circle>
+
+<path id="dsb-p3" d="M297,148 C297,196 297,236 297,284" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1600;0.3200;1"><mpath href="#dsb-p3"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1600;0.1640;0.3160;0.3200;1"/></circle>
+
+<path id="dsb-p4" d="M174,312 C198,312 198,312 222,312" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1600;0.3200;1"><mpath href="#dsb-p4"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1600;0.1640;0.3160;0.3200;1"/></circle>
+
+<path id="dsb-p5" d="M336,148 C336,216 500,216 618,216" fill="none" stroke="#6e7681" stroke-opacity=".75" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#dsb-arr-484f58)"/>
+<circle r="3.6" fill="#8b949e" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1600;0.3200;1"><mpath href="#dsb-p5"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1600;0.1640;0.3160;0.3200;1"/></circle>
+
+<path id="dsb-p6" d="M570,120 C594,120 594,120 618,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3200;0.4800;1"><mpath href="#dsb-p6"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3200;0.3240;0.4760;0.4800;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3200;0.4800;1"><mpath href="#dsb-p6"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3200;0.3240;0.4760;0.4800;1"/></circle>
+
+<path id="dsb-p7" d="M372,312 C396,312 396,312 420,312" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3200;0.4800;1"><mpath href="#dsb-p7"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3200;0.3240;0.4760;0.4800;1"/></circle>
+
+<path id="dsb-p8" d="M570,312 C594,312 594,312 618,312" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4800;0.6400;1"><mpath href="#dsb-p8"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4800;0.4840;0.6360;0.6400;1"/></circle>
+
+<path id="dsb-p9" d="M768,216 C792,216 792,216 816,216" fill="none" stroke="#6e7681" stroke-opacity=".75" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#dsb-arr-484f58)"/>
+<circle r="3.6" fill="#8b949e" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4800;0.6400;1"><mpath href="#dsb-p9"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4800;0.4840;0.6360;0.6400;1"/></circle>
+
+<path id="dsb-p10" d="M768,120 C798,120 792,202 816,202" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6400;0.8000;1"><mpath href="#dsb-p10"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6400;0.6440;0.7960;0.8000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6400;0.8000;1"><mpath href="#dsb-p10"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6400;0.6440;0.7960;0.8000;1"/></circle>
+
+<path id="dsb-p11" d="M768,312 C798,312 792,230 816,230" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="dsb-ant" marker-end="url(#dsb-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6400;0.8000;1"><mpath href="#dsb-p11"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6400;0.6440;0.7960;0.8000;1"/></circle>
+
+<path id="dsb-p12" d="M297,340 C297,378 693,378 693,344" fill="none" stroke="#6e7681" stroke-opacity=".75" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#dsb-arr-484f58)"/>
+<circle r="3.6" fill="#8b949e" opacity="0"><animateMotion dur="6.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8000;1;1"><mpath href="#dsb-p12"/></animateMotion><animate attributeName="opacity" dur="6.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.8000;0.8040;0.9960;1;1"/></circle>
+
+<text x="198" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">JSON</text>
+<text x="396" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">3 tables</text>
+<text x="594" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">4 values</text>
+<text x="804" y="150" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">asserted</text>
+<text x="99" y="222" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">commit msgs</text>
+<text x="99" y="233" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">+ issue titles</text>
+<text x="297" y="228" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">sealed_raw</text>
+<text x="198" y="304" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">20 labels</text>
+<text x="396" y="304" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">PASS</text>
+<text x="594" y="304" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">3 / 20</text>
+<text x="804" y="282" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">15.0%</text>
+<text x="470" y="206" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">3 start clocks</text>
+<text x="495" y="373" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">no labels, &lt;18/20, or partial coverage → WITHHELD, never estimated</text>
+
+<g>
+<rect x="24" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dsb-glow"/>
+<text x="99" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📦 Captured corpus</text>
+<text x="99" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">data/*.json · immutable</text>
+<text x="99" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">20 deploys · 4 incidents</text>
+</g>
+<g>
+<rect x="222" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="222" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dsb-glow"/>
+<text x="297" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🦆 DuckDB loaders</text>
+<text x="297" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">in-memory, row by row</text>
+<text x="297" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">deploys · incidents · sealed_raw</text>
+</g>
+<g>
+<rect x="420" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="420" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dsb-glow"/>
+<text x="495" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧮 metrics.sql</text>
+<text x="495" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">one named block per metric</text>
+<text x="495" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">medians · distinct deploys</text>
+</g>
+<g>
+<rect x="618" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="618" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="dsb-glow"/>
+<text x="693" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧷 reference.json</text>
+<text x="693" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">row-count invariant</text>
+<text x="693" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">+ d-001 lead-time assert</text>
+</g>
+<g>
+<rect x="816" y="188" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="816" y="188" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="dsb-glow"/>
+<text x="891" y="209" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📄 scoreboard.html</text>
+<text x="891" y="223" font-size="8.6" fill="#8b949e" text-anchor="middle">inline SVG · zero deps</text>
+<text x="891" y="234.5" font-size="8.6" fill="#8b949e" text-anchor="middle">“cannot prove” on every card</text>
+</g>
+<g>
+<rect x="618" y="188" width="150" height="56" rx="10" fill="#161b22" stroke="#484f58" stroke-opacity=".55"/>
+<rect x="618" y="188" width="150" height="56" rx="10" fill="none" stroke="#484f58" class="dsb-glow"/>
+<text x="693" y="209" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⏱️ Three-clock check</text>
+<text x="693" y="223" font-size="8.6" fill="#8b949e" text-anchor="middle">26.0h · 18.0h · 1.0h</text>
+<text x="693" y="234.5" font-size="8.6" fill="#8b949e" text-anchor="middle">diagnostic, never a slot</text>
+</g>
+<g>
+<rect x="24" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="24" y="284" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="dsb-glow"/>
+<text x="99" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🤖 AI labelling</text>
+<text x="99" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">incident-triggered or planned?</text>
+<text x="99" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">20 deploys classified</text>
+</g>
+<g>
+<rect x="222" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="222" y="284" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="dsb-glow"/>
+<text x="297" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🚦 AI gate</text>
+<text x="297" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">≥ 18/20 sealed labels</text>
+<text x="297" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">AND full coverage</text>
+</g>
+<g>
+<rect x="420" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="420" y="284" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="dsb-glow"/>
+<text x="495" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔗 deploy_labels</text>
+<text x="495" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">deploys ⋈ sealed_raw</text>
+<text x="495" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">built only on PASS</text>
+</g>
+<g>
+<rect x="618" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="618" y="284" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="dsb-glow"/>
+<text x="693" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">♻️ rework_rate</text>
+<text x="693" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">15.0% when released</text>
+<text x="693" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">WITHHELD otherwise</text>
+</g>
+</svg>
