@@ -22,7 +22,7 @@ My hands-on DevOps portfolio — every project here was built, broken, and fixed
 | Domain | Tools used in the projects below |
 |---|---|
 | **CI/CD** | Jenkins, SonarQube, GitHub Actions, AWS CodePipeline/CodeBuild/CodeDeploy/CodeArtifact |
-| **Containers & Orchestration** | Docker, Kubernetes, EKS, Helm, Kustomize, eksctl |
+| **Containers & Orchestration** | Docker, Kubernetes, EKS, Helm, Kustomize, eksctl, Kubernetes Operators (Open5GS 5G core) |
 | **GitOps & IaC** | ArgoCD, Sealed Secrets, Terraform, CloudFormation |
 | **Cloud (AWS)** | EKS, Lambda, API Gateway, S3, CloudFront, Route 53, ACM, SES, DynamoDB, Aurora, EC2, ECR, IAM (permissions boundaries, policy simulator), VPC |
 | **Observability** | Prometheus, Grafana, CloudWatch, DuckDB (DORA delivery metrics) |
@@ -99,6 +99,7 @@ LLM-assisted triage that turns thousands of raw log lines into a root-cause summ
 | [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline) | PR-driven cluster changes, drift self-healing, encrypted secrets in Git |
 | [K8s CI/CD with Helm & Monitoring](kubernetes/helm-cicd-monitoring) | Repeatable releases + rollback, Prometheus/Grafana alerting |
 | [DevOps Pipeline: Jenkins → ArgoCD](kubernetes/devops-pipeline) | Two-repo GitOps handoff: Jenkins commits image tags, ArgoCD deploys them, and CI never touches the cluster |
+| [GitOps-Driven 5G Core](kubernetes/gitops-5g-core) | Open5GS 5G SA core reconciled by an Operator from Git: network slices added by commit, with Prometheus scraping the network functions and the Operator |
 | [Launch a Kubernetes Cluster](kubernetes/launch-kubernetes-cluster) | Cluster bootstrap fundamentals |
 | [Set Up Kubernetes Deployment](kubernetes/kubernetes-deployment) | Deployments, services, scaling basics |
 
@@ -184,6 +185,7 @@ Write-ups live here; the code they describe lives in standalone repos. Every pro
 | [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline) | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) |
 | [K8s CI/CD with Helm & Monitoring](kubernetes/helm-cicd-monitoring) | [fittrack](https://github.com/kingswanzy2020/fittrack) |
 | [DevOps Pipeline: Jenkins → ArgoCD](kubernetes/devops-pipeline) | [devops-pipeline-app](https://github.com/kingswanzy2020/devops-pipeline-app) · [devops-pipeline-manifests](https://github.com/kingswanzy2020/devops-pipeline-manifests) |
+| [GitOps-Driven 5G Core](kubernetes/gitops-5g-core) | [telco-platform-gitops](https://github.com/kingswanzy2020/telco-platform-gitops) |
 | [Jenkins + SonarQube Pipeline](ci-cd/jenkins-sonarqube-pipeline) | [cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app) |
 | [7-Day AWS CI/CD Challenge](ci-cd/aws-devops-cicd-challenge) | [nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project) |
 | [Automated Testing with GitHub Actions](ci-cd/github-actions-automated-testing) | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) |

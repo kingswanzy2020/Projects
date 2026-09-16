@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" width="1000" height="350" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="GitOps-Driven 5G Core on Kubernetes animated architecture diagram">
+<style>
+  .tg5g-ant { stroke-dasharray:7 6; animation:tg5g-flow 1.05s linear infinite; }
+  @keyframes tg5g-flow { to { stroke-dashoffset:-13; } }
+  .tg5g-glow { animation:tg5g-breathe 3.2s ease-in-out infinite; }
+  @keyframes tg5g-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="tg5g-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#484f58"/></marker>
+<marker id="tg5g-arr-7aa2ff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2ff"/></marker>
+<marker id="tg5g-arr-f0883e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f0883e"/></marker>
+<marker id="tg5g-arr-56d364" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56d364"/></marker>
+</defs>
+<rect x="1" y="1" width="998" height="348" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">GitOps-Driven 5G Core on Kubernetes</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="880" y="16" width="96" height="20" rx="10" fill="none" stroke="#7aa2ff" stroke-opacity=".6" class="tg5g-glow"/><text x="928.0" y="29.5" font-size="9.5" font-weight="600" fill="#7aa2ff" text-anchor="middle" letter-spacing=".5">5G SA Core</text></g>
+<path id="tg5g-p0" d="M184.0,138.0 C203.0,138.0 203.0,138.0 222.0,138.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="tg5g-ant" marker-end="url(#tg5g-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1667;1"><mpath href="#tg5g-p0"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1627;0.1667;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1667;1"><mpath href="#tg5g-p0"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1627;0.1667;1"/></circle>
+<path id="tg5g-p1" d="M382.0,138.0 C401.0,138.0 401.0,138.0 420.0,138.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="tg5g-ant" marker-end="url(#tg5g-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1667;0.3333;1"><mpath href="#tg5g-p1"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1667;0.1707;0.3293;0.3333;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1667;0.3333;1"><mpath href="#tg5g-p1"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1667;0.1707;0.3293;0.3333;1"/></circle>
+<path id="tg5g-p2" d="M500.0,250.0 C500.0,208.0 500.0,208.0 500.0,166.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="tg5g-ant" marker-end="url(#tg5g-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1667;0.3333;1"><mpath href="#tg5g-p2"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1667;0.1707;0.3293;0.3333;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1667;0.3333;1"><mpath href="#tg5g-p2"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1667;0.1707;0.3293;0.3333;1"/></circle>
+<path id="tg5g-p3" d="M580.0,138.0 C599.0,138.0 599.0,138.0 618.0,138.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="tg5g-ant" marker-end="url(#tg5g-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3333;0.5000;1"><mpath href="#tg5g-p3"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.3373;0.4960;0.5000;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3333;0.5000;1"><mpath href="#tg5g-p3"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3333;0.3373;0.4960;0.5000;1"/></circle>
+<path id="tg5g-p4" d="M778.0,138.0 C797.0,138.0 797.0,138.0 816.0,138.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="tg5g-ant" marker-end="url(#tg5g-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5000;0.6667;1"><mpath href="#tg5g-p4"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5000;0.5040;0.6627;0.6667;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5000;0.6667;1"><mpath href="#tg5g-p4"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.5000;0.5040;0.6627;0.6667;1"/></circle>
+<path id="tg5g-p5" d="M698.0,166.0 C698.0,208.0 698.0,208.0 698.0,250.0" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="tg5g-ant" marker-end="url(#tg5g-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6667;0.8333;1"><mpath href="#tg5g-p5"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.6707;0.8293;0.8333;1"/></circle>
+<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6667;0.8333;1"><mpath href="#tg5g-p5"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6667;0.6707;0.8293;0.8333;1"/></circle>
+<path id="tg5g-p6" d="M896.0,166.0 C896,215 698,200 728.0,250.0" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="tg5g-ant" marker-end="url(#tg5g-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6667;0.8333;1"><mpath href="#tg5g-p6"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.6707;0.8293;0.8333;1"/></circle>
+<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6667;0.8333;1"><mpath href="#tg5g-p6"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6667;0.6707;0.8293;0.8333;1"/></circle>
+<path id="tg5g-p7" d="M778.0,278.0 C797.0,278.0 797.0,278.0 816.0,278.0" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="tg5g-ant" marker-end="url(#tg5g-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8333;1.0000;1"><mpath href="#tg5g-p7"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.8333;0.8373;0.9960;1.0000;1"/></circle>
+<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="6.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8333;1.0000;1"><mpath href="#tg5g-p7"/></animateMotion><animate attributeName="opacity" dur="6.6s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.8333;0.8373;0.9960;1.0000;1"/></circle>
+<path id="tg5g-p8" d="M896,110 C896,66 500,66 500,110" fill="none" stroke="#484f58" stroke-opacity=".55" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#tg5g-arr-484f58)"/>
+<g>
+<rect x="24" y="110" width="160" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24" y="110" width="160" height="56" rx="10" fill="none" stroke="#7aa2ff" class="tg5g-glow"/>
+<text x="104.0" y="131" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 Engineer</text>
+<text x="104.0" y="145" font-size="8.6" fill="#8b949e" text-anchor="middle">slice / subscriber</text>
+<text x="104.0" y="156.5" font-size="8.6" fill="#8b949e" text-anchor="middle">change as a commit</text>
+</g>
+<g>
+<rect x="222" y="110" width="160" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="222" y="110" width="160" height="56" rx="10" fill="none" stroke="#7aa2ff" class="tg5g-glow"/>
+<text x="302.0" y="131" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐙 GitHub Repo</text>
+<text x="302.0" y="145" font-size="8.6" fill="#8b949e" text-anchor="middle">telco-platform-gitops</text>
+<text x="302.0" y="156.5" font-size="8.6" fill="#8b949e" text-anchor="middle">apps/ · base/ · overlays/</text>
+</g>
+<g>
+<rect x="420" y="110" width="160" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="420" y="110" width="160" height="56" rx="10" fill="none" stroke="#f0883e" class="tg5g-glow"/>
+<text x="500.0" y="131" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔄 ArgoCD</text>
+<text x="500.0" y="145" font-size="8.6" fill="#8b949e" text-anchor="middle">3 Applications</text>
+<text x="500.0" y="156.5" font-size="8.6" fill="#8b949e" text-anchor="middle">sync Git → cluster</text>
+</g>
+<g>
+<rect x="618" y="110" width="160" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="618" y="110" width="160" height="56" rx="10" fill="none" stroke="#f0883e" class="tg5g-glow"/>
+<text x="698.0" y="131" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚙️ Open5GS Operator</text>
+<text x="698.0" y="145" font-size="8.6" fill="#8b949e" text-anchor="middle">reconciles Open5GS</text>
+<text x="698.0" y="156.5" font-size="8.6" fill="#8b949e" text-anchor="middle">+ Open5GSUser CRs</text>
+</g>
+<g>
+<rect x="816" y="110" width="160" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="816" y="110" width="160" height="56" rx="10" fill="none" stroke="#7aa2ff" class="tg5g-glow"/>
+<text x="896.0" y="131" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📡 5G Core NFs</text>
+<text x="896.0" y="145" font-size="8.6" fill="#8b949e" text-anchor="middle">AMF · SMF · UPF · PCF …</text>
+<text x="896.0" y="156.5" font-size="8.6" fill="#8b949e" text-anchor="middle">11 NFs + MongoDB</text>
+</g>
+<g>
+<rect x="420" y="250" width="160" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="420" y="250" width="160" height="56" rx="10" fill="none" stroke="#f0883e" class="tg5g-glow"/>
+<text x="500.0" y="271" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📦 Helm Charts</text>
+<text x="500.0" y="285" font-size="8.6" fill="#8b949e" text-anchor="middle">kube-prometheus-stack</text>
+<text x="500.0" y="296.5" font-size="8.6" fill="#8b949e" text-anchor="middle">open5gs-operator 1.0.7</text>
+</g>
+<g>
+<rect x="618" y="250" width="160" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="618" y="250" width="160" height="56" rx="10" fill="none" stroke="#56d364" class="tg5g-glow"/>
+<text x="698.0" y="271" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🔥 Prometheus</text>
+<text x="698.0" y="285" font-size="8.6" fill="#8b949e" text-anchor="middle">AMF · PCF · UPF targets</text>
+<text x="698.0" y="296.5" font-size="8.6" fill="#8b949e" text-anchor="middle">+ operator metrics</text>
+</g>
+<g>
+<rect x="816" y="250" width="160" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="816" y="250" width="160" height="56" rx="10" fill="none" stroke="#56d364" class="tg5g-glow"/>
+<text x="896.0" y="271" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📊 Grafana</text>
+<text x="896.0" y="285" font-size="8.6" fill="#8b949e" text-anchor="middle">NF CPU / memory</text>
+<text x="896.0" y="296.5" font-size="8.6" fill="#8b949e" text-anchor="middle">reconcile activity</text>
+</g>
+<text x="202" y="102" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">git commit</text>
+<text x="401" y="102" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">overlays/local</text>
+<text x="538" y="212" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">Helm charts</text>
+<text x="599" y="102" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">applies CRs</text>
+<text x="797" y="102" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">reconciles</text>
+<text x="648" y="213" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">reconcile metrics</text>
+<text x="840" y="203" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">ServiceMonitors</text>
+<text x="797" y="243" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">dashboards</text>
+<text x="698" y="80" font-size="9" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">health / sync status</text>
+<text x="24" y="334" font-size="9" fill="#8b949e">Blue: change path · Orange: GitOps + Operator automation · Green: observability · Gray dashed: status feedback</text>
+</svg>
