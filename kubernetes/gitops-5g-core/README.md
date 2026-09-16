@@ -26,6 +26,10 @@ This project fixes all three. One Git repo describes the whole core: the operato
 
 *A slice or subscriber change starts as a commit to `telco-platform-gitops`. ArgoCD watches three Applications. Two are Helm charts (kube-prometheus-stack and the Open5GS Operator), and one is the `overlays/local` Kustomize overlay holding the `Open5GS` and `Open5GSUser` custom resources. When the overlay syncs, the Operator reconciles the custom resource into 11 network functions plus MongoDB, restarting only the functions the change affects. Prometheus scrapes the AMF, PCF, and UPF through operator-generated ServiceMonitors. It also scrapes the Operator's own controller-runtime metrics through kube-rbac-proxy, and Grafana shows both.*
 
+![Architecture diagram: developer machine, telco-platform-gitops repo, and the Docker Desktop cluster with argocd, monitoring and open5gs namespaces](architecture.png)
+
+<sub>The original design, drawn before the build. The finished core gained a second slice (`SST 2`), a subscriber CR, and Operator metrics, and runs 11 network functions rather than 8.</sub>
+
 ```mermaid
 flowchart LR
     Dev([Engineer]) -->|git commit: slice / subscriber| GH[GitHub<br/>telco-platform-gitops]
