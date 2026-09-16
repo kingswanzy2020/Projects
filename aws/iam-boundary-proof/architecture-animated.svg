@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 396" width="1000" height="396" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="IAM permissions boundary proof animated architecture diagram">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" width="1000" height="470" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="IAM permissions boundary as a role ceiling animated architecture diagram">
 <style>
   .ibp-ant { stroke-dasharray:7 6; animation:ibp-flow 1.05s linear infinite; }
   @keyframes ibp-flow { to { stroke-dashoffset:-13; } }
@@ -11,128 +11,130 @@
 <marker id="ibp-arr-56d364" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56d364"/></marker>
 <marker id="ibp-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6e7681"/></marker>
 </defs>
-<rect x="1" y="1" width="998" height="394" rx="14" fill="#0d1117" stroke="#30363d"/>
-<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">IAM Permissions Boundary Proof</text>
+<rect x="1" y="1" width="998" height="468" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">IAM Permissions Boundary as a Role Ceiling</text>
 <text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
-<g><rect x="776" y="16" width="200" height="20" rx="10" fill="none" stroke="#56d364" stroke-opacity=".6" class="ibp-glow"/><text x="876" y="29.5" font-size="9.5" font-weight="600" fill="#3fb950" text-anchor="middle" letter-spacing=".5">8/8 predicted · 0 USD · 0 left behind</text></g>
+<g><rect x="776" y="16" width="200" height="20" rx="10" fill="none" stroke="#56d364" stroke-opacity=".6" class="ibp-glow"/><text x="876" y="29.5" font-size="9.5" font-weight="600" fill="#3fb950" text-anchor="middle" letter-spacing=".5">ceiling held · 8/8 cases as predicted</text></g>
+<text x="24" y="80" font-size="9" font-weight="600" fill="#8b949e" letter-spacing=".6">BEFORE · NO BOUNDARY ON THE ROLE</text>
+<text x="24" y="210" font-size="9" font-weight="600" fill="#8b949e" letter-spacing=".6">AFTER · BOUNDARYPROOFCEILING SET AS THE ROLE'S PERMISSIONS BOUNDARY</text>
 
-<path id="ibp-p0" d="M174,120 C198,120 198,120 222,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-7aa2ff)"/>
-<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1000;1"><mpath href="#ibp-p0"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.0960;0.1000;1"/></circle>
-<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1000;1"><mpath href="#ibp-p0"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.0960;0.1000;1"/></circle>
+<path id="ibp-p0" d="M174,120 C198.0,120 198.0,120 222,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1000;1"><mpath href="#ibp-p0"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.0960;0.1000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1000;1"><mpath href="#ibp-p0"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.0960;0.1000;1"/></circle>
 
-<path id="ibp-p1" d="M372,120 C396,120 396,120 420,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-7aa2ff)"/>
-<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1000;0.2000;1"><mpath href="#ibp-p1"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1000;0.1040;0.1960;0.2000;1"/></circle>
-<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1000;0.2000;1"><mpath href="#ibp-p1"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1000;0.1040;0.1960;0.2000;1"/></circle>
+<path id="ibp-p1" d="M372,120 C396.0,120 396.0,120 420,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1000;0.2000;1"><mpath href="#ibp-p1"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1000;0.1040;0.1960;0.2000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1000;0.2000;1"><mpath href="#ibp-p1"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1000;0.1040;0.1960;0.2000;1"/></circle>
 
-<path id="ibp-p2" d="M570,120 C594,120 594,120 618,120" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-f0883e)"/>
-<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.3000;1"><mpath href="#ibp-p2"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2040;0.2960;0.3000;1"/></circle>
-<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.3000;1"><mpath href="#ibp-p2"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2000;0.2040;0.2960;0.3000;1"/></circle>
+<path id="ibp-p2" d="M570,120 C605.0,120 605.0,120 640,120" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.3000;1"><mpath href="#ibp-p2"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2040;0.2960;0.3000;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.3000;1"><mpath href="#ibp-p2"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2000;0.2040;0.2960;0.3000;1"/></circle>
 
-<path id="ibp-p3" d="M768,120 C792,120 792,120 816,120" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-7aa2ff)"/>
-<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3000;0.4000;1"><mpath href="#ibp-p3"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3000;0.3040;0.3960;0.4000;1"/></circle>
-<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3000;0.4000;1"><mpath href="#ibp-p3"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3000;0.3040;0.3960;0.4000;1"/></circle>
+<path id="ibp-p3" d="M297,148 L297,286" fill="none" stroke="#6e7681" stroke-opacity=".75" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#ibp-arr-484f58)"/>
+<circle r="3.6" fill="#8b949e" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3000;0.4500;1"><mpath href="#ibp-p3"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3000;0.3040;0.4460;0.4500;1"/></circle>
 
-<path id="ibp-p4" d="M891,148 L891,200 Q891,212 879,212 L111,212 Q99,212 99,224 L99,284" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-f0883e)"/>
-<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.5500;1"><mpath href="#ibp-p4"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4040;0.5460;0.5500;1"/></circle>
-<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4000;0.5500;1"><mpath href="#ibp-p4"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.4000;0.4040;0.5460;0.5500;1"/></circle>
+<path id="ibp-p4" d="M174,314 C198.0,314 198.0,314 222,314" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3000;0.4500;1"><mpath href="#ibp-p4"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3000;0.3040;0.4460;0.4500;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3000;0.4500;1"><mpath href="#ibp-p4"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3000;0.3040;0.4460;0.4500;1"/></circle>
 
-<path id="ibp-p5" d="M174,312 C198,312 198,312 222,312" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-56d364)"/>
-<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5500;0.6500;1"><mpath href="#ibp-p5"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5500;0.5540;0.6460;0.6500;1"/></circle>
-<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5500;0.6500;1"><mpath href="#ibp-p5"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.5500;0.5540;0.6460;0.6500;1"/></circle>
+<path id="ibp-p5" d="M372,314 C396.0,314 396.0,314 420,314" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4500;0.6000;1"><mpath href="#ibp-p5"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4500;0.4540;0.5960;0.6000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4500;0.6000;1"><mpath href="#ibp-p5"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.4500;0.4540;0.5960;0.6000;1"/></circle>
 
-<path id="ibp-p6" d="M297,148 L297,284" fill="none" stroke="#6e7681" stroke-opacity=".75" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#ibp-arr-484f58)"/>
-<circle r="3.6" fill="#8b949e" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5500;0.6500;1"><mpath href="#ibp-p6"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5500;0.5540;0.6460;0.6500;1"/></circle>
+<path id="ibp-p6" d="M570,314 C605,314 605,248 640,248" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ibp-p6"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ibp-p6"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
 
-<path id="ibp-p7" d="M372,312 C396,312 396,312 420,312" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-56d364)"/>
-<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6500;0.7500;1"><mpath href="#ibp-p7"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6500;0.6540;0.7460;0.7500;1"/></circle>
-<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6500;0.7500;1"><mpath href="#ibp-p7"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6500;0.6540;0.7460;0.7500;1"/></circle>
+<path id="ibp-p7" d="M570,314 C605,314 605,302 640,302" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ibp-p7"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ibp-p7"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
 
-<path id="ibp-p8" d="M570,312 C594,312 594,312 618,312" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-f0883e)"/>
-<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7500;0.8500;1"><mpath href="#ibp-p8"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7500;0.7540;0.8460;0.8500;1"/></circle>
-<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7500;0.8500;1"><mpath href="#ibp-p8"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7500;0.7540;0.8460;0.8500;1"/></circle>
+<path id="ibp-p8" d="M570,314 C605,314 605,356 640,356" fill="none" stroke="#484f58" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-484f58)"/>
+<circle r="3.6" fill="#484f58" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ibp-p8"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
 
-<path id="ibp-p9" d="M768,312 C792,312 792,312 816,312" fill="none" stroke="#484f58" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-484f58)"/>
-<circle r="3.6" fill="#484f58" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8500;0.9990;1"><mpath href="#ibp-p9"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.8500;0.8540;0.9950;0.9990;1"/></circle>
+<path id="ibp-p9" d="M570,314 C605,314 605,410 640,410" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="ibp-ant" marker-end="url(#ibp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ibp-p9"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="8.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.8000;1"><mpath href="#ibp-p9"/></animateMotion><animate attributeName="opacity" dur="8.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6000;0.6040;0.7960;0.8000;1"/></circle>
 
-<text x="198" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">non-root</text>
-<text x="396" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">frozen</text>
-<text x="594" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">widened</text>
-<text x="792" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">allowed</text>
-<text x="560" y="205" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">put-role-permissions-boundary → widened.json simulated again, 4 guarded runs</text>
-<text x="297" y="258" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">frozen predictions</text>
-<text x="198" y="304" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">8 rows</text>
-<text x="396" y="304" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">8/8</text>
-<text x="594" y="304" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">then</text>
-<text x="792" y="304" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">absent</text>
-<text x="495" y="373" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">widened.json is only ever simulator input: it is never attached to a principal</text>
+<text x="198" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">for</text>
+<text x="396" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">source</text>
+<text x="605" y="112" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">result</text>
+<text x="305" y="238" font-size="8.4" fill="#a8b3bf" text-anchor="start" paint-order="stroke" stroke="#0d1117" stroke-width="3">put-role-permissions-boundary</text>
+<text x="305" y="249" font-size="8.4" fill="#a8b3bf" text-anchor="start" paint-order="stroke" stroke="#0d1117" stroke-width="3">same role, same identity policy</text>
+<text x="198" y="306" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">ceiling</text>
+<text x="396" y="306" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">source</text>
+<text x="500" y="455" font-size="8.4" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">effective permissions = identity policy ∩ boundary  ·  an explicit Deny always wins  ·  the boundary never grants anything on its own</text>
 <g>
 <rect x="24" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
 <rect x="24" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ibp-glow"/>
-<text x="99" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🪪 Caller check</text>
-<text x="99" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">sts get-caller-identity</text>
-<text x="99" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">IAM user, not root</text>
+<text x="99.0" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📜 widened.json</text>
+<text x="99.0" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">proposed identity policy</text>
+<text x="99.0" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">simulated · never attached</text>
 </g>
 <g>
 <rect x="222" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
 <rect x="222" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ibp-glow"/>
-<text x="297" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧊 Frozen brief</text>
-<text x="297" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">boundary · trust · widened</text>
-<text x="297" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">8 predictions committed</text>
+<text x="297.0" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 BoundaryProofRole</text>
+<text x="297.0" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">no permissions boundary</text>
+<text x="297.0" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">no attached policies</text>
 </g>
 <g>
-<rect x="420" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
-<rect x="420" y="92" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="ibp-glow"/>
-<text x="495" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🏗️ IAM build</text>
-<text x="495" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">BoundaryProofCeiling</text>
-<text x="495" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">BoundaryProofRole</text>
+<rect x="420" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="420" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ibp-glow"/>
+<text x="495.0" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧪 Policy simulator</text>
+<text x="495.0" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">simulate-principal-policy</text>
+<text x="495.0" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">--policy-input-list</text>
 </g>
 <g>
-<rect x="618" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
-<rect x="618" y="92" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ibp-glow"/>
-<text x="693" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧪 Baseline sim</text>
-<text x="693" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">no boundary attached</text>
-<text x="693" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">CreatePolicyVersion allowed</text>
+<rect x="640" y="92" width="336" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="640" y="92" width="336" height="56" rx="10" fill="none" stroke="#f0883e" class="ibp-glow"/>
+<text x="656" y="113" font-size="10.5" font-weight="700" fill="#e6edf3">⚠️ iam:CreatePolicyVersion → allowed</text>
+<text x="656" y="127" font-size="8.6" fill="#8b949e">no ceiling, so the identity policy decides alone</text>
+<text x="656" y="138.5" font-size="8.6" fill="#8b949e">the role could publish a new version of its own boundary policy</text>
 </g>
 <g>
-<rect x="816" y="92" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
-<rect x="816" y="92" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="ibp-glow"/>
-<text x="891" y="113" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🛡️ Boundary on</text>
-<text x="891" y="127" font-size="8.6" fill="#8b949e" text-anchor="middle">ceiling set on the role</text>
-<text x="891" y="138.5" font-size="8.6" fill="#8b949e" text-anchor="middle">7 reviewed actions only</text>
+<rect x="24" y="286" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="24" y="286" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="ibp-glow"/>
+<text x="99.0" y="307" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🛡️ BoundaryProofCeiling</text>
+<text x="99.0" y="321" font-size="8.6" fill="#8b949e" text-anchor="middle">customer-managed policy</text>
+<text x="99.0" y="332.5" font-size="8.6" fill="#8b949e" text-anchor="middle">ceiling: 7 reviewed IAM actions</text>
 </g>
 <g>
-<rect x="24" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
-<rect x="24" y="284" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ibp-glow"/>
-<text x="99" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚖️ Guarded sims</text>
-<text x="99" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">5 explicitDeny · 1 implicit</text>
-<text x="99" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">1 boundary deny · 1 allowed</text>
+<rect x="222" y="286" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="222" y="286" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="ibp-glow"/>
+<text x="297.0" y="307" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 BoundaryProofRole</text>
+<text x="297.0" y="321" font-size="8.6" fill="#8b949e" text-anchor="middle">permissions boundary set</text>
+<text x="297.0" y="332.5" font-size="8.6" fill="#8b949e" text-anchor="middle">max = identity ∩ ceiling</text>
 </g>
 <g>
-<rect x="222" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
-<rect x="222" y="284" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="ibp-glow"/>
-<text x="297" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📊 actual.csv</text>
-<text x="297" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">predicted vs actual</text>
-<text x="297" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">match · rule · boundary flag</text>
+<rect x="420" y="286" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="420" y="286" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="ibp-glow"/>
+<text x="495.0" y="307" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧪 Policy simulator</text>
+<text x="495.0" y="321" font-size="8.6" fill="#8b949e" text-anchor="middle">same widened.json</text>
+<text x="495.0" y="332.5" font-size="8.6" fill="#8b949e" text-anchor="middle">4 guarded cases</text>
 </g>
 <g>
-<rect x="420" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
-<rect x="420" y="284" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="ibp-glow"/>
-<text x="495" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📄 readout.html</text>
-<text x="495" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">one page for the lead</text>
-<text x="495" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">decisions + limits</text>
+<rect x="640" y="226" width="336" height="44" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="640" y="226" width="336" height="44" rx="10" fill="none" stroke="#56d364" class="ibp-glow"/>
+<text x="656" y="244" font-size="10.5" font-weight="700" fill="#e6edf3">✅ iam:GetRole → allowed</text>
+<text x="656" y="259" font-size="8.6" fill="#8b949e">identity policy allows it · inside the ceiling</text>
 </g>
 <g>
-<rect x="618" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
-<rect x="618" y="284" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="ibp-glow"/>
-<text x="693" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🧹 Teardown</text>
-<text x="693" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">boundary → policy → role</text>
-<text x="693" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">NoSuchEntity × 2</text>
+<rect x="640" y="280" width="336" height="44" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="640" y="280" width="336" height="44" rx="10" fill="none" stroke="#f0883e" class="ibp-glow"/>
+<text x="656" y="298" font-size="10.5" font-weight="700" fill="#e6edf3">⛔ 5 role mutations → explicitDeny</text>
+<text x="656" y="313" font-size="8.6" fill="#8b949e">inside the ceiling · the identity policy's Deny still wins</text>
 </g>
 <g>
-<rect x="816" y="284" width="150" height="56" rx="10" fill="#161b22" stroke="#484f58" stroke-opacity=".55"/>
-<rect x="816" y="284" width="150" height="56" rx="10" fill="none" stroke="#484f58" class="ibp-glow"/>
-<text x="891" y="305" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🏷️ Local Git seal</text>
-<text x="891" y="319" font-size="8.6" fill="#8b949e" text-anchor="middle">commit + v1.0.0 tag</text>
-<text x="891" y="330.5" font-size="8.6" fill="#8b949e" text-anchor="middle">no remote by design</text>
+<rect x="640" y="334" width="336" height="44" rx="10" fill="#161b22" stroke="#484f58" stroke-opacity=".55"/>
+<rect x="640" y="334" width="336" height="44" rx="10" fill="none" stroke="#484f58" class="ibp-glow"/>
+<text x="656" y="352" font-size="10.5" font-weight="700" fill="#e6edf3">▫️ iam:ListUsers → implicitDeny</text>
+<text x="656" y="367" font-size="8.6" fill="#8b949e">inside the ceiling · nothing grants it, so the ceiling grants nothing</text>
+</g>
+<g>
+<rect x="640" y="388" width="336" height="44" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="640" y="388" width="336" height="44" rx="10" fill="none" stroke="#7aa2ff" class="ibp-glow"/>
+<text x="656" y="406" font-size="10.5" font-weight="700" fill="#e6edf3">🛡️ iam:CreatePolicyVersion → implicitDeny</text>
+<text x="656" y="421" font-size="8.6" fill="#8b949e">identity policy allows it · above the ceiling: AllowedByPermissionsBoundary false</text>
 </g>
 </svg>

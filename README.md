@@ -138,7 +138,7 @@ LLM-assisted triage that turns thousands of raw log lines into a root-cause summ
 | [Cross-Account App Deployment](aws/cross-account-ecr-deployment) | Multi-account ECR image sharing & IAM trust |
 | [Docker App on Elastic Beanstalk](aws/docker-elastic-beanstalk) | Containerized deployment on managed AWS |
 | [Cloud Security with IAM](aws/iam-cloud-security) | Least-privilege policies, users, groups |
-| [IAM Permissions Boundary Proof](aws/iam-boundary-proof) | Boundary blocks a policy widening, proven before/after with the policy simulator. 8/8 frozen predictions matched |
+| [IAM Permissions Boundary as a Role Ceiling](aws/iam-boundary-proof) | A permissions boundary caps an IAM role; the policy simulator shows `CreatePolicyVersion` allowed before, denied after |
 | [Static Website on S3](aws/s3-static-website) | S3 hosting, bucket policies |
 | [Aurora Database with EC2](aws/aurora-database-ec2) | Managed relational DB + compute |
 | [Web App + Aurora](aws/aurora-web-app) | App-to-database connectivity |
@@ -195,7 +195,7 @@ Write-ups live here; the code they describe lives in standalone repos. Every pro
 | [Three-Tier Web Architecture](aws/three-tier-web-architecture) | [three-tier-web-architecture](https://github.com/kingswanzy2020/three-tier-web-architecture) |
 | [Cross-Account App Deployment](aws/cross-account-ecr-deployment) | [cross-account-ecr-app](https://github.com/kingswanzy2020/cross-account-ecr-app) |
 | [Docker App on Elastic Beanstalk](aws/docker-elastic-beanstalk) | [eb-docker-webapp](https://github.com/kingswanzy2020/eb-docker-webapp) |
-| [IAM Permissions Boundary Proof](aws/iam-boundary-proof) | [iam-boundary-proof](https://github.com/kingswanzy2020/iam-boundary-proof) |
+| [IAM Permissions Boundary as a Role Ceiling](aws/iam-boundary-proof) | [iam-boundary-proof](https://github.com/kingswanzy2020/iam-boundary-proof) |
 | [AI Log Analysis & Incident Response](ai-devops/ai-log-analysis-incident-response) | [autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre) |
 | [AI Security Scanner for Python](ai-devops/ai-security-scanner) | [security-scanner](https://github.com/kingswanzy2020/security-scanner) |
 | [RAG API](ai-devops/rag-api-fastapi) → [Docker](ai-devops/rag-api-docker) → [Kubernetes](ai-devops/rag-api-kubernetes) | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) |
