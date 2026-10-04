@@ -43,10 +43,10 @@ A three-tier app live at a real domain over HTTPS — DNS, TLS, load balancer, s
 </td>
 <td width="50%">
 
-### ⚙️ [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline)
-Every cluster change flows through a pull request — ArgoCD auto-syncs, detects drift, and self-heals in seconds. Secrets live encrypted in Git via Sealed Secrets.
+### 🛠️ [FastAPI + React: Template to Production](kubernetes/fastapi-react-project)
+A personal project: a compose-only starter taken to Kubernetes in eight stages. Images are tagged by commit SHA, and a release that fails never takes traffic.
 
-`ArgoCD` `Kustomize` `Sealed Secrets` `Kubernetes`
+`Kubernetes` `Helm` `Terraform` `Ansible` `GitHub Actions` `EKS`
 
 </td>
 </tr>
