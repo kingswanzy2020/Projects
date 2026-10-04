@@ -23,7 +23,7 @@ My hands-on DevOps portfolio — every project here was built, broken, and fixed
 |---|---|
 | **CI/CD** | Jenkins, SonarQube, GitHub Actions, AWS CodePipeline/CodeBuild/CodeDeploy/CodeArtifact |
 | **Containers & Orchestration** | Docker, Kubernetes, EKS, Helm, Kustomize, eksctl, Kubernetes Operators (Open5GS 5G core) |
-| **GitOps & IaC** | ArgoCD, Sealed Secrets, Terraform, CloudFormation |
+| **GitOps & IaC** | ArgoCD, Sealed Secrets, Terraform, Ansible, CloudFormation |
 | **Cloud (AWS)** | EKS, Lambda, API Gateway, S3, CloudFront, Route 53, ACM, SES, DynamoDB, Aurora, EC2, ECR, IAM (permissions boundaries, policy simulator), VPC |
 | **Observability** | Prometheus, Grafana, CloudWatch, DuckDB (DORA delivery metrics) |
 | **Networking & Traffic** | NGINX (reverse proxy, upstream pools, proxy cache), ALB/Ingress, load balancing |
@@ -98,6 +98,7 @@ LLM-assisted triage that turns thousands of raw log lines into a root-cause summ
 | [Production App on Amazon EKS](kubernetes/production-app-eks) | Live HTTPS three-tier app: IRSA, ALB Ingress, cert-manager TLS, EBS persistence, HPA |
 | [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline) | PR-driven cluster changes, drift self-healing, encrypted secrets in Git |
 | [K8s CI/CD with Helm & Monitoring](kubernetes/helm-cicd-monitoring) | Repeatable releases + rollback, Prometheus/Grafana alerting |
+| [FastAPI + React: Template to Production](kubernetes/fastapi-react-project) | A compose-only starter taken to Kubernetes in eight stages: Terraform, Ansible, one Helm chart for kind and EKS, OIDC CI/CD, SHA-tagged images, and failure drills showing a bad release never takes traffic |
 | [DevOps Pipeline: Jenkins → ArgoCD](kubernetes/devops-pipeline) | Two-repo GitOps handoff: Jenkins commits image tags, ArgoCD deploys them, and CI never touches the cluster |
 | [GitOps-Driven 5G Core](kubernetes/gitops-5g-core) | Open5GS 5G SA core reconciled by an Operator from Git: network slices added by commit, with Prometheus scraping the network functions and the Operator |
 | [Launch a Kubernetes Cluster](kubernetes/launch-kubernetes-cluster) | Cluster bootstrap fundamentals |
@@ -184,6 +185,7 @@ Write-ups live here; the code they describe lives in standalone repos. Every pro
 | [Production App on Amazon EKS](kubernetes/production-app-eks) | [production-app-eks](https://github.com/kingswanzy2020/production-app-eks) |
 | [GitOps Pipeline with ArgoCD](kubernetes/gitops-argocd-pipeline) | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) |
 | [K8s CI/CD with Helm & Monitoring](kubernetes/helm-cicd-monitoring) | [fittrack](https://github.com/kingswanzy2020/fittrack) |
+| [FastAPI + React: Template to Production](kubernetes/fastapi-react-project) | [sample-fastapi-react](https://github.com/kingswanzy2020/sample-fastapi-react) |
 | [DevOps Pipeline: Jenkins → ArgoCD](kubernetes/devops-pipeline) | [devops-pipeline-app](https://github.com/kingswanzy2020/devops-pipeline-app) · [devops-pipeline-manifests](https://github.com/kingswanzy2020/devops-pipeline-manifests) |
 | [GitOps-Driven 5G Core](kubernetes/gitops-5g-core) | [telco-platform-gitops](https://github.com/kingswanzy2020/telco-platform-gitops) |
 | [Jenkins + SonarQube Pipeline](ci-cd/jenkins-sonarqube-pipeline) | [cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app) |

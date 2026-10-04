@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 404" width="1010" height="404" font-family="-apple-system,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif" role="img" aria-label="FastAPI and React template to production on Kubernetes animated architecture diagram">
+<style>
+  .farp-ant { stroke-dasharray:7 6; animation:farp-flow 1.05s linear infinite; }
+  @keyframes farp-flow { to { stroke-dashoffset:-13; } }
+  .farp-glow { animation:farp-breathe 3.2s ease-in-out infinite; }
+  @keyframes farp-breathe { 0%,100% { stroke-opacity:.45; } 50% { stroke-opacity:.95; } }
+</style>
+<defs>
+<marker id="farp-arr-484f58" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#484f58"/></marker>
+<marker id="farp-arr-7aa2ff" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7aa2ff"/></marker>
+<marker id="farp-arr-f0883e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f0883e"/></marker>
+<marker id="farp-arr-56d364" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56d364"/></marker>
+</defs>
+<rect x="1" y="1" width="1008" height="402" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" font-size="15.5" font-weight="700" fill="#e6edf3">FastAPI + React: Template to Production on Kubernetes</text>
+<text x="24" y="47" font-size="10" fill="#8b949e" letter-spacing=".4">ANIMATED ARCHITECTURE</text>
+<g><rect x="904" y="16" width="82" height="20" rx="10" fill="none" stroke="#7aa2ff" stroke-opacity=".6" class="farp-glow"/><text x="945" y="29.5" font-size="9.5" font-weight="600" fill="#7aa2ff" text-anchor="middle" letter-spacing=".5">Kubernetes</text></g>
+<path id="farp-p0" d="M174.0,94.0 C206.5,94.0 206.5,94.0 239.0,94.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1111;1"><mpath href="#farp-p0"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0010;0.0050;0.1071;0.1111;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0010;0.1111;1"><mpath href="#farp-p0"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.0010;0.0050;0.1071;0.1111;1"/></circle>
+<path id="farp-p1" d="M389.0,94.0 C421.5,94.0 421.5,94.0 454.0,94.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1111;0.2222;1"><mpath href="#farp-p1"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1111;0.1151;0.2182;0.2222;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1111;0.2222;1"><mpath href="#farp-p1"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.1111;0.1151;0.2182;0.2222;1"/></circle>
+<path id="farp-p2" d="M604.0,94.0 C636.5,94.0 636.5,94.0 669.0,94.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2222;0.3333;1"><mpath href="#farp-p2"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2222;0.2262;0.3293;0.3333;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2222;0.3333;1"><mpath href="#farp-p2"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.2222;0.2262;0.3293;0.3333;1"/></circle>
+<path id="farp-p3" d="M784.0,122.0 C784.0,159.0 881.0,159.0 881.0,196.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-f0883e)"/>
+<circle r="3.6" fill="#f0883e" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3333;0.4444;1"><mpath href="#farp-p3"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.3373;0.4404;0.4444;1"/></circle>
+<circle r="7" fill="none" stroke="#f0883e" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3333;0.4444;1"><mpath href="#farp-p3"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.3333;0.3373;0.4404;0.4444;1"/></circle>
+<path id="farp-p4" d="M836.0,224.0 C720.0,224.0 720.0,224.0 604.0,224.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4444;0.5556;1"><mpath href="#farp-p4"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4444;0.4484;0.5516;0.5556;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4444;0.5556;1"><mpath href="#farp-p4"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.4444;0.4484;0.5516;0.5556;1"/></circle>
+<path id="farp-p5" d="M174.0,224.0 C206.5,224.0 206.5,224.0 239.0,224.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5556;0.6667;1"><mpath href="#farp-p5"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5556;0.5596;0.6627;0.6667;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5556;0.6667;1"><mpath href="#farp-p5"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.5556;0.5596;0.6627;0.6667;1"/></circle>
+<path id="farp-p6" d="M389.0,224.0 C421.5,224.0 421.5,224.0 454.0,224.0" fill="none" stroke="#7aa2ff" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-7aa2ff)"/>
+<circle r="3.6" fill="#7aa2ff" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6667;0.7778;1"><mpath href="#farp-p6"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.6707;0.7738;0.7778;1"/></circle>
+<circle r="7" fill="none" stroke="#7aa2ff" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6667;0.7778;1"><mpath href="#farp-p6"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.6667;0.6707;0.7738;0.7778;1"/></circle>
+<path id="farp-p7" d="M489.0,252.0 C489.0,287.0 344.0,287.0 344.0,322.0" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7778;0.8889;1"><mpath href="#farp-p7"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7778;0.7818;0.8849;0.8889;1"/></circle>
+<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7778;0.8889;1"><mpath href="#farp-p7"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7778;0.7818;0.8849;0.8889;1"/></circle>
+<path id="farp-p8" d="M529.0,252.0 C529.0,287.0 529.0,287.0 529.0,322.0" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7778;0.8889;1"><mpath href="#farp-p8"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7778;0.7818;0.8849;0.8889;1"/></circle>
+<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7778;0.8889;1"><mpath href="#farp-p8"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.7778;0.7818;0.8849;0.8889;1"/></circle>
+<path id="farp-p9" d="M604.0,350.0 C636.5,350.0 636.5,350.0 669.0,350.0" fill="none" stroke="#56d364" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-56d364)"/>
+<circle r="3.6" fill="#56d364" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8889;0.9990;1"><mpath href="#farp-p9"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.8889;0.8929;0.9950;0.9990;1"/></circle>
+<circle r="7" fill="none" stroke="#56d364" stroke-width="1" opacity="0"><animateMotion dur="9.00s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8889;0.9990;1"><mpath href="#farp-p9"/></animateMotion><animate attributeName="opacity" dur="9.00s" repeatCount="indefinite" values="0;0;.45;.45;0;0" keyTimes="0;0.8889;0.8929;0.9950;0.9990;1"/></circle>
+<path id="farp-p10" d="M174.0,350.0 C206.5,350.0 206.5,350.0 239.0,350.0" fill="none" stroke="#f0883e" stroke-opacity=".8" stroke-width="1.6" class="farp-ant" marker-end="url(#farp-arr-f0883e)"/>
+<path id="farp-fb" d="M529.0,196.0 C529.0,159.0 529.0,159.0 529.0,122.0" fill="none" stroke="#484f58" stroke-opacity=".75" stroke-width="1.3" stroke-dasharray="3 5" marker-end="url(#farp-arr-484f58)"/>
+<g>
+<rect x="24.0" y="66.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24.0" y="66.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="farp-glow"/>
+<text x="99.0" y="87.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">👤 Developer</text>
+<text x="99.0" y="101.0" font-size="8.6" fill="#8b949e" text-anchor="middle">feature branch</text>
+<text x="99.0" y="112.5" font-size="8.6" fill="#8b949e" text-anchor="middle">opens a pull request</text>
+</g>
+<g>
+<rect x="239.0" y="66.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="239.0" y="66.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="farp-glow"/>
+<text x="314.0" y="87.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚙️ CI · every PR</text>
+<text x="314.0" y="101.0" font-size="8.6" fill="#8b949e" text-anchor="middle">lint · pytest · jest · Trivy</text>
+<text x="314.0" y="112.5" font-size="8.6" fill="#8b949e" text-anchor="middle">Helm install on kind</text>
+</g>
+<g>
+<rect x="454.0" y="66.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="454.0" y="66.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="farp-glow"/>
+<text x="529.0" y="87.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🚀 CD · main only</text>
+<text x="529.0" y="101.0" font-size="8.6" fill="#8b949e" text-anchor="middle">re-runs CI, builds once</text>
+<text x="529.0" y="112.5" font-size="8.6" fill="#8b949e" text-anchor="middle">gated on EKS_ENABLED</text>
+</g>
+<g>
+<rect x="669.0" y="66.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="669.0" y="66.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="farp-glow"/>
+<text x="744.0" y="87.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">📦 Amazon ECR</text>
+<text x="744.0" y="101.0" font-size="8.6" fill="#8b949e" text-anchor="middle">tag = sha-&lt;40-char commit&gt;</text>
+<text x="744.0" y="112.5" font-size="8.6" fill="#8b949e" text-anchor="middle">immutable · keeps 30</text>
+</g>
+<g>
+<rect x="836.0" y="196.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="836.0" y="196.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="farp-glow"/>
+<text x="911.0" y="217.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⎈ Helm release</text>
+<text x="911.0" y="231.0" font-size="8.6" fill="#8b949e" text-anchor="middle">migrate hook, then pods</text>
+<text x="911.0" y="242.5" font-size="8.6" fill="#8b949e" text-anchor="middle">--atomic auto-rollback</text>
+</g>
+<g>
+<rect x="24.0" y="196.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="24.0" y="196.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="farp-glow"/>
+<text x="99.0" y="217.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🌐 Ingress</text>
+<text x="99.0" y="231.0" font-size="8.6" fill="#8b949e" text-anchor="middle">Traefik on kind</text>
+<text x="99.0" y="242.5" font-size="8.6" fill="#8b949e" text-anchor="middle">ALB on EKS</text>
+</g>
+<g>
+<rect x="239.0" y="196.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="239.0" y="196.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="farp-glow"/>
+<text x="314.0" y="217.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🖥️ web ×2</text>
+<text x="314.0" y="231.0" font-size="8.6" fill="#8b949e" text-anchor="middle">nginx + React bundle</text>
+<text x="314.0" y="242.5" font-size="8.6" fill="#8b949e" text-anchor="middle">proxies /api</text>
+</g>
+<g>
+<rect x="454.0" y="196.0" width="150" height="56" rx="10" fill="#161b22" stroke="#7aa2ff" stroke-opacity=".55"/>
+<rect x="454.0" y="196.0" width="150" height="56" rx="10" fill="none" stroke="#7aa2ff" class="farp-glow"/>
+<text x="529.0" y="217.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">⚡ backend ×2–6</text>
+<text x="529.0" y="231.0" font-size="8.6" fill="#8b949e" text-anchor="middle">FastAPI · HPA at 70% CPU</text>
+<text x="529.0" y="242.5" font-size="8.6" fill="#8b949e" text-anchor="middle">readiness ≠ liveness</text>
+</g>
+<g>
+<rect x="24.0" y="322.0" width="150" height="56" rx="10" fill="#161b22" stroke="#f0883e" stroke-opacity=".55"/>
+<rect x="24.0" y="322.0" width="150" height="56" rx="10" fill="none" stroke="#f0883e" class="farp-glow"/>
+<text x="99.0" y="343.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🏗️ Terraform</text>
+<text x="99.0" y="357.0" font-size="8.6" fill="#8b949e" text-anchor="middle">VPC · EKS · RDS · ECR</text>
+<text x="99.0" y="368.5" font-size="8.6" fill="#8b949e" text-anchor="middle">OIDC + IRSA roles</text>
+</g>
+<g>
+<rect x="239.0" y="322.0" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="239.0" y="322.0" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="farp-glow"/>
+<text x="314.0" y="343.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🐘 PostgreSQL</text>
+<text x="314.0" y="357.0" font-size="8.6" fill="#8b949e" text-anchor="middle">StatefulSet on kind</text>
+<text x="314.0" y="368.5" font-size="8.6" fill="#8b949e" text-anchor="middle">RDS on EKS</text>
+</g>
+<g>
+<rect x="454.0" y="322.0" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="454.0" y="322.0" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="farp-glow"/>
+<text x="529.0" y="343.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🟥 Redis</text>
+<text x="529.0" y="357.0" font-size="8.6" fill="#8b949e" text-anchor="middle">Celery broker only</text>
+<text x="529.0" y="368.5" font-size="8.6" fill="#8b949e" text-anchor="middle">in-cluster</text>
+</g>
+<g>
+<rect x="669.0" y="322.0" width="150" height="56" rx="10" fill="#161b22" stroke="#56d364" stroke-opacity=".55"/>
+<rect x="669.0" y="322.0" width="150" height="56" rx="10" fill="none" stroke="#56d364" class="farp-glow"/>
+<text x="744.0" y="343.0" font-size="11" font-weight="700" fill="#e6edf3" text-anchor="middle">🌱 worker</text>
+<text x="744.0" y="357.0" font-size="8.6" fill="#8b949e" text-anchor="middle">Celery · main-queue</text>
+<text x="744.0" y="368.5" font-size="8.6" fill="#8b949e" text-anchor="middle">same image as backend</text>
+</g>
+<text x="206.5" y="88.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">PR</text>
+<text x="421.5" y="88.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">merge</text>
+<text x="636.5" y="88.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">OIDC push</text>
+<text x="870.0" y="160.0" font-size="8.8" fill="#a8b3bf" text-anchor="start" paint-order="stroke" stroke="#0d1117" stroke-width="3">image.tag = SHA</text>
+<text x="720.0" y="214.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">rolling update · maxUnavailable 0</text>
+<text x="206.5" y="218.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">/</text>
+<text x="421.5" y="218.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">/api</text>
+<text x="416.5" y="281.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">SQL</text>
+<text x="537.0" y="290.0" font-size="8.8" fill="#a8b3bf" text-anchor="start" paint-order="stroke" stroke="#0d1117" stroke-width="3">enqueue</text>
+<text x="636.5" y="344.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">task</text>
+<text x="206.5" y="344.0" font-size="8.8" fill="#a8b3bf" text-anchor="middle" paint-order="stroke" stroke="#0d1117" stroke-width="3">provisions</text>
+<text x="537.0" y="160.0" font-size="8.8" fill="#a8b3bf" text-anchor="start" paint-order="stroke" stroke="#0d1117" stroke-width="3">smoke test: /api/v1/version must return this SHA</text>
+</svg>
